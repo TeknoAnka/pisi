@@ -1,0 +1,221 @@
+# SPDX-FileCopyrightText: 2005-2011 TUBITAK/UEKAE, 2013-2017 Ikey Doherty, 2026-2027 Solzic0, LupuSzic0, LupuS
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+import optparse
+
+import pisi.api
+import pisi.cli.command as command
+import pisi.context as ctx
+import pisi.util as util
+from pisi import translate as _
+from pisi.db.componentdb import ComponentDB
+from pisi.db.installdb import InstallDB
+from pisi.db.packagedb import PackageDB
+from pisi.db.repodb import RepoDB
+from pisi.index import Index
+
+
+class Info(command.Command, metaclass=command.autocommand):
+    __doc__ = _(
+        """Display package information
+
+Usage: info <package1> <package2> ... <packagen>
+
+<packagei> is either a package name or a .pisi file,
+"""
+    )
+
+    def __init__(self, args):
+        super(Info, self).__init__(args)
+        self.installdb = InstallDB()
+        self.componentdb = ComponentDB()
+        self.packagedb = PackageDB()
+        self.repodb = RepoDB()
+
+    name = ("info", None)
+
+    def setup_options(self):
+        group = optparse.OptionGroup(self.parser, _("info options"))
+        self.add_options(group)
+        self.parser.add_option_group(group)
+
+    def add_options(self, group):
+        group.add_option(
+            "-f",
+            "--files",
+            action="store_true",
+            default=False,
+            help=_("Show a list of package files."),
+        )
+        group.add_option(
+            "--sort-by",
+            action="store",
+            type="string",
+            default="path",
+            help=_("Sort files by name (path), size or type."),
+        )
+        group.add_option(
+            "-c",
+            "--component",
+            action="append",
+            default=None,
+            help=_("Info about the given component"),
+        )
+        group.add_option(
+            "-F",
+            "--files-path",
+            action="store_true",
+            default=False,
+            help=_("Show only paths."),
+        )
+        group.add_option(
+            "-r",
+            "--repo",
+            action="store",
+            default=None,
+            help=_("Resolve package against specified repository"),
+        )
+        group.add_option(
+            "-s",
+            "--short",
+            action="store_true",
+            default=False,
+            help=_("Do not show details"),
+        )
+        group.add_option(
+            "--xml", action="store_true", default=False, help=_("Output in xml format")
+        )
+
+    def run(self):
+        self.init(database=True, write=False)
+
+        if not pisi.api.has_active_repositories():
+            ctx.ui.error(_("No active repositories found"))
+            return
+
+        components = ctx.get_option("component")
+        if not components and not self.args:
+            self.help()
+            return
+
+        index = Index()
+        index.distribution = None
+
+        # info of components
+        if components:
+            for name in components:
+                if self.componentdb.has_component(name):
+                    component = self.componentdb.get_union_component(name)
+                    if self.options.xml:
+                        index.add_component(component)
+                    else:
+                        if not self.options.short:
+                            ctx.ui.info(str(component))
+                        else:
+                            ctx.ui.info("%s - %s" % (component.name, component.summary))
+
+        # info of packages
+        for arg in self.args:
+            if self.options.xml:
+                index.packages.append(pisi.api.info(arg)[0].package)
+            else:
+                self.info_package(arg)
+
+        if self.options.xml:
+            import sys
+
+            errs = []
+            index.newDocument()
+            index.encode(index.rootNode(), errs)
+            index.writexmlfile(sys.stdout)
+            sys.stdout.write("\n")
+
+    def info_package(self, arg):
+        if arg.endswith(ctx.const.package_suffix):
+            self.pisifile_info(arg)
+            return
+
+        if self.options.repo and not self.repodb.has_repo(self.options.repo):
+            ctx.ui.error(_("Unable to resolve repository: %s") % self.options.repo)
+            return
+
+        self.installdb_info(arg)
+        self.packagedb_info(arg, self.options.repo)
+
+    def print_files(self, files):
+        sort_map = {
+            "path": (lambda x: x.path, False),
+            "size": (lambda x: x.size, True),  # sort largest first
+            "type": (lambda x: x.type, False),
+        }
+
+        sort_by = self.options.sort_by
+        if sort_by not in sort_map:
+            ctx.ui.error(_(f"Unknown sort-by option: {sort_by}"))
+
+        key_func, reverse = sort_map[sort_by]
+        files.list.sort(key=key_func, reverse=reverse)
+
+        for fileinfo in files.list:
+            if self.options.files:
+                print(fileinfo)
+            else:
+                print("/" + fileinfo.path)
+
+    def print_metadata(self, metadata, packagedb=None):
+        if ctx.get_option("short"):
+            pkg = metadata.package
+            ctx.ui.formatted_output(" - ".join((pkg.name, str(pkg.summary))))
+        else:
+            ctx.ui.formatted_output(str(metadata.package))
+            if packagedb:
+                revdeps = [
+                    name for name, dep in packagedb.get_rev_deps(metadata.package.name)
+                ]
+                ctx.ui.formatted_output(
+                    " ".join((_("Reverse Dependencies:"), util.strlist(revdeps)))
+                )
+                print()
+
+    def print_specdata(self, spec):
+        src = spec.source
+        if ctx.get_option("short"):
+            ctx.ui.formatted_output(" - ".join((src.name, str(src.summary))))
+        else:
+            ctx.ui.formatted_output(str(spec))
+
+    def pisifile_info(self, package):
+        metadata, files = pisi.api.info_file(package)
+        ctx.ui.formatted_output(_("Package file: %s") % package)
+
+        self.print_metadata(metadata)
+        if self.options.files or self.options.files_path:
+            self.print_files(files)
+
+    def installdb_info(self, package):
+        if self.installdb.has_package(package):
+            metadata, files, repo = pisi.api.info_name(package, True)
+
+            if self.options.files or self.options.files_path:
+                self.print_files(files)
+                return
+
+            if self.options.short:
+                ctx.ui.formatted_output(_("[inst] "), noln=True, column=" ")
+            else:
+                ctx.ui.info(_("Installed package:"))
+
+            self.print_metadata(metadata, self.installdb)
+        else:
+            ctx.ui.info(_("%s package is not installed") % package)
+
+    def packagedb_info(self, package, repo):
+        if self.packagedb.has_package(package, repo):
+            metadata, files, repo = pisi.api.info_name(package, False, repo)
+            if self.options.short:
+                ctx.ui.formatted_output(_("[binary] "), noln=True, column=" ")
+            else:
+                ctx.ui.info(_("Package found in %s repository:") % repo)
+            self.print_metadata(metadata, self.packagedb)
+        else:
+            ctx.ui.info(_("%s package is not found in binary repositories") % package)

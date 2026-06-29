@@ -1,0 +1,10 @@
+30-06-2026 Solzic0 <solzic0ta@gmail.com>
+	* pisi 3.0
+	
+	We've now taken ownership of the PiSi Package Manager within LupuS
+	All PiSi patches have been imported, and initial Clang support has been
+	added. 
+	
+	We intend to ship LupuS with pisi 3.x, given a stable updated API
+	and full compiler switching + Clang Support
+

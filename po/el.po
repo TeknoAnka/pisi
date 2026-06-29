@@ -1,0 +1,3634 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Evan Maddock, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 19:37-0400\n"
+"PO-Revision-Date: 2026-05-10 00:31+0000\n"
+"Last-Translator: Evan Maddock, 2026\n"
+"Language-Team: Greek (https://app.transifex.com/lupus/teams/188714/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pisi/actionsapi/rubymodules.py:112 pisi/actionsapi/rubymodules.py:123
+#: pisi/actionsapi/autotools.py:182 pisi/actionsapi/autotools.py:200
+#: pisi/actionsapi/cmaketools.py:114 pisi/actionsapi/cmaketools.py:127
+#: pisi/actionsapi/kde.py:87 pisi/actionsapi/pythonmodules.py:66
+#: pisi/actionsapi/scons.py:37 pisi/actionsapi/waftools.py:83
+msgid "Install failed."
+msgstr "Η εγκατάσταση απέτυχε."
+
+#: pisi/actionsapi/rubymodules.py:133
+#, python-format
+msgid "Running 'ruby %s' failed."
+msgstr "Η εκτέλεση του 'ruby %s' απέτυχε."
+
+#: pisi/actionsapi/autotools.py:33 pisi/actionsapi/cmaketools.py:28
+#, python-format
+msgid ""
+"Please attach the config.log to your bug report:\n"
+"%s/config.log"
+msgstr ""
+"Παρακαλώ επισυνάψτε το αρχείο config.log στην αναφορά σφάλματος:\n"
+"%s/config.log"
+
+#: pisi/actionsapi/autotools.py:102 pisi/actionsapi/autotools.py:118
+#: pisi/actionsapi/cmaketools.py:76 pisi/actionsapi/kde.py:67
+#: pisi/actionsapi/perlmodules.py:49 pisi/actionsapi/perlmodules.py:55
+#: pisi/actionsapi/waftools.py:65
+msgid "Configure failed."
+msgstr "Η διαμόρφωση απέτυχε."
+
+#: pisi/actionsapi/autotools.py:104 pisi/actionsapi/autotools.py:120
+#: pisi/actionsapi/kde.py:69 pisi/actionsapi/waftools.py:67
+msgid "No configure script found."
+msgstr "Δεν βρέθηκε σενάριο διαμόρφωσης."
+
+#: pisi/actionsapi/autotools.py:135 pisi/actionsapi/cmaketools.py:89
+#: pisi/actionsapi/kde.py:75 pisi/actionsapi/perlmodules.py:62
+#: pisi/actionsapi/perlmodules.py:72 pisi/actionsapi/pythonmodules.py:57
+#: pisi/actionsapi/scons.py:32 pisi/actionsapi/waftools.py:74
+msgid "Make failed."
+msgstr "Αποτυχία δημιουργίας."
+
+#: pisi/actionsapi/autotools.py:213
+msgid "Running aclocal failed."
+msgstr "Η εκτέλεση του aclocal απέτυχε."
+
+#: pisi/actionsapi/autotools.py:219
+msgid "Running autoconf failed."
+msgstr "Η εκτέλεση του autoconf απέτυχε."
+
+#: pisi/actionsapi/autotools.py:225
+msgid "Running autoreconf failed."
+msgstr "Η εκτέλεση του autoreconf απέτυχε."
+
+#: pisi/actionsapi/autotools.py:231
+msgid "Running automake failed."
+msgstr "Η εκτέλεση του automake απέτυχε."
+
+#: pisi/actionsapi/autotools.py:237
+msgid "Running autoheader failed."
+msgstr "Η εκτέλεση του autoheader απέτυχε."
+
+#: pisi/actionsapi/cmaketools.py:78
+msgid "No configure script found for cmake."
+msgstr "Δεν βρέθηκε σενάριο διαμόρφωσης για το cmake."
+
+#: pisi/actionsapi/cmaketools.py:131 pisi/actionsapi/kde.py:89
+msgid "No Makefile found."
+msgstr "Δεν βρέθηκε Makefile."
+
+#: pisi/actionsapi/get.py:238
+#, python-format
+msgid "Util %s cannot be found"
+msgstr "Util %s δεν μπορεί να βρεθεί"
+
+#: pisi/actionsapi/get.py:241
+#, python-format
+msgid "Warning: %s does not exist, using plain name %s"
+msgstr "Προειδοποίηση: %s δεν υπάρχει, χρησιμοποιώντας απλό όνομα %s "
+
+#: pisi/actionsapi/kde.py:27
+#, python-format
+msgid ""
+"\n"
+"!!! Please attach the config.log to your bug report:\n"
+"%s/config.log"
+msgstr ""
+"\n"
+"!!! Παρακαλώ επισυνάψτε το αρχείο config.log στην αναφορά σφάλματος:\n"
+"%s/config.log"
+
+#: pisi/actionsapi/kerneltools.py:118
+#, python-format
+msgid "Can't find kernel version information file %s."
+msgstr "Δεν είναι δυνατή η εύρεση του αρχείου πληροφοριών έκδοσης πυρήνα %s."
+
+#: pisi/actionsapi/libtools.py:30
+msgid "Running ldconfig failed."
+msgstr "Η εκτέλεση του ldconfig απέτυχε."
+
+#: pisi/actionsapi/libtools.py:42
+msgid "GNU Config Update Finished."
+msgstr "Η ενημέρωση της διαμόρφωσης GNU ολοκληρώθηκε."
+
+#: pisi/actionsapi/libtools.py:47
+msgid "Running libtoolize failed."
+msgstr "Η εκτέλεση του libtoolize απέτυχε."
+
+#: pisi/actionsapi/perlmodules.py:65
+msgid "perl build failed."
+msgstr "Η δημιουργία του perl απέτυχε."
+
+#: pisi/actionsapi/perlmodules.py:75
+msgid "perl install failed."
+msgstr "Η εγκατάσταση του perl απέτυχε."
+
+#: pisi/actionsapi/pisitools.py:70 pisi/actionsapi/pisitools.py:146
+#, python-format
+msgid "No file matched pattern \"%s\""
+msgstr "Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\""
+
+#: pisi/actionsapi/pisitools.py:158
+#, python-format
+msgid "ActionsAPI [doman]: Wrong man page file: %s"
+msgstr "ActionsAPI [doman]: Λανθασμένο αρχείο σελίδας man:  %s"
+
+#: pisi/actionsapi/pisitools.py:192
+#, python-format
+msgid "No file matched pattern \"%s\". 'domove' operation failed."
+msgstr ""
+"Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\". Η λειτουργία 'domove' "
+"απέτυχε."
+
+#: pisi/actionsapi/pisitools.py:224
+#, python-format
+msgid "ActionsAPI [rename]: %s: %s"
+msgstr "ActionsAPI [μετονομασία]: %s: %s"
+
+#: pisi/actionsapi/pisitools.py:241
+#, python-format
+msgid "No such file matching pattern: \"%s\". 'dosed' operation failed."
+msgstr ""
+"Δεν υπάρχει αρχείο που να ταιριάζει με το πρότυπο: \"%s\". Η λειτουργία "
+"'dosed' απέτυχε."
+
+#: pisi/actionsapi/pisitools.py:257
+#, python-format
+msgid "dosed method has not changed file '%s'."
+msgstr "Η μέθοδος dosed δεν έχει αλλάξει το αρχείο '%s'."
+
+#: pisi/actionsapi/pisitools.py:262
+#, python-format
+msgid "File does not exist or permission denied: %s"
+msgstr "Το αρχείο δεν υπάρχει ή δεν υπάρχει άδεια πρόσβασης: %s"
+
+#: pisi/actionsapi/pisitools.py:282
+#, python-format
+msgid "ActionsAPI [dosym]: File already exists: %s"
+msgstr "ActionsAPI [dosym]: Το αρχείο υπάρχει ήδη: %s"
+
+#: pisi/actionsapi/pisitools.py:292 pisi/actionsapi/pisitoolsfunctions.py:67
+#, python-format
+msgid "No file matched pattern \"%s\"."
+msgstr "Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/pisitools.py:341 pisi/actionsapi/shelltools.py:102
+#, python-format
+msgid "No file matched pattern \"%s\". Remove operation failed."
+msgstr "Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\". Η διαγραφή απέτυχε."
+
+#: pisi/actionsapi/pisitools.py:353
+#, python-format
+msgid "No directory matched pattern \"%s\". Remove directory operation failed."
+msgstr ""
+"Κανένας κατάλογος δεν ταιριάζει με το πρότυπο \"%s\". Η κατάργηση του "
+"καταλόγου απέτυχε."
+
+#: pisi/actionsapi/pisitoolsfunctions.py:38
+#: pisi/actionsapi/pisitoolsfunctions.py:59
+#: pisi/actionsapi/pisitoolsfunctions.py:77
+msgid "Insufficient arguments."
+msgstr "Ανεπαρκή επιχειρήματα."
+
+#: pisi/actionsapi/pisitoolsfunctions.py:46
+#, python-format
+msgid "No executable file matched pattern \"%s\"."
+msgstr "Κανένα εκτελέσιμο αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/pythonmodules.py:51
+msgid "Configuration failed."
+msgstr "Η διαμόρφωση απέτυχε."
+
+#: pisi/actionsapi/pythonmodules.py:92
+#, python-format
+msgid "Running %s failed."
+msgstr "Η εκτέλεση %s απέτυχε."
+
+#: pisi/actionsapi/qt4.py:44
+#, python-format
+msgid "Project file '%s' not found."
+msgstr "Το αρχείο έργου '%s' δεν βρέθηκε."
+
+#: pisi/actionsapi/qt4.py:50
+#, python-format
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
+msgstr ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
+
+#: pisi/actionsapi/shelltools.py:42
+#, python-format
+msgid "Cannot create directory %s"
+msgstr "Δεν είναι δυνατή η δημιουργία καταλόγου %s"
+
+#: pisi/actionsapi/shelltools.py:51
+#, python-format
+msgid "ActionsAPI [echo]: Can't append to file %s."
+msgstr "ActionsAPI [echo]: Δεν είναι δυνατή η προσθήκη στο αρχείο %s."
+
+#: pisi/actionsapi/shelltools.py:58
+#, python-format
+msgid "ActionsAPI [chmod]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [chmod]: Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:66
+#, python-format
+msgid "ActionsAPI [chmod]: Operation not permitted: %s (mode: 0%o)"
+msgstr ""
+"ActionsAPI [chmod]: Η λειτουργία δεν επιτρέπεται: %s (λειτουργία: 0%o)"
+
+#: pisi/actionsapi/shelltools.py:70
+#, python-format
+msgid "ActionsAPI [chmod]: File %s doesn't exists."
+msgstr "ActionsAPI [chmod]: Το αρχείο %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:80
+#, python-format
+msgid "ActionsAPI [chown]: Operation not permitted: %s (uid: %s, gid: %s)"
+msgstr ""
+"ActionsAPI [chown]: Η λειτουργία δεν επιτρέπεται: %s (uid: %s, gid: %s)"
+
+#: pisi/actionsapi/shelltools.py:84
+#, python-format
+msgid "ActionsAPI [chown]: File %s doesn't exists."
+msgstr "ActionsAPI [chown]: Το αρχείο %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:93
+#, python-format
+msgid "ActionsAPI [sym]: Permission denied: %s to %s"
+msgstr "ActionsAPI [sym]: Άδεια απορρίφθηκε: %s προς %s"
+
+#: pisi/actionsapi/shelltools.py:112
+#, python-format
+msgid "ActionsAPI [unlink]: Permission denied: %s."
+msgstr "ActionsAPI [αποσύνδεση]: Άδεια απορρίφθηκε: %s."
+
+#: pisi/actionsapi/shelltools.py:117
+#, python-format
+msgid "ActionsAPI [unlink]: File %s doesn't exists."
+msgstr "ActionsAPI [αποσύνδεση]: Το αρχείο %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:127
+#, python-format
+msgid "ActionsAPI [unlinkDir]: Operation not permitted: %s"
+msgstr "ActionsAPI [unlinkDir]: Η λειτουργία δεν επιτρέπεται: %s"
+
+#: pisi/actionsapi/shelltools.py:134
+#, python-format
+msgid "ActionsAPI [unlinkDir]: Directory %s doesn't exists."
+msgstr "ActionsAPI [unlinkDir]: Ο κατάλογος %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:143
+#, python-format
+msgid "ActionsAPI [move]: No file matched pattern \"%s\"."
+msgstr ""
+"ActionsAPI [μετακίνηση]: Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:151
+#, python-format
+msgid "ActionsAPI [move]: Permission denied: %s to %s"
+msgstr "ActionsAPI [move]: Άδεια απορρίφθηκε: %s προς %s"
+
+#: pisi/actionsapi/shelltools.py:155
+#, python-format
+msgid "ActionsAPI [move]: File %s doesn't exists."
+msgstr "ActionsAPI [μετακίνηση]: Το αρχείο %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:163
+#, python-format
+msgid "ActionsAPI [copy]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [αντιγραφή]: Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:171
+#, python-format
+msgid "ActionsAPI [copy]: Permission denied: %s to %s"
+msgstr "ActionsAPI [copy]: Permission denied: %s to %s"
+
+#: pisi/actionsapi/shelltools.py:192
+#, python-format
+msgid "ActionsAPI [copy]: File %s does not exist."
+msgstr "ActionsAPI [αντιγραφή]: Το αρχείο %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:210
+#, python-format
+msgid "ActionsAPI [copytree] %s to %s: %s"
+msgstr "ActionsAPI [copytree] %s to %s: %s "
+
+#: pisi/actionsapi/shelltools.py:212
+#, python-format
+msgid "ActionsAPI [copytree]: Directory %s doesn't exists."
+msgstr "ActionsAPI [copytree]: Ο κατάλογος %s δεν υπάρχει."
+
+#: pisi/actionsapi/shelltools.py:221
+#, python-format
+msgid "ActionsAPI [touch]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [touch]: Κανένα αρχείο δεν ταιριάζει με το πρότυπο \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:230
+#, python-format
+msgid "ActionsAPI [touch]: Permission denied: %s"
+msgstr "ActionsAPI [touch]: Άδεια απορρίφθηκε: %s"
+
+#: pisi/actionsapi/shelltools.py:296
+#, python-format
+msgid "Command \"%s\" failed, return value was %d."
+msgstr "Η εντολή \"%s\" απέτυχε, η τιμή επιστροφής ήταν %d."
+
+#: pisi/actionsapi/texlivemodules.py:50
+msgid "Moving source files failed"
+msgstr "Η μετακίνηση των αρχείων πηγής απέτυχε"
+
+#: pisi/actionsapi/texlivemodules.py:53
+msgid "Generate config files failed"
+msgstr "Αποτυχία δημιουργίας αρχείων διαμόρφωσης"
+
+#: pisi/actionsapi/texlivemodules.py:56
+msgid "Building format files failed"
+msgstr "Αποτυχία δημιουργίας αρχείων μορφής κτιρίου"
+
+#: pisi/actionsapi/texlivemodules.py:64
+msgid "Creating symlinks from format to engines failed"
+msgstr "Η δημιουργία συμβολικών συνδέσμων από τη μορφή στις μηχανές απέτυχε"
+
+#: pisi/actionsapi/texlivemodules.py:68
+msgid "Installing docs failed"
+msgstr "Η εγκατάσταση των εγγράφων απέτυχε"
+
+#: pisi/actionsapi/texlivemodules.py:72
+msgid "Installing texmf files failed"
+msgstr "Η εγκατάσταση των αρχείων texmf απέτυχε"
+
+#: pisi/actionsapi/texlivemodules.py:76
+msgid "Installing config files failed"
+msgstr "Η εγκατάσταση των αρχείων ρυθμίσεων απέτυχε"
+
+#: pisi/actionsapi/texlivemodules.py:80
+msgid "Handle config files failed"
+msgstr "Αποτυχία χειρισμού αρχείων διαμόρφωσης"
+
+#: pisi/actionsapi/texlivemodules.py:95
+#, python-format
+msgid "Symlink %s skipped (special case)"
+msgstr "Symlink %s παραλείφθηκε (ειδική περίπτωση)"
+
+#: pisi/actionsapi/texlivemodules.py:98
+#, python-format
+msgid "Symlink %s -> %s skipped (texlive-core takes care of it."
+msgstr "Symlink %s -> %s παραλείπεται (το texlive-core το φροντίζει."
+
+#: pisi/actionsapi/texlivemodules.py:104
+#, python-format
+msgid "Symlink %s -> %s skipped."
+msgstr "Symlink %s -> %s παραλείφθηκε."
+
+#: pisi/actionsapi/texlivemodules.py:109
+#, python-format
+msgid "Symlink %s skipped (file exists.)"
+msgstr "Symlink %s παραλείφθηκε (το αρχείο υπάρχει)."
+
+#: pisi/actionsapi/texlivemodules.py:112
+#, python-format
+msgid "Making symlink from %s to %s"
+msgstr "Δημιουργία symlink συνδέσμου %s από %s προς "
+
+#: pisi/actionsapi/texlivemodules.py:178
+#, python-format
+msgid "Creating /etc/texmf/%s.d"
+msgstr "Δημιουργία του /etc/texmf/%s.d"
+
+#: pisi/actionsapi/texlivemodules.py:182
+#, python-format
+msgid "Moving (and symlinking) /usr/share/texmf/%s to /etc/texmf/%s.d"
+msgstr ""
+"Μετακίνηση (και δημιουργία symlinking) του /usr/share/texmf/%s στο "
+"/etc/texmf/%s.d"
+
+#: pisi/actionsapi/texlivemodules.py:263
+#, python-format
+msgid "Building format file %s"
+msgstr "Δημιουργία αρχείου μορφής %s"
+
+#: pisi/actionsapi/texlivemodules.py:354
+#, python-format
+msgid "Map %s is added to %s/%s.cfg"
+msgstr "Ο χάρτης %s προστίθεται στο %s/%s.cfg"
+
+#: pisi/actionsapi/texlivemodules.py:363
+#, python-format
+msgid "MixedMap %s is added to %s/%s.cfg"
+msgstr "Το MixedMap %s προστίθεται στο %s/%s.cfg"
+
+#: pisi/actionsapi/texlivemodules.py:372
+#, python-format
+msgid "p +%s is added to %s/%s-config.ps"
+msgstr "Το p + %s προστίθεται στο %s/%s-config.ps"
+
+#: pisi/actionsapi/texlivemodules.py:381
+#, python-format
+msgid "f %s is added to %s/%s-config"
+msgstr "Το f %s προστίθεται στο %s/%s-config"
+
+#: pisi/actionsapi/texlivemodules.py:390
+#, python-format
+msgid "Language file  %s  already generated."
+msgstr "Το αρχείο γλώσσας %s έχει ήδη δημιουργηθεί."
+
+#: pisi/actionsapi/texlivemodules.py:393
+#, python-format
+msgid "No rule to proccess %s. Please file a bug."
+msgstr ""
+"Δεν υπάρχει κανόνας για την επεξεργασία του %s. Παρακαλώ υποβάλετε ένα "
+"σφάλμα."
+
+#: pisi/cli/clean.py:11
+msgid ""
+"Clean stale locks\n"
+"\n"
+"Usage: clean\n"
+"\n"
+"pisi uses filesystem locks for managing database access.\n"
+"This command deletes unused locks from the database directory."
+msgstr ""
+"Καθαρισμός παλαιών κλειδαριών\n"
+"\n"
+"Χρήση: clean\n"
+"\n"
+"Το pisi χρησιμοποιεί κλειδαριές συστήματος αρχείων για τη διαχείριση της πρόσβασης στη βάση δεδομένων.\n"
+"Αυτή η εντολή διαγράφει τις αχρησιμοποίητες κλειδαριές από τον κατάλογο της βάσης δεδομένων."
+
+#: pisi/cli/deletecache.py:13
+msgid ""
+"Delete cache files\n"
+"\n"
+"Usage: delete-cache\n"
+"\n"
+"Sources, packages and temporary files are stored\n"
+"under /var directory. Since these accumulate they can\n"
+"consume a lot of disk space."
+msgstr ""
+"Διαγραφή αρχείων cache\n"
+"\n"
+"Χρήση: delete-cache\n"
+"\n"
+"Οι πηγές, τα πακέτα και τα προσωρινά αρχεία αποθηκεύονται\n"
+"στον κατάλογο /var. Καθώς αυτά συσσωρεύονται, μπορούν να\n"
+"καταλαμβάνουν πολύ χώρο στο δίσκο."
+
+#: pisi/cli/help.py:37
+msgid ""
+"Prints help for given commands\n"
+"\n"
+"Usage: help [ <command1> <command2> ... <commandn> ]\n"
+"\n"
+"If run without parameters, it prints the general help."
+msgstr ""
+"Εκτυπώσεις βοήθειας για συγκεκριμένες εντολές\n"
+"\n"
+"Χρήση: βοήθεια [ <command1> <command2> ... <commandn> ]\n"
+"\n"
+"Εάν εκτελεστεί χωρίς παραμέτρους, εμφανίζει τη γενική βοήθεια."
+
+#: pisi/cli/help.py:64
+msgid ""
+"%prog [options] <command> [arguments]\n"
+"\n"
+"where <command> is one of:\n"
+"\n"
+msgstr ""
+"%prog [επιλογές] <command> [επιχειρήματα]\n"
+"\n"
+"όπου <command>είναι ένα από τα εξής:\n"
+
+#: pisi/cli/help.py:72
+msgid ""
+"\n"
+"Use \"%prog help <command>\" for help on a specific command.\n"
+msgstr ""
+"\n"
+"Χρησιμοποιήστε \"%prog help <command>\" για βοήθεια σχετικά με μια συγκεκριμένη εντολή.\n"
+
+#: pisi/cli/listpending.py:13
+msgid ""
+"List pending packages\n"
+"\n"
+"Lists packages waiting to be configured.\n"
+msgstr ""
+"Λίστα εκκρεμών πακέτων\n"
+"\n"
+"Λίστα πακέτων που περιμένουν να διαμορφωθούν.\n"
+
+#: pisi/cli/listpending.py:32
+msgid "There are no packages waiting to be configured"
+msgstr "Δεν υπάρχουν πακέτα που περιμένουν να διαμορφωθούν"
+
+#: pisi/cli/listrepo.py:14
+msgid ""
+"List repositories\n"
+"\n"
+"Usage: list-repo\n"
+"\n"
+"Lists currently tracked repositories.\n"
+msgstr ""
+"Λίστα αποθετηρίων\n"
+"\n"
+"Χρήση: list-repo\n"
+"\n"
+"Παραθέτει τα αποθετήρια που παρακολουθούνται επί του παρόντος.\n"
+
+#: pisi/cli/listrepo.py:31 pisi/cli/listrepo.py:32
+msgid "active"
+msgstr "ενεργό"
+
+#: pisi/cli/listrepo.py:31
+msgid "inactive"
+msgstr "ανενεργό"
+
+#: pisi/cli/listrepo.py:33 pisi/cli/listrepo.py:35
+#, python-format
+msgid "%s [%s]"
+msgstr "%s [%s]"
+
+#: pisi/cli/pisicli.py:77
+msgid "Options must precede non-option arguments"
+msgstr "Οι επιλογές πρέπει να προηγούνται των μη επιλογών"
+
+#: pisi/cli/pisicli.py:118
+msgid "No command given"
+msgstr "Δεν δόθηκε εντολή"
+
+#: pisi/cli/pisicli.py:121
+msgid "Command line parsing error"
+msgstr "Σφάλμα ανάλυσης γραμμής εντολών"
+
+#: pisi/cli/pisicli.py:125 pisi/cli/command.py:61
+#, python-format
+msgid "Unrecognized command: %s"
+msgstr "Μη αναγνωρισμένη εντολή: %s"
+
+#: pisi/cli/removerepo.py:12
+msgid ""
+"Remove repositories\n"
+"\n"
+"Usage: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Remove all repository information from the system.\n"
+msgstr ""
+"Κατάργηση αποθετηρίων\n"
+"\n"
+"Χρήση: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Κατάργηση όλων των πληροφοριών αποθετηρίου από το σύστημα.\n"
+
+#: pisi/cli/repopriority.py:19
+msgid ""
+"Set a repository's priority\n"
+"\n"
+"Usage: repo-priority <repo> <priority>\n"
+"\n"
+"<repo>: Name of repository to adjust priority\n"
+"<priority>: Set the repository's priority at given position (0 is first)\n"
+msgstr ""
+"Ορισμός προτεραιότητας αποθετηρίου\n"
+"\n"
+"\n"
+"Χρήση: repo-priority  <repo> <priority>\n"
+"\n"
+"<repo>: Όνομα αποθετηρίου για το οποίο θα ρυθμιστεί η προτεραιότητα\n"
+"<priority>: Ορισμός της προτεραιότητας του αποθετηρίου στη δεδομένη θέση (το 0 είναι το πρώτο)\n"
+
+#: pisi/cli/repopriority.py:44
+msgid "Priority needs to be a number"
+msgstr "Η προτεραιότητα πρέπει να είναι ένας αριθμός"
+
+#: pisi/cli/repopriority.py:48
+#, python-format
+msgid "Unable to locate repository file, expected: %s"
+msgstr "Δεν είναι δυνατή η εύρεση του αρχείου αποθετηρίου, αναμενόμενο: %s"
+
+#: pisi/cli/repopriority.py:62
+#, python-format
+msgid "Repository %s does not exist. Cannot reorder."
+msgstr "Το αποθετήριο %s δεν υπάρχει. Δεν είναι δυνατή η αναδιάταξη."
+
+#: pisi/cli/repopriority.py:71
+msgid "Failed to write to repository file"
+msgstr "Αποτυχία εγγραφής στο αρχείο αποθετηρίου"
+
+#: pisi/cli/repopriority.py:73
+#, python-format
+msgid "Repo %s reordered to position %s."
+msgstr "Το Repo %s αναδιατάχθηκε στη θέση %s ."
+
+#: pisi/cli/__init__.py:107
+msgid "Warning: "
+msgstr "Προειδοποίηση:"
+
+#: pisi/cli/__init__.py:121
+msgid "Error: "
+msgstr "Σφάλμα:"
+
+#: pisi/cli/__init__.py:150
+msgid " (yes/no)"
+msgstr " (ναι/όχι)"
+
+#: pisi/cli/__init__.py:178
+msgid " [complete]\n"
+msgstr "  [ολοκληρωμένο]\n"
+
+#: pisi/cli/__init__.py:188
+#, python-format
+msgid "Installed %s"
+msgstr "Εγκατεστημένο %s"
+
+#: pisi/cli/__init__.py:190
+#, python-format
+msgid "Removed %s"
+msgstr "Αφαιρέθηκε %s"
+
+#: pisi/cli/__init__.py:192
+#, python-format
+msgid "Upgraded %s"
+msgstr "Αναβαθμίσθηκε %s"
+
+#: pisi/cli/__init__.py:194
+#, python-format
+msgid "Configured %s"
+msgstr "Διαμορφωμένο %s"
+
+#: pisi/cli/addrepo.py:15
+msgid ""
+"Add a repository\n"
+"\n"
+"Usage: add-repo <repo> <indexuri>\n"
+"\n"
+"<repo>: name of repository to add\n"
+"<indexuri>: URI of index file\n"
+"\n"
+"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
+msgstr ""
+"Προσθήκη αποθετηρίου\n"
+"\n"
+"Χρήση: προσθήκης αποθετηρίου <repo> <indexuri>\n"
+"\n"
+"<repo>: όνομα του αποθετηρίου που θα προστεθεί<indexuri>: URI του αρχείου ευρετηρίου\n"
+"\n"
+"Σημείωση: Προς το παρόν υποστηρίζουμε μόνο τοπικά αρχεία (π.χ. /a/b/c) και URI τύπου http://\n"
+
+#: pisi/cli/addrepo.py:33
+msgid "add-repo options"
+msgstr "επιλογές προσθήκης αποθετηρίου"
+
+#: pisi/cli/addrepo.py:38
+msgid "Ignore repository distribution check"
+msgstr "Αγνοήστε τον έλεγχο διανομής αποθετηρίου"
+
+#: pisi/cli/addrepo.py:45
+msgid "Does not fetch repository index and does not check distribution match"
+msgstr ""
+"Δεν ανακτά τον δείκτη αποθετηρίου και δεν ελέγχει την αντιστοιχία διανομής"
+
+#: pisi/cli/addrepo.py:53
+msgid "Add repository at given position (0 is first)"
+msgstr "Προσθήκη αποθετηρίου σε δεδομένη θέση (το 0 είναι η πρώτη)"
+
+#: pisi/cli/addrepo.py:65
+#, python-format
+msgid ""
+"Add %s repository without updating the database?\n"
+"By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
+"Do you want to continue?"
+msgstr ""
+"Να προσθέσετε το αποθετήριο %s χωρίς να ενημερώσετε τη βάση δεδομένων;\n"
+"Επιβεβαιώνοντας αυτό, προσθέτετε επίσης το αποθετήριο στο σύστημά σας χωρίς να ελέγξετε τη διανομή του αποθετηρίου.\n"
+"Θέλετε να συνεχίσετε;"
+
+#: pisi/cli/autoremove.py:16
+msgid ""
+"Remove pisi packages\n"
+"\n"
+"Usage: autoremove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+"\n"
+"Any additional packages that were automatically installed as a result of\n"
+"installing the packages being removed, will also be removed if it is\n"
+"safe to do so.\n"
+msgstr ""
+"Κατάργηση πακέτων pisi\n"
+"\n"
+"Χρήση: αυτόματης κατάργησης 1 2 ... 3\n"
+"\n"
+"Κατάργηση πακέτου(ων) από το σύστημά σας. Απλά δώστε τα ονόματα των πακέτων που θέλετε να καταργήσετε.\n"
+"\n"
+"Μπορείτε επίσης να καθορίσετε στοιχεία αντί για ονόματα πακέτων, τα οποία θα\n"
+"επεκταθούν σε ονόματα πακέτων.\n"
+"\n"
+"Οποιαδήποτε πρόσθετα πακέτα που εγκαταστάθηκαν αυτόματα ως αποτέλεσμα της\n"
+"εγκατάστασης των πακέτων που καταργούνται, θα καταργηθούν επίσης, εάν είναι\n"
+"ασφαλές να γίνει αυτό.\n"
+
+#: pisi/cli/autoremove.py:38
+msgid "autoremove options"
+msgstr "επιλογές αυτόματης κατάργησης"
+
+#: pisi/cli/autoremove.py:44 pisi/cli/remove.py:40
+#: pisi/cli/removeorphans.py:40
+msgid "Removes everything including changed config files of the package"
+msgstr ""
+"Αφαιρεί τα πάντα, συμπεριλαμβανομένων των αρχείων ρυθμίσεων του πακέτου που "
+"έχουν υποστεί αλλαγές."
+
+#: pisi/cli/blame.py:15
+msgid ""
+"Information about the package owner and release\n"
+"\n"
+"Usage: blame <package> ... <package>\n"
+"\n"
+msgstr ""
+"Πληροφορίες σχετικά με τον ιδιοκτήτη του πακέτου και την έκδοση\n"
+"\n"
+"Χρήση: ευθύνη 1 ... 2\n"
+
+#: pisi/cli/blame.py:29
+msgid "blame options"
+msgstr "επιλογές ευθύνης"
+
+#: pisi/cli/blame.py:35
+msgid "Blame for the given release"
+msgstr "Ευθύνη για τη συγκεκριμένη έκδοση"
+
+#: pisi/cli/blame.py:42
+msgid "Blame for all of the releases"
+msgstr "Ευθύνη για όλες τις κυκλοφορίες"
+
+#: pisi/cli/blame.py:69 pisi/specfile.py:398 pisi/specfile.py:507
+#, python-format
+msgid "Name: %s, version: %s, release: %s\n"
+msgstr "Όνομα: %s, έκδοση: %s, κυκλοφορία:%s\n"
+
+#: pisi/cli/blame.py:74
+#, python-format
+msgid "Package Maintainer: %s <%s>\n"
+msgstr "Υπεύθυνος συντήρησης πακέτου: %s <%s>\n"
+
+#: pisi/cli/blame.py:78
+#, python-format
+msgid "Release Updater: %s <%s>\n"
+msgstr "Ενημέρωση έκδοσης: %s <%s>\n"
+
+#: pisi/cli/blame.py:82
+#, python-format
+msgid "Update Date: %s\n"
+msgstr "Ημερομηνία ενημέρωσης:%s \n"
+
+#: pisi/cli/build.py:15
+msgid ""
+"Build pisi packages\n"
+"\n"
+"Usage: build [<pspec.xml> | <sourcename>] ...\n"
+"\n"
+"You can give a URI of the pspec.xml file. pisi will\n"
+"fetch all necessary files and build the package for you.\n"
+"\n"
+"Alternatively, you can give the name of a source package\n"
+"to be downloaded from a repository containing sources.\n"
+msgstr ""
+"Δημιουργία πακέτων pisi\n"
+"\n"
+"Χρήση: build [<pspec.xml> | <sourcename>] ...\n"
+"\n"
+"Μπορείτε να δώσετε ένα URI του αρχείου pspec.xml. Το pisi θα\n"
+"ανακτήσει όλα τα απαραίτητα αρχεία και θα δημιουργήσει το πακέτο για εσάς.\n"
+"\n"
+"Εναλλακτικά, μπορείτε να δώσετε το όνομα ενός πακέτου πηγαίου κώδικα\n"
+"που θα κατεβάσετε από ένα αποθετήριο που περιέχει πηγαίους κώδικες.\n"
+
+#: pisi/cli/build.py:38
+msgid "build options"
+msgstr "επιλογές κατασκευής"
+
+#: pisi/cli/build.py:49
+msgid "Run pisi build operation without printing extra debug information"
+msgstr ""
+"Εκτελέστε τη λειτουργία pisi build χωρίς να εκτυπώσετε επιπλέον πληροφορίες "
+"αποσφαλμάτωσης"
+
+#: pisi/cli/build.py:57 pisi/cli/command.py:238
+msgid "Do not take dependency information into account"
+msgstr "Μην λαμβάνετε υπόψη τις πληροφορίες εξάρτησης"
+
+#: pisi/cli/build.py:65
+msgid "Output directory for produced packages"
+msgstr "Κατάλογος εξόδου για τα πακέτα που παράγονται"
+
+#: pisi/cli/build.py:72
+msgid "Bypass errors from ActionsAPI"
+msgstr "Παράκαμψη σφαλμάτων από το ActionsAPI"
+
+#: pisi/cli/build.py:79 pisi/cli/command.py:250
+msgid "Bypass safety switch"
+msgstr "Παράκαμψη διακόπτη ασφαλείας"
+
+#: pisi/cli/build.py:86
+msgid "Bypass testing step"
+msgstr "Βήμα παράκαμψης δοκιμής"
+
+#: pisi/cli/build.py:93
+msgid "Create a static package with ar files"
+msgstr "Δημιουργία στατικού πακέτου με αρχεία ar"
+
+#: pisi/cli/build.py:101 pisi/cli/delta.py:64
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
+msgstr ""
+"Δημιουργήστε το δυαδικό πακέτο χρησιμοποιώντας τη δεδομένη μορφή. "
+"Χρησιμοποιήστε την εντολή «-F help» για να δείτε μια λίστα με τις "
+"υποστηριζόμενες μορφές."
+
+#: pisi/cli/build.py:111
+msgid "Use quilt patch management system instead of GNU patch"
+msgstr ""
+"Χρησιμοποιήστε το σύστημα διαχείρισης επιδιορθώσεων quilt αντί για το GNU "
+"patch."
+
+#: pisi/cli/build.py:118
+msgid "Do not constrain build process inside the build folder"
+msgstr "Μην περιορίζετε τη διαδικασία δημιουργίας μέσα στο φάκελο δημιουργίας"
+
+#: pisi/cli/build.py:122
+msgid "build steps"
+msgstr "βήματα κατασκευής"
+
+#: pisi/cli/build.py:129
+msgid "Break build after fetching the source archive"
+msgstr "Διακοπή δημιουργίας μετά τη λήψη του αρχείου πηγής"
+
+#: pisi/cli/build.py:138
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches"
+msgstr ""
+"Διακοπή της δημιουργίας μετά την αποσυμπίεση του αρχείου πηγής, τον έλεγχο "
+"του sha1sum και την εφαρμογή των επιδιορθώσεων"
+
+#: pisi/cli/build.py:149
+msgid "Break build after running configure step"
+msgstr "Διακοπή δημιουργίας μετά την εκτέλεση του βήματος διαμόρφωσης"
+
+#: pisi/cli/build.py:157
+msgid "Break build after running compile step"
+msgstr "Διακοπή κατασκευής μετά την εκτέλεση του βήματος σύνταξης"
+
+#: pisi/cli/build.py:165
+msgid "Break build after running check step"
+msgstr "Διακοπή δημιουργίας μετά την εκτέλεση του βήματος ελέγχου"
+
+#: pisi/cli/build.py:173
+msgid "Break build after running install step"
+msgstr "Διακοπή δημιουργίας μετά την εκτέλεση του βήματος εγκατάστασης"
+
+#: pisi/cli/build.py:181
+msgid "Create pisi package"
+msgstr "Δημιουργία πακέτου pisi"
+
+#: pisi/cli/build.py:188
+msgid ""
+"Building packages is not supported when pisi is compiled with nuitka. "
+"Please use pisi.py instead."
+msgstr ""
+
+#: pisi/cli/build.py:195 pisi/cli/delta.py:74
+msgid "Supported package formats:"
+msgstr "Υποστηριζόμενες μορφές πακέτων:"
+
+#: pisi/cli/build.py:198 pisi/cli/delta.py:77
+#, python-format
+msgid "  %s (default)"
+msgstr "%s (προεπιλογή)"
+
+#: pisi/cli/check.py:16
+msgid ""
+"Verify installation\n"
+"\n"
+"Usage: check [<package1> <package2> ... <packagen>]\n"
+"       check -c <component>\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"A cryptographic checksum is stored for each installed\n"
+"file. Check command uses the checksums to verify a package.\n"
+"Just give the names of packages.\n"
+"\n"
+"If no packages are given, checks all installed packages.\n"
+msgstr ""
+"Επαλήθευση εγκατάστασης\n"
+"\n"
+"Χρήση: check  [<package1> <package2> ... <packagen>]\n"
+"       check -c <component>\n"
+"\n"
+"<packagei>\n"
+"\n"
+"\n"
+": όνομα πακέτου\n"
+"\n"
+"Για κάθε εγκατεστημένο αρχείο αποθηκεύεται ένα κρυπτογραφικό άθροισμα ελέγχου.\n"
+"Η εντολή check χρησιμοποιεί τα αθροίσματα ελέγχου για την επαλήθευση ενός πακέτου.\n"
+"Απλά δώστε τα ονόματα των πακέτων.\n"
+"\n"
+"Εάν δεν δοθούν πακέτα, ελέγχονται όλα τα εγκατεστημένα πακέτα.\n"
+
+#: pisi/cli/check.py:43
+msgid "check options"
+msgstr "Έλεγχος επιλογών"
+
+#: pisi/cli/check.py:50
+msgid "Check installed packages under given component"
+msgstr "Ελέγξτε τα εγκατεστημένα πακέτα κάτω από το συγκεκριμένο στοιχείο"
+
+#: pisi/cli/check.py:57
+msgid "Checks only changed config files of the packages"
+msgstr "Οι έλεγχοι άλλαξαν μόνο τα αρχεία ρυθμίσεων των πακέτων."
+
+#: pisi/cli/check.py:73
+msgid "Checking all installed packages"
+msgstr "Έλεγχος όλων των εγκατεστημένων πακέτων"
+
+#. Line prefix
+#: pisi/cli/check.py:82
+#, python-format
+msgid "Checking integrity of %s"
+msgstr "Έλεγχος ακεραιότητας %s"
+
+#: pisi/cli/check.py:102
+msgid "Broken"
+msgstr "Σπασμένο"
+
+#: pisi/cli/check.py:108
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: pisi/cli/check.py:110
+msgid "OK"
+msgstr "Εντάξει"
+
+#: pisi/cli/check.py:116
+#, python-format
+msgid "Missing file: /%s"
+msgstr "Λείπει το αρχείο: /%s"
+
+#: pisi/cli/check.py:121
+#, python-format
+msgid "Access denied: /%s"
+msgstr "Δεν επιτρέπεται η πρόσβαση: /%s"
+
+#: pisi/cli/check.py:126
+#, python-format
+msgid "Corrupted file: /%s"
+msgstr "Κατεστραμμένο αρχείο: /%s"
+
+#: pisi/cli/check.py:132
+#, python-format
+msgid "Modified configuration file: /%s"
+msgstr "Τροποποιημένο αρχείο διαμόρφωσης: /%s"
+
+#. Package is not installed
+#: pisi/cli/check.py:139
+#, python-format
+msgid "Package %s not installed"
+msgstr "Το πακέτο %s δεν είναι εγκατεστημένο"
+
+#: pisi/cli/check.py:147
+msgid ""
+"These packages are broken but are not found in a repository, they must be "
+"reinstalled manually:"
+msgstr ""
+
+#: pisi/cli/check.py:152
+msgid "The following packages are broken:"
+msgstr ""
+
+#: pisi/cli/check.py:154
+msgid "Reinstall the broken packages?"
+msgstr ""
+
+#: pisi/cli/check.py:160
+msgid "Broken packages were not reinstalled."
+msgstr ""
+
+#: pisi/cli/check.py:166
+msgid ""
+"Could not check the integrity of packages which contain files your user did not have permission to read.\n"
+"Running the check under a privileged user may help to fix this problem."
+msgstr ""
+"Δεν ήταν δυνατή η επαλήθευση της ακεραιότητας των πακέτων που περιέχουν αρχεία για τα οποία ο χρήστης σας δεν είχε δικαιώματα ανάγνωσης.\n"
+"Η εκτέλεση του ελέγχου με δικαιώματα προνομιούχου χρήστη μπορεί να βοηθήσει στην επίλυση αυτού του προβλήματος."
+
+#: pisi/cli/configurepending.py:14
+msgid ""
+"Configure pending packages\n"
+"\n"
+"If COMAR configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Διαμόρφωση εκκρεμών πακέτων\n"
+"\n"
+"Εάν η διαμόρφωση COMAR ορισμένων πακέτων δεν\n"
+"έγινε κατά την εγκατάσταση, αυτά προστίθενται σε μια λίστα\n"
+"πακέτων που περιμένουν να διαμορφωθούν. Αυτή η εντολή\n"
+"διαμορφώνει αυτά τα πακέτα.\n"
+
+#: pisi/cli/configurepending.py:29
+msgid "configure-pending options"
+msgstr "επιλογές εκκρεμούσας διαμόρφωσης"
+
+#: pisi/cli/delta.py:14
+msgid ""
+"Creates delta packages\n"
+"\n"
+"Usages: delta oldpackage1 oldpackage2 ...  newpackage\n"
+"        delta -t newpackage oldpackage1 oldpackage2 ...\n"
+"\n"
+"Delta command finds the changed files between the given\n"
+"packages by comparing the sha1sum of files and creates\n"
+"a delta package with the changed files.\n"
+msgstr ""
+"Δημιουργεί πακέτα delta\n"
+"\n"
+"Χρήσεις: delta παλιόπακέτο1 παλιόπακέτο2 ... νέοπακέτο\n"
+"delta -t νέοπακέτο παλιόπακέτο1 παλιόπακέτο2 ...\n"
+"\n"
+"Η εντολή Delta εντοπίζει τα αρχεία που έχουν αλλάξει μεταξύ των δεδομένων\n"
+"πακέτων συγκρίνοντας το sha1sum των αρχείων και δημιουργεί\n"
+"ένα πακέτο delta με τα αρχεία που έχουν αλλάξει.\n"
+
+#: pisi/cli/delta.py:35
+msgid "delta options"
+msgstr "επιλογές delta"
+
+#: pisi/cli/delta.py:46
+msgid "Use arg as the new package and treat other arguments as old packages."
+msgstr ""
+"Χρησιμοποιήστε το arg ως το νέο πακέτο και αντιμετωπίστε τα άλλα "
+"επιχειρήματα ως παλιά πακέτα."
+
+#: pisi/cli/delta.py:56
+msgid "Output directory for produced packages."
+msgstr "Κατάλογος εξόδου για τα πακέτα που παράγονται."
+
+#: pisi/cli/fetch.py:15
+msgid ""
+"Fetch a package\n"
+"\n"
+"Usage: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Downloads the given pisi packages to working directory\n"
+msgstr ""
+"Λήψη πακέτου\n"
+"\n"
+"Χρήση: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: όνομα πακέτου\n"
+"\n"
+"Κατεβάζει τα συγκεκριμένα πακέτα pisi στον κατάλογο εργασίας\n"
+
+#: pisi/cli/fetch.py:31
+msgid "fetch options"
+msgstr "επιλογές ανάκτησης"
+
+#: pisi/cli/fetch.py:41
+msgid "Output directory for the fetched packages"
+msgstr "Κατάλογος εξόδου για τα πακέτα που έχουν ληφθεί"
+
+#: pisi/cli/fetch.py:48
+msgid "Fetch packages from a specified repository"
+msgstr ""
+
+#: pisi/cli/fetch.py:59 pisi/cli/install.py:121 pisi/cli/listavailable.py:63
+#: pisi/cli/listcomponents.py:53 pisi/cli/listnewest.py:59
+#: pisi/cli/listupgrades.py:61 pisi/cli/search.py:86 pisi/cli/searchfile.py:63
+#: pisi/cli/upgrade.py:120 pisi/cli/info.py:93
+msgid "No active repositories found"
+msgstr "Δεν βρέθηκαν ενεργά αποθετήρια"
+
+#: pisi/cli/history.py:20
+msgid "upgrade"
+msgstr "Αναβάθμιση"
+
+#: pisi/cli/history.py:21
+msgid "remove"
+msgstr "αφαίρεση"
+
+#: pisi/cli/history.py:22
+msgid "emerge"
+msgstr "ανάδυση"
+
+#: pisi/cli/history.py:23
+msgid "install"
+msgstr "εγκατάσταση"
+
+#: pisi/cli/history.py:24
+msgid "snapshot"
+msgstr "στιγμιότυπο"
+
+#: pisi/cli/history.py:25
+msgid "takeback"
+msgstr "επιστροφή"
+
+#: pisi/cli/history.py:26
+msgid "repository update"
+msgstr "ενημέρωση αποθετηρίου"
+
+#: pisi/cli/history.py:32
+msgid ""
+"History of pisi operations\n"
+"\n"
+"Usage: history\n"
+"\n"
+"Lists previous operations."
+msgstr ""
+"Ιστορικό λειτουργιών pisi\n"
+"\n"
+"Χρήση: history\n"
+"\n"
+"Παραθέτει τις προηγούμενες λειτουργίες."
+
+#: pisi/cli/history.py:47
+msgid "history options"
+msgstr "επιλογές ιστορικού"
+
+#: pisi/cli/history.py:58
+msgid "Output only the last n operations"
+msgstr "Εξάγετε μόνο τις τελευταίες n λειτουργίες"
+
+#: pisi/cli/history.py:65
+msgid "Take snapshot of the current system"
+msgstr "Λήψη στιγμιότυπου του τρέχοντος συστήματος"
+
+#: pisi/cli/history.py:73
+msgid "Takeback to the state after the given operation finished"
+msgstr ""
+"Επιστροφή στην κατάσταση μετά την ολοκλήρωση της συγκεκριμένης λειτουργίας"
+
+#: pisi/cli/history.py:84
+#, python-format
+msgid "Operation #%d: %s"
+msgstr "Λειτουργία #%d: %s"
+
+#: pisi/cli/history.py:85
+#, python-format
+msgid "Date: %s %s"
+msgstr "Ημερομηνία: %s %s"
+
+#: pisi/cli/history.py:90
+#, python-format
+msgid "    * There are %d packages in this snapshot."
+msgstr "* Υπάρχουν %d πακέτα σε αυτό το στιγμιότυπο."
+
+#: pisi/cli/index.py:13
+msgid ""
+"Index pisi files in a given directory\n"
+"\n"
+"Usage: index <directory> ...\n"
+"\n"
+"This command searches for all pisi files in a directory, collects pisi\n"
+"tags from them and accumulates the information in an output XML file,\n"
+"named by default 'pisi-index.xml'. In particular, it indexes both\n"
+"source and binary packages.\n"
+"\n"
+"If you give multiple directories, the command still works, but puts\n"
+"everything in a single index file.\n"
+msgstr ""
+"Ευρετηρίαση αρχείων pisi σε έναν δεδομένο κατάλογο\n"
+"\n"
+"Χρήση: index  <directory>  ...\n"
+"\n"
+"Αυτή η εντολή αναζητά όλα τα αρχεία pisi σε έναν κατάλογο, συλλέγει ετικέτες pisi\n"
+"από αυτά και συγκεντρώνει τις πληροφορίες σε ένα αρχείο XML εξόδου,\n"
+"ονομάζεται από προεπιλογή «pisi-index.xml». Συγκεκριμένα, ευρετηριάζει τόσο\n"
+"πακέτα πηγαίου κώδικα και δυαδικά πακέτα.\n"
+"\n"
+"Εάν δώσετε πολλαπλούς καταλόγους, η εντολή εξακολουθεί να λειτουργεί, αλλά τοποθετεί\n"
+"τα πάντα σε ένα μόνο αρχείο ευρετηρίου.\n"
+
+#: pisi/cli/index.py:37
+msgid "index options"
+msgstr "επιλογές δείκτη"
+
+#: pisi/cli/index.py:44
+msgid "Store absolute links for indexed files."
+msgstr "Αποθηκεύστε απόλυτους συνδέσμους για δεικτοδοτημένα αρχεία."
+
+#: pisi/cli/index.py:52
+msgid "Index output file"
+msgstr "Αρχείο εξόδου δείκτη"
+
+#: pisi/cli/index.py:59
+msgid ""
+"Comma-separated compression types for index file. Valid options are \"xz\" "
+"and \"bz2\". Defaults to \"xz\"."
+msgstr ""
+"Τύποι συμπίεσης διαχωρισμένοι με κόμμα για το αρχείο ευρετηρίου. Οι έγκυρες "
+"επιλογές είναι «xz» και “bz2”. Η προεπιλογή είναι «xz»."
+
+#: pisi/cli/index.py:66
+msgid "Do not sign index."
+msgstr "Μην υπογράφετε τον δείκτη."
+
+#: pisi/cli/install.py:16
+msgid ""
+"Install pisi packages\n"
+"\n"
+"Usage: install <package1> <package2> ... <packagen>\n"
+"\n"
+"You may use filenames, URI's or package names for packages. If you have\n"
+"specified a package name, it should exist in a specified repository.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Εγκατάσταση πακέτων pisi\n"
+"\n"
+"Χρήση: install <package1> <package2> ... <packagen> \n"
+"\n"
+"Μπορείτε να χρησιμοποιήσετε ονόματα αρχείων, URI ή ονόματα πακέτων για τα πακέτα. Εάν έχετε\n"
+"καθορίσει ένα όνομα πακέτου, αυτό πρέπει να υπάρχει σε ένα καθορισμένο αποθετήριο.\n"
+"\n"
+"Μπορείτε επίσης να καθορίσετε στοιχεία αντί για ονόματα πακέτων, τα οποία θα\n"
+"επεκταθούν σε ονόματα πακέτων.\n"
+
+#: pisi/cli/install.py:35
+msgid "install options"
+msgstr "επιλογές εγκατάστασης"
+
+#: pisi/cli/install.py:43
+msgid "Reinstall already installed packages"
+msgstr "Επανεγκατάσταση ήδη εγκατεστημένων πακέτων"
+
+#: pisi/cli/install.py:49
+msgid "Skip distribution release and architecture check"
+msgstr "Παράλειψη ελέγχου έκδοσης διανομής και αρχιτεκτονικής"
+
+#: pisi/cli/install.py:55 pisi/cli/upgrade.py:61
+msgid "Ignore file conflicts"
+msgstr "Αγνοήστε τις συγκρούσεις αρχείων"
+
+#: pisi/cli/install.py:61 pisi/cli/upgrade.py:67
+msgid "Ignore package conflicts"
+msgstr "Αγνοήστε τις συγκρούσεις πακέτων"
+
+#: pisi/cli/install.py:68
+msgid ""
+"Don't check for updates in reverse dependencies of runtime dependencies when"
+" updates are available"
+msgstr ""
+"Μην ελέγχετε για ενημερώσεις σε αντίστροφες εξαρτήσεις των εξαρτήσεων χρόνου"
+" εκτέλεσης όταν υπάρχουν διαθέσιμες ενημερώσεις."
+
+#: pisi/cli/install.py:76
+msgid "Install component's and recursive components' packages"
+msgstr "Εγκατάσταση πακέτων στοιχείων και αναδρομικών στοιχείων"
+
+#: pisi/cli/install.py:84
+msgid "Name of the component's repository"
+msgstr "Όνομα του αποθετηρίου του στοιχείου"
+
+#: pisi/cli/install.py:91 pisi/cli/upgrade.py:89
+msgid "Fetch upgrades but do not install."
+msgstr "Λήψη αναβαθμίσεων, αλλά χωρίς εγκατάσταση."
+
+#: pisi/cli/install.py:99
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
+msgstr ""
+"Κατά την εγκατάσταση πακέτων, αγνοήστε τα πακέτα και τα στοιχεία των οποίων "
+"τα βασικά ονόματα ταιριάζουν με το πρότυπο."
+
+#: pisi/cli/install.py:107
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
+msgstr ""
+"Κατά την εγκατάσταση πακέτων, αγνοήστε τα πακέτα και τα στοιχεία των οποίων "
+"τα βασικά ονόματα ταιριάζουν με οποιοδήποτε πρότυπο περιέχεται στο αρχείο."
+
+#: pisi/cli/install.py:145
+#, python-format
+msgid "There is no component named %s"
+msgstr "Δεν υπάρχει στοιχείο με το όνομα %s"
+
+#: pisi/cli/install.py:164
+msgid ""
+"Updates available, checking reverse dependencies of runtime dependencies for"
+" safety."
+msgstr ""
+"Διαθέσιμες ενημερώσεις, έλεγχος αντίστροφων εξαρτήσεων των εξαρτήσεων χρόνου"
+" εκτέλεσης για ασφάλεια."
+
+#: pisi/cli/listavailable.py:17
+msgid ""
+"List available packages in the repositories\n"
+"\n"
+"Usage: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a brief list of pisi packages published in the specified\n"
+"repositories. If no repository is specified, we list packages in\n"
+"all repositories.\n"
+msgstr ""
+"Λίστα διαθέσιμων πακέτων στα αποθετήρια\n"
+"\n"
+"Χρήση: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Δίνει μια σύντομη λίστα των πακέτων pisi που έχουν δημοσιευτεί στα καθορισμένα\n"
+"αποθετήρια. Εάν δεν έχει καθοριστεί αποθετήριο, εμφανίζονται τα πακέτα σε\n"
+"όλα τα αποθετήρια.\n"
+
+#: pisi/cli/listavailable.py:35
+msgid "list-available options"
+msgstr "λίστα διαθέσιμων επιλογών"
+
+#: pisi/cli/listavailable.py:41 pisi/cli/listcomponents.py:37
+#: pisi/cli/listinstalled.py:58 pisi/cli/listupgrades.py:39
+#: pisi/cli/searchfile.py:35
+msgid "Show in long format"
+msgstr "Εμφάνιση σε μακρά μορφή"
+
+#: pisi/cli/listavailable.py:48
+msgid "List available packages under given component"
+msgstr "Λίστα διαθέσιμων πακέτων για δεδομένο στοιχείο"
+
+#: pisi/cli/listavailable.py:55
+msgid "Show uninstalled packages only"
+msgstr "Εμφάνιση μόνο των απεγκατεστημένων πακέτων"
+
+#: pisi/cli/listavailable.py:68
+msgid "Installed packages are shown in this color"
+msgstr "Τα εγκατεστημένα πακέτα εμφανίζονται με αυτό το χρώμα"
+
+#: pisi/cli/listavailable.py:77
+#, python-format
+msgid "Repository : %s\n"
+msgstr "Αποθετήριο: %s \n"
+
+#: pisi/cli/listcomponents.py:15
+msgid ""
+"List available components\n"
+"\n"
+"Usage: list-components\n"
+"\n"
+"Gives a brief list of pisi components published in the\n"
+"repositories.\n"
+msgstr ""
+"Λίστα διαθέσιμων στοιχείων\n"
+"\n"
+"Χρήση: list-components\n"
+"\n"
+"Παρέχει μια σύντομη λίστα των στοιχείων pisi που έχουν δημοσιευτεί στα\n"
+"αποθετήρια.\n"
+
+#: pisi/cli/listcomponents.py:31
+msgid "list-components options"
+msgstr "επιλογές στοιχείων λίστας"
+
+#: pisi/cli/listcomponents.py:45 pisi/cli/search.py:49
+msgid "Name of the source or package repository"
+msgstr "Όνομα της πηγής ή του αποθετηρίου πακέτων"
+
+#: pisi/cli/listinstalled.py:17
+msgid ""
+"Print the list of all installed packages\n"
+"\n"
+"Usage: list-installed\n"
+msgstr ""
+"Εκτύπωση της λίστας όλων των εγκατεστημένων πακέτων\n"
+"\n"
+"Χρήση: list-installed\n"
+
+#: pisi/cli/listinstalled.py:31
+msgid "list-installed options"
+msgstr "επιλογές εγκατεστημένες στη λίστα"
+
+#: pisi/cli/listinstalled.py:37
+msgid "Show automatically installed packages and the parent dependency"
+msgstr "Εμφάνιση αυτόματα εγκατεστημένων πακέτων και της γονικής εξάρτησης"
+
+#: pisi/cli/listinstalled.py:44
+msgid "Show installed packages that were installed by a user"
+msgstr "Εμφάνιση των πακέτων που έχουν εγκατασταθεί από έναν χρήστη"
+
+#: pisi/cli/listinstalled.py:51
+msgid "Only list the installed packages built by the given host"
+msgstr ""
+"Αναφέρετε μόνο τα εγκατεστημένα πακέτα που έχουν δημιουργηθεί από τον "
+"συγκεκριμένο κεντρικό υπολογιστή."
+
+#: pisi/cli/listinstalled.py:65
+msgid "List installed packages under given component"
+msgstr "Λίστα εγκατεστημένων πακέτων κάτω από δεδομένο στοιχείο"
+
+#: pisi/cli/listinstalled.py:72 pisi/cli/listupgrades.py:53
+msgid "Show detailed install info"
+msgstr "Εμφάνιση λεπτομερών πληροφοριών εγκατάστασης"
+
+#. TRANSLATORS: --explicit and --automatic are command line options and should
+#. not be translated.
+#: pisi/cli/listinstalled.py:82
+msgid "You cannot specify both --explicit and --automatic"
+msgstr ""
+"Δεν μπορείτε να καθορίσετε ταυτόχρονα τις επιλογές --explicit και "
+"--automatic."
+
+#: pisi/cli/listinstalled.py:109 pisi/cli/listupgrades.py:88
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgstr ""
+"Όνομα πακέτου          |St|        Έκδοση| Σχετική| Διανομή|             "
+"Ημερομηνία"
+
+#: pisi/cli/listinstalled.py:157
+msgid "Orphaned package"
+msgstr "Ορφανό πακέτο"
+
+#: pisi/cli/listnewest.py:16
+msgid ""
+"List newest packages in the repositories\n"
+"\n"
+"Usage: list-newest [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a list of pisi newly published packages in the specified\n"
+"repositories. If no repository is specified, we list the new\n"
+"packages from all repositories.\n"
+msgstr ""
+"Λίστα με τα νεότερα πακέτα στα αποθετήρια\n"
+"\n"
+"Χρήση: list-newest [ <repo1> <repo2>... repon ]\n"
+"\n"
+"Δίνει μια λίστα με τα πακέτα που δημοσιεύτηκαν πρόσφατα από το pisi στα καθορισμένα\n"
+"αποθετήρια. Εάν δεν έχει καθοριστεί αποθετήριο, εμφανίζονται τα νέα\n"
+"πακέτα από όλα τα αποθετήρια.\n"
+
+#: pisi/cli/listnewest.py:34
+msgid "list-newest options"
+msgstr "λίστα-νεότερες επιλογές"
+
+#: pisi/cli/listnewest.py:41
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd"
+msgstr ""
+"Λίστα νέων πακέτων που προστέθηκαν στο αποθετήριο μετά από αυτή την "
+"ημερομηνία με μορφή yyyy-mm-dd"
+
+#: pisi/cli/listnewest.py:50
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update"
+msgstr ""
+"Λίστα νέων πακέτων που προστέθηκαν στο αποθετήριο μετά την τελευταία n-οστή "
+"προηγούμενη ενημέρωση του αποθετηρίου"
+
+#: pisi/cli/listnewest.py:85
+#, python-format
+msgid "Packages added to %s since %s:\n"
+msgstr "Πακέτα που προστέθηκαν %s από %s:\n"
+
+#: pisi/cli/listnewest.py:87
+#, python-format
+msgid "Packages added to %s:"
+msgstr "Πακέτα που προστέθηκαν σε%s:"
+
+#: pisi/cli/listupgrades.py:17
+msgid ""
+"List packages to be upgraded\n"
+"\n"
+"Usage: list-upgrades\n"
+"\n"
+"Lists the packages that will be upgraded.\n"
+msgstr ""
+"Λίστα πακέτων προς αναβάθμιση\n"
+"\n"
+"Χρήση: list-upgrades\n"
+"\n"
+"Παραθέτει τα πακέτα που θα αναβαθμιστούν.\n"
+
+#: pisi/cli/listupgrades.py:33
+msgid "list-upgrades options"
+msgstr "επιλογές αναβάθμισης λίστας"
+
+#: pisi/cli/listupgrades.py:46
+msgid "List upgradable packages under given component"
+msgstr "Λίστα αναβαθμίσιμων πακέτων κάτω από δεδομένο στοιχείο"
+
+#: pisi/cli/listupgrades.py:77 pisi/operations/upgrade.py:157
+msgid "No packages to upgrade."
+msgstr "Δεν υπάρχουν πακέτα για αναβάθμιση."
+
+#: pisi/cli/rebuilddb.py:15
+msgid ""
+"Rebuild Databases\n"
+"\n"
+"Usage: rebuilddb [ <package1> <package2> ... <packagen> ]\n"
+"\n"
+"Rebuilds the pisi databases\n"
+"\n"
+"If package specs are given, they should be the names of package\n"
+"dirs under /var/lib/pisi\n"
+msgstr ""
+"Ανακατασκευή βάσεων δεδομένων\n"
+"\n"
+"Χρήση: rebuilddb [ <package1> <package2> ... <packagen> ]\n"
+"\n"
+"Ανακατασκευάζει τις βάσεις δεδομένων pisi.\n"
+"\n"
+"Εάν δοθούν προδιαγραφές πακέτων, αυτές πρέπει να είναι τα ονόματα των καταλόγων πακέτων\n"
+"στο /var/lib/pisi.\n"
+
+#: pisi/cli/rebuilddb.py:32
+msgid "rebuild-db options"
+msgstr "επιλογές rebuild-db"
+
+#: pisi/cli/rebuilddb.py:39
+msgid "Rebuild files database"
+msgstr "Ανακατασκευή βάσης δεδομένων αρχείων"
+
+#: pisi/cli/rebuilddb.py:46
+msgid "Rebuild pisi databases?"
+msgstr "Ανακατασκευή βάσεων δεδομένων pisi;"
+
+#: pisi/cli/remove.py:16
+msgid ""
+"Remove pisi packages\n"
+"\n"
+"Usage: remove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Κατάργηση πακέτων pisi\n"
+"\n"
+"Χρήση: remove <package1> <package2> ... <packagen>\n"
+"\n"
+"Κατάργηση πακέτου(ων) από το σύστημά σας. Απλά δώστε τα ονόματα των πακέτων που θέλετε να καταργήσετε.\n"
+"\n"
+"Μπορείτε επίσης να καθορίσετε στοιχεία αντί για ονόματα πακέτων, τα οποία θα\n"
+"επεκταθούν σε ονόματα πακέτων.\n"
+
+#: pisi/cli/remove.py:34
+msgid "remove options"
+msgstr "αφαίρεση επιλογών"
+
+#: pisi/cli/remove.py:47
+msgid "Remove component's and recursive components' packages"
+msgstr "Κατάργηση πακέτων στοιχείων και αναδρομικών στοιχείων"
+
+#: pisi/cli/removeorphans.py:16
+msgid ""
+"Remove orphaned packages\n"
+"\n"
+"Usage: remove-orphans\n"
+"\n"
+"Remove any unused orphan packages from the system that were automatically\n"
+"installed as a dependency of another package.\n"
+"\n"
+"Only packages that have no reverse dependencies outside of the automatically\n"
+"installed list will be removed.\n"
+msgstr ""
+"Κατάργηση ορφανών πακέτων\n"
+"\n"
+"Χρήση: remove-orphans\n"
+"\n"
+"Κατάργηση όλων των αχρησιμοποίητων ορφανών πακέτων από το σύστημα που εγκαταστάθηκαν αυτόματα\n"
+"ως εξάρτηση άλλου πακέτου.\n"
+"\n"
+"Θα καταργηθούν μόνο τα πακέτα που δεν έχουν αντίστροφες εξαρτήσεις εκτός της αυτόματα\n"
+"εγκατεστημένης λίστας.\n"
+
+#: pisi/cli/removeorphans.py:34
+msgid "remove-orphans options"
+msgstr "επιλογές κατάργησης ορφανών"
+
+#: pisi/cli/search.py:16
+msgid ""
+"Search packages\n"
+"\n"
+"Usage: search <term1> <term2> ... <termn>\n"
+"\n"
+"Finds a package containing specified search terms\n"
+"in summary, description, and package name fields.\n"
+"Default search is done in package database. Use\n"
+"options to search in install database or source\n"
+"database.\n"
+msgstr ""
+"Αναζήτηση πακέτων\n"
+"\n"
+"Χρήση: search <term1> <term2>... <termn> \n"
+"\n"
+"Βρίσκει ένα πακέτο που περιέχει τους καθορισμένους όρους αναζήτησης\n"
+"στα πεδία περίληψη, περιγραφή και όνομα πακέτου.\n"
+"Η προεπιλεγμένη αναζήτηση γίνεται στη βάση δεδομένων πακέτων. Χρησιμοποιήστε\n"
+"επιλογές για αναζήτηση στη βάση δεδομένων εγκατάστασης ή στη βάση δεδομένων πηγών\n"
+".\n"
+
+#: pisi/cli/search.py:34
+msgid "search options"
+msgstr "επιλογές αναζήτησης"
+
+#: pisi/cli/search.py:41
+msgid "Summary and description language"
+msgstr "Γλώσσα περίληψης και περιγραφής"
+
+#: pisi/cli/search.py:56
+msgid "Search in installdb"
+msgstr "Αναζήτηση στο installdb"
+
+#: pisi/cli/search.py:62
+msgid "Search in the package name"
+msgstr "Αναζήτηση στο όνομα του πακέτου"
+
+#: pisi/cli/search.py:68
+msgid "Search in the package summary"
+msgstr "Αναζήτηση στην περίληψη του πακέτου"
+
+#: pisi/cli/search.py:74
+msgid "Search in the package description"
+msgstr "Αναζήτηση στην περιγραφή του πακέτου"
+
+#: pisi/cli/searchfile.py:15
+msgid ""
+"Search for a file\n"
+"\n"
+"Usage: search-file <path1> <path2> ... <pathn>\n"
+"\n"
+"Finds the installed package which contains the specified file.\n"
+msgstr ""
+"Αναζήτηση αρχείου\n"
+"\n"
+"Χρήση: search-file <path1> <path2>... <pathn> \n"
+"\n"
+"Εντοπίζει το εγκατεστημένο πακέτο που περιέχει το καθορισμένο αρχείο.\n"
+
+#: pisi/cli/searchfile.py:29
+msgid "search-file options"
+msgstr "επιλογές αναζήτησης αρχείου"
+
+#: pisi/cli/searchfile.py:42
+msgid "Show only package name"
+msgstr "Εμφάνιση μόνο του ονόματος του πακέτου"
+
+#: pisi/cli/searchfile.py:50
+#, python-format
+msgid "Package %s has file /%s"
+msgstr "Το πακέτο %sέχει το αρχείο /%s"
+
+#: pisi/cli/searchfile.py:53
+#, python-format
+msgid "Path '%s' does not belong to an installed package"
+msgstr "Το μονοπάτι '%s' δεν ανήκει σε εγκατεστημένο πακέτο."
+
+#: pisi/cli/searchfile.py:69
+#, python-format
+msgid "Searching for %s"
+msgstr "Αναζήτηση για %s"
+
+#: pisi/cli/updaterepo.py:15
+msgid ""
+"Update repository databases\n"
+"\n"
+"Usage: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Synchronizes the pisi databases with the current repository.\n"
+"If no repository is given, all repositories are updated.\n"
+msgstr ""
+"Ενημέρωση βάσεων δεδομένων αποθετηρίου\n"
+"\n"
+"Χρήση: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: όνομα αποθετηρίου\n"
+"\n"
+"Συγχρονίζει τις βάσεις δεδομένων pisi με το τρέχον αποθετήριο.\n"
+"Εάν δεν δοθεί αποθετήριο, ενημερώνονται όλα τα αποθετήρια.\n"
+
+#: pisi/cli/updaterepo.py:32
+msgid "update-repo options"
+msgstr "Επιλογές ενημέρωσης αποθετηρίου"
+
+#: pisi/cli/updaterepo.py:39
+msgid "Update database in any case"
+msgstr "Ενημέρωση της βάσης δεδομένων σε κάθε περίπτωση"
+
+#: pisi/cli/upgrade.py:16
+msgid ""
+"Upgrade pisi packages\n"
+"\n"
+"Usage: Upgrade [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Upgrades the entire system if no package names are given\n"
+"\n"
+"You may use only package names to specify packages because\n"
+"the package upgrade operation is defined only with respect\n"
+"to repositories. If you have specified a package name, it\n"
+"should exist in the package repositories. If you just want to\n"
+"reinstall a package from a pisi file, use the install command.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Αναβάθμιση πακέτων pisi\n"
+"\n"
+"Χρήση: Αναβάθμιση [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: όνομα πακέτου\n"
+"\n"
+"Αναβαθμίζει ολόκληρο το σύστημα εάν δεν έχουν δοθεί ονόματα πακέτων\n"
+"\n"
+"Μπορείτε να χρησιμοποιήσετε μόνο ονόματα πακέτων για να καθορίσετε πακέτα, επειδή\n"
+" η λειτουργία αναβαθμίστηκε πακέτων ορίζεται μόνο σε σχέση\n"
+" με τα αποθετήρια. Εάν έχετε καθορίσει ένα όνομα πακέτου, \n"
+"αυτό πρέπει να υπάρχει στα αποθετήρια πακέτων. Εάν θέλετε\n"
+" απλώς να επανεγκαταστήσετε ένα πακέτο από ένα αρχείο pisi, χρησιμοποιήστε την εντολή install.\n"
+"\n"
+"Μπορείτε επίσης να καθορίσετε στοιχεία αντί για ονόματα πακέτων, τα οποία θα\n"
+"επεκταθούν σε ονόματα πακέτων.\n"
+
+#: pisi/cli/upgrade.py:41
+msgid "upgrade options"
+msgstr "επιλογές αναβάθμισης"
+
+#: pisi/cli/upgrade.py:48
+msgid "Security related package upgrades only"
+msgstr "Αναβαθμίσεις πακέτων που σχετίζονται μόνο με την ασφάλεια"
+
+#: pisi/cli/upgrade.py:55
+msgid "Do not update repositories"
+msgstr "Μην ενημερώνετε τα αποθετήρια"
+
+#: pisi/cli/upgrade.py:74
+msgid "Upgrade component's and recursive components' packages"
+msgstr "Αναβάθμιση πακέτων στοιχείων και αναδρομικών στοιχείων"
+
+#: pisi/cli/upgrade.py:82
+msgid "Name of the to be upgraded packages' repository"
+msgstr "Όνομα του αποθετηρίου των πακέτων που θα αναβαθμιστούν"
+
+#: pisi/cli/upgrade.py:97
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"Κατά την αναβάθμιση του συστήματος, αγνοήστε τα πακέτα και τα στοιχεία των "
+"οποίων τα βασικά ονόματα ταιριάζουν με το πρότυπο."
+
+#: pisi/cli/upgrade.py:105
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
+msgstr ""
+"Κατά την αναβάθμιση του συστήματος, αγνοήστε τα πακέτα και τα στοιχεία των "
+"οποίων τα βασικά ονόματα ταιριάζουν με οποιοδήποτε πρότυπο περιέχεται στο "
+"αρχείο."
+
+#: pisi/cli/upgrade.py:124
+msgid "Updating repositories"
+msgstr "Ενημέρωση αποθετηρίων"
+
+#: pisi/cli/upgrade.py:128
+msgid "Will not update repositories"
+msgstr "Δεν θα ενημερώσει τα αποθετήρια"
+
+#: pisi/cli/disablerepo.py:13
+msgid ""
+"Disable repository\n"
+"\n"
+"Usage: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Απενεργοποίηση αποθετηρίου\n"
+"\n"
+"Χρήση: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: όνομα αποθετηρίου\n"
+"\n"
+"Τα απενεργοποιημένα αποθετήρια δεν λαμβάνονται υπόψη στις λειτουργίες.\n"
+
+#: pisi/cli/enablerepo.py:13
+msgid ""
+"Enable repository\n"
+"\n"
+"Usage: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Ενεργοποίηση αποθετηρίου\n"
+"\n"
+"Χρήση: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: όνομα αποθετηρίου\n"
+"\n"
+"Τα απενεργοποιημένα αποθετήρια δεν λαμβάνονται υπόψη στις λειτουργίες.\n"
+
+#: pisi/cli/command.py:19
+msgid "Command lacks name"
+msgstr "Η εντολή δεν έχει όνομα"
+
+#: pisi/cli/command.py:24
+#, python-format
+msgid "Duplicate command %s"
+msgstr "Εντολή αντιγραφής %s"
+
+#: pisi/cli/command.py:88
+msgid "general options"
+msgstr "γενικές επιλογές"
+
+#: pisi/cli/command.py:95
+msgid "Change the system root for pisi commands"
+msgstr "Αλλαγή του ριζικού καταλόγου του συστήματος για τις εντολές pisi"
+
+#: pisi/cli/command.py:102
+msgid "Assume yes in all yes/no queries"
+msgstr "Υποθέστε «ναι» σε όλες τις ερωτήσεις ναι/όχι"
+
+#: pisi/cli/command.py:117
+msgid "Keep bandwidth usage under specified KB's"
+msgstr "Διατηρήστε τη χρήση του εύρους ζώνης κάτω από τα καθορισμένα KB"
+
+#: pisi/cli/command.py:125
+msgid "Set the max number of retry attempts in case of connection timeouts"
+msgstr ""
+"Ορίστε τον μέγιστο αριθμό επαναληπτικών προσπαθειών σε περίπτωση λήξης του "
+"χρόνου σύνδεσης"
+
+#: pisi/cli/command.py:133
+msgid "Set the max number of concurrent download workers"
+msgstr ""
+
+#: pisi/cli/command.py:141
+msgid "Detailed output"
+msgstr "Λεπτομερής έξοδος"
+
+#: pisi/cli/command.py:148
+msgid "Show debugging information"
+msgstr "Εμφάνιση πληροφοριών εντοπισμού σφαλμάτων"
+
+#: pisi/cli/command.py:155
+msgid "Suppresses all coloring of pisi's output"
+msgstr "Καταστέλλει όλα τα χρώματα της εξόδου του pisi"
+
+#: pisi/cli/command.py:169
+msgid ""
+"HTTP Basic-Auth is no longer supported. Please reconfigure your repository."
+msgstr ""
+"Το HTTP Basic-Auth δεν υποστηρίζεται πλέον. Παρακαλώ αναδιαμορφώστε το "
+"αποθετήριο σας."
+
+#: pisi/cli/command.py:176
+#, python-format
+msgid "Destination directory %s does not exist. Creating directory.\n"
+msgstr "Ο κατάλογος προορισμού %s δεν υπάρχει. Δημιουργία καταλόγου.\n"
+
+#: pisi/cli/command.py:194 pisi/api.py:49
+msgid "You have to be root for this operation."
+msgstr "Πρέπει να είστε root για αυτή τη λειτουργία."
+
+#. FIXME: not called from anywhere?
+#: pisi/cli/command.py:223
+msgid "Command terminated abnormally."
+msgstr "Η εντολή τερματίστηκε με μη φυσιολογικό τρόπο."
+
+#: pisi/cli/command.py:244
+msgid "Bypass comar configuration agent"
+msgstr "Παράκαμψη του πράκτορα διαμόρφωσης comar"
+
+#: pisi/cli/command.py:257
+msgid "Do not perform any action, just show what would be done"
+msgstr "Μην κάνετε τίποτα, απλά δείξτε τι θα γινόταν."
+
+#: pisi/cli/command.py:276
+#, python-format
+msgid "usage: %s\n"
+msgstr "χρήση: %s \n"
+
+#: pisi/cli/info.py:20
+msgid ""
+"Display package information\n"
+"\n"
+"Usage: info <package1> <package2> ... <packagen>\n"
+"\n"
+"<packagei> is either a package name or a .pisi file,\n"
+msgstr ""
+"Εμφάνιση πληροφοριών πακέτου\n"
+"\n"
+"Χρήση: info <package1> <package2>... <packagen> \n"
+"\n"
+"<packagei> είναι είτε ένα όνομα πακέτου είτε ένα αρχείο .pisi αρχείο,\n"
+
+#: pisi/cli/info.py:38
+msgid "info options"
+msgstr "επιλογές πληροφοριών"
+
+#: pisi/cli/info.py:48
+msgid "Show a list of package files."
+msgstr "Εμφάνιση λίστας αρχείων πακέτων."
+
+#: pisi/cli/info.py:55
+msgid "Sort files by name (path), size or type."
+msgstr ""
+
+#: pisi/cli/info.py:62
+msgid "Info about the given component"
+msgstr "Πληροφορίες σχετικά με το συγκεκριμένο εξάρτημα"
+
+#: pisi/cli/info.py:69
+msgid "Show only paths."
+msgstr "Εμφάνιση μόνο διαδρομών."
+
+#: pisi/cli/info.py:76
+msgid "Resolve package against specified repository"
+msgstr ""
+
+#: pisi/cli/info.py:83
+msgid "Do not show details"
+msgstr "Μην εμφανίζετε λεπτομέρειες"
+
+#: pisi/cli/info.py:86
+msgid "Output in xml format"
+msgstr "Έξοδος σε μορφή xml"
+
+#: pisi/cli/info.py:139
+#, python-format
+msgid "Unable to resolve repository: %s"
+msgstr ""
+
+#: pisi/cli/info.py:176
+msgid "Reverse Dependencies:"
+msgstr "Αντίστροφες εξαρτήσεις:"
+
+#: pisi/cli/info.py:189
+#, python-format
+msgid "Package file: %s"
+msgstr "Αρχείο πακέτου: %s"
+
+#: pisi/cli/info.py:204
+msgid "[inst] "
+msgstr "[inst] "
+
+#: pisi/cli/info.py:206
+msgid "Installed package:"
+msgstr "Εγκατεστημένο πακέτο:"
+
+#: pisi/cli/info.py:210
+#, python-format
+msgid "%s package is not installed"
+msgstr "Το %s πακέτο δεν είναι εγκατεστημένο."
+
+#: pisi/cli/info.py:216
+msgid "[binary] "
+msgstr "[δυαδικό] "
+
+#: pisi/cli/info.py:218
+#, python-format
+msgid "Package found in %s repository:"
+msgstr "Πακέτο που βρέθηκε στο %s αποθετήριο:"
+
+#: pisi/cli/info.py:221
+#, python-format
+msgid "%s package is not found in binary repositories"
+msgstr " Το %s πακέτο δεν βρίσκεται στα αποθετήρια δυαδικών αρχείων."
+
+#: pisi/db/groupdb.py:52 pisi/db/groupdb.py:61
+#, python-format
+msgid "Group %s not found"
+msgstr "Ομάδα %s δεν βρέθηκε"
+
+#: pisi/db/componentdb.py:88
+#, python-format
+msgid "Component %s not found"
+msgstr "Το στοιχείο %s δεν βρέθηκε"
+
+#: pisi/db/installdb.py:28
+msgid "installed"
+msgstr "εγκατεστημένο"
+
+#: pisi/db/installdb.py:28
+msgid "installed-pending"
+msgstr "εγκατεστημένο-σε αναμονή"
+
+#: pisi/db/installdb.py:51
+#, python-format
+msgid ""
+"State: %s\n"
+"Version: %s, Release: %s\n"
+msgstr ""
+"Κατάσταση: %s \n"
+"Έκδοση: %s, Κυκλοφορία: %s \n"
+
+#: pisi/db/installdb.py:59
+#, python-format
+msgid "Distribution: %s, Install Time: %s\n"
+msgstr "Διανομή: %s, Χρόνος εγκατάστασης: %s \n"
+
+#: pisi/db/installdb.py:96
+#, python-format
+msgid ""
+"Installation info for package '%s' is broken. Reinstall it to fix this "
+"problem."
+msgstr ""
+"Οι πληροφορίες εγκατάστασης για το πακέτο '%s' είναι κατεστραμμένες. "
+"Επανατοποθετήστε το για να διορθώσετε αυτό το πρόβλημα."
+
+#: pisi/db/installdb.py:378
+#, python-format
+msgid "Package %s is not installed"
+msgstr "Το πακέτο %s δεν είναι εγκατεστημένο"
+
+#: pisi/db/repodb.py:188
+#, python-format
+msgid "%s repository needs to be updated"
+msgstr "%s  το αποθετήριο πρέπει να ενημερωθεί"
+
+#: pisi/db/repodb.py:196
+msgid ""
+"Error parsing repository index information. Index file does not exist or is "
+"malformed."
+msgstr ""
+"Σφάλμα κατά την ανάλυση των πληροφοριών του ευρετηρίου αποθετηρίου. Το "
+"αρχείο ευρετηρίου δεν υπάρχει ή είναι κακοσχηματισμένο."
+
+#: pisi/db/repodb.py:309
+#, python-format
+msgid ""
+"Repository '%s' is not compatible with your distribution. Repository is "
+"disabled."
+msgstr ""
+"Το αποθετήριο '%s'; δεν είναι συμβατό με τη διανομή σας. Το αποθετήριο είναι"
+" απενεργοποιημένο."
+
+#: pisi/db/itembyrepo.py:31
+#, python-format
+msgid "%s not found in any repository."
+msgstr "%s  δεν βρέθηκε σε κανένα αποθετήριο."
+
+#: pisi/db/itembyrepo.py:41
+#, python-format
+msgid "Repo item %s not found"
+msgstr "Το στοιχείο repo %s δεν βρέθηκε"
+
+#: pisi/db/itembyrepo.py:51 pisi/db/itembyrepo.py:62 pisi/db/itembyrepo.py:72
+#, python-format
+msgid "Repository %s does not exist."
+msgstr "Το αποθετήριο %s δεν υπάρχει."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:148
+msgid "FilesDB version mismatch or missing version."
+msgstr ""
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:171
+msgid "FilesDB is invalid and cannot be rebuilt (no write access)."
+msgstr ""
+
+#: pisi/db/filesdb.py:173
+msgid "Falling back to slow and inaccurate XML search..."
+msgstr "Επιστροφή στην αργή και ανακριβή αναζήτηση XML..."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:180
+msgid "Rebuilding the FilesDB..."
+msgstr "Ανακατασκευή της βάσης δεδομένων αρχείων..."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:193
+#, python-format
+msgid "FilesDB rebuild failed: %s"
+msgstr ""
+
+#: pisi/db/filesdb.py:209
+#, python-format
+msgid "Adding '%s' ..."
+msgstr "Προσθήκη '%s' ..."
+
+#: pisi/db/filesdb.py:212
+msgid "Okay."
+msgstr "Εντάξει."
+
+#: pisi/db/filesdb.py:218
+#, python-format
+msgid "Added so far: %s"
+msgstr "Προστέθηκε μέχρι τώρα: %s"
+
+#: pisi/db/filesdb.py:224
+#, python-format
+msgid ""
+"\n"
+"%(num)d package added in total."
+msgid_plural ""
+"\n"
+"%(num)d packages added in total."
+msgstr[0] ""
+"\n"
+"%(num)d πακέτο προστέθηκε συνολικά."
+msgstr[1] ""
+"\n"
+"%(num)d  πακέτα προστέθηκαν συνολικά."
+
+#: pisi/db/packagedb.py:132
+#, python-format
+msgid "Repo %s not found."
+msgstr "Repo %s δεν βρέθηκε."
+
+#: pisi/db/packagedb.py:221 pisi/db/packagedb.py:227
+#, python-format
+msgid "Package %s not found."
+msgstr "Το πακέτο %s δεν βρέθηκε."
+
+#: pisi/operations/delta.py:43
+#, python-format
+msgid ""
+"The file '%s' belongs to a different package other than '%s'. Skipping it..."
+msgstr "Το αρχείο '%s' ανήκει σε διαφορετικό πακέτο από το '%s'. Παράλειψη..."
+
+#: pisi/operations/delta.py:53
+#, python-format
+msgid ""
+"Package '%s' has the same release number with the new package. Skipping "
+"it..."
+msgstr ""
+"Το πακέτο '%s' έχει τον ίδιο αριθμό έκδοσης με το νέο πακέτο. Παράλειψη..."
+
+#: pisi/operations/delta.py:73 pisi/operations/build.py:1642
+#, python-format
+msgid "Creating %s..."
+msgstr "Δημιουργία %s..."
+
+#: pisi/operations/delta.py:85
+#, python-format
+msgid ""
+"All files in the package '%s' are different from the files in the new "
+"package. Skipping it..."
+msgstr ""
+"Όλα τα αρχεία στο πακέτο '%s' είναι διαφορετικά από τα αρχεία στο νέο "
+"πακέτο. Παράλειψη..."
+
+#: pisi/operations/delta.py:134
+#, python-format
+msgid "New package '%s' exists in the list of old packages. Skipping it..."
+msgstr ""
+"Το νέο πακέτο '%s' υπάρχει στη λίστα των παλαιών πακέτων. Παράλειψη..."
+
+#: pisi/operations/remove.py:51 pisi/operations/remove.py:85
+msgid "Safety switch prevents the removal of following packages:\n"
+msgstr "Ο διακόπτης ασφαλείας αποτρέπει την αφαίρεση των ακόλουθων πακέτων: \n"
+
+#: pisi/operations/remove.py:56 pisi/operations/remove.py:92
+#: pisi/operations/upgrade.py:482
+msgid "Safety switch: The component system.base cannot be found."
+msgstr "Διακόπτης ασφαλείας: Το στοιχείο system.base δεν μπορεί να βρεθεί."
+
+#: pisi/operations/remove.py:64
+#, python-format
+msgid "Package %s does not exist. Cannot remove."
+msgstr "Το πακέτο %s δεν υπάρχει. Δεν είναι δυνατή η κατάργησή του."
+
+#: pisi/operations/remove.py:68
+msgid "No packages to remove."
+msgstr "Δεν υπάρχουν πακέτα προς κατάργηση."
+
+#: pisi/operations/remove.py:103
+msgid ""
+"The following list of packages will be removed\n"
+"in the respective order to satisfy dependencies:\n"
+msgstr ""
+"Η ακόλουθη λίστα πακέτων θα αφαιρεθεί \n"
+"με την αντίστοιχη σειρά για να ικανοποιηθούν οι εξαρτήσεις: \n"
+
+#: pisi/operations/remove.py:119 pisi/operations/history.py:155
+#: pisi/operations/history.py:203 pisi/operations/install.py:123
+#: pisi/operations/install.py:310 pisi/operations/upgrade.py:202
+msgid "Do you want to continue?"
+msgstr "Θέλετε να συνεχίσετε;"
+
+#: pisi/operations/remove.py:120
+msgid "Package removal declined"
+msgstr "Η αφαίρεση του πακέτου απορρίφθηκε"
+
+#. Remove the packages.
+#. Install all the packages
+#: pisi/operations/remove.py:126 pisi/operations/install.py:158
+#: pisi/operations/upgrade.py:243 pisi/api.py:908 pisi/api.py:948
+msgid "Disabling keyboard interrupts for file operations."
+msgstr "Απενεργοποίηση διακοπών πληκτρολογίου για λειτουργίες αρχείων."
+
+#: pisi/operations/remove.py:134
+#, python-format
+msgid "Package %s is not installed. Cannot remove."
+msgstr ""
+"Το πακέτο %s δεν είναι εγκατεστημένο. Δεν είναι δυνατή η κατάργησή του."
+
+#: pisi/operations/remove.py:302
+msgid "Conflicts remain"
+msgstr "Οι συγκρούσεις παραμένουν"
+
+#: pisi/operations/remove.py:311
+msgid "Obsoleted packages remaining"
+msgstr "Παλαιά πακέτα που παραμένουν"
+
+#: pisi/operations/remove.py:316
+msgid "Replaced package remains"
+msgstr "Αντικαταστάθηκε το πακέτο παραμένει"
+
+#: pisi/operations/build.py:113
+#, python-format
+msgid "Path %s belongs in multiple packages"
+msgstr "Το Path %s ανήκει σε πολλά πακέτα"
+
+#: pisi/operations/build.py:360
+#, python-format
+msgid "pspec.xml avoids this package from building for '%s'"
+msgstr "Το pspec.xml αποτρέπει τη δημιουργία αυτού του πακέτου για το '%s'"
+
+#: pisi/operations/build.py:363
+#, python-format
+msgid "Building source package: %s"
+msgstr "Δημιουργία πακέτου πηγαίου κώδικα: %s"
+
+#: pisi/operations/build.py:380
+msgid "ccache detected..."
+msgstr "ccache ανιχνεύθηκε..."
+
+#: pisi/operations/build.py:383
+msgid "IceCream detected. Make sure your daemon is up and running..."
+msgstr ""
+"Εντοπίστηκε IceCream. Βεβαιωθείτε ότι το daemon σας είναι ενεργό και "
+"λειτουργεί..."
+
+#: pisi/operations/build.py:416
+#, python-format
+msgid "Rebuilding for %s"
+msgstr "Ανακατασκευή για %s"
+
+#: pisi/operations/build.py:538
+msgid ""
+"Cannot find component.xml in remote directory, Source is now part of unknown"
+" component"
+msgstr ""
+"Δεν είναι δυνατή η εύρεση του αρχείου component.xml στον απομακρυσμένο "
+"κατάλογο. Η πηγή αποτελεί πλέον μέρος άγνωστου στοιχείου."
+
+#: pisi/operations/build.py:550
+msgid ""
+"Cannot find component.xml in upper directory, Source is now part of unknown "
+"component"
+msgstr ""
+"Δεν είναι δυνατή η εύρεση του αρχείου component.xml στον ανώτερο κατάλογο. Η"
+" πηγή αποτελεί πλέον μέρος άγνωστου στοιχείου."
+
+#: pisi/operations/build.py:566
+msgid "Unpacking archive(s)..."
+msgstr "Αποσυμπίεση αρχείου(ων).."
+
+#: pisi/operations/build.py:574
+#, python-format
+msgid " unpacked (%s)"
+msgstr " ξεπακεταρισμένο (%s)"
+
+#. Run configure, build and install phase
+#: pisi/operations/build.py:579
+msgid "Setting up source..."
+msgstr "Ρύθμιση πηγής..."
+
+#: pisi/operations/build.py:584
+msgid "Building source..."
+msgstr "Δημιουργία πηγής..."
+
+#: pisi/operations/build.py:589
+msgid "Testing package..."
+msgstr "Δοκιμή πακέτου..."
+
+#: pisi/operations/build.py:593
+msgid "Installing..."
+msgstr "Εγκατάσταση..."
+
+#: pisi/operations/build.py:661
+#, python-format
+msgid "Unable to read Actions Script (%s): %s"
+msgstr "Δεν είναι δυνατή η ανάγνωση του Actions Script (%s): %s"
+
+#: pisi/operations/build.py:663
+#, python-format
+msgid "SyntaxError in Actions Script (%s): %s"
+msgstr "Σφάλμα σύνταξης στο Actions Script (%s): %s"
+
+#: pisi/operations/build.py:692
+#, python-format
+msgid "Unable to read COMAR script (%s): %s"
+msgstr "Δεν είναι δυνατή η ανάγνωση του σεναρίου COMAR (%s): %s"
+
+#: pisi/operations/build.py:694
+#, python-format
+msgid "SyntaxError in COMAR file (%s): %s"
+msgstr "Σφάλμα σύνταξης στο αρχείο COMAR (%s): %s"
+
+#: pisi/operations/build.py:735
+#, python-format
+msgid "Sandbox violation: %s (%s -> %s)"
+msgstr "Παραβίαση sandbox: %s (%s -> %s)"
+
+#: pisi/operations/build.py:750 pisi/util.py:571
+#, python-format
+msgid "ERROR: WorkDir (%s) does not exist\n"
+msgstr "ΣΦΑΛΜΑ: Το WorkDir (%s) δεν υπάρχει \n"
+
+#: pisi/operations/build.py:762
+msgid "Sandbox enabled build..."
+msgstr "Δημιουργία με ενεργοποιημένο sandbox..."
+
+#: pisi/operations/build.py:787
+msgid "Sandbox violation result:"
+msgstr "Αποτέλεσμα παραβίασης sandbox:"
+
+#: pisi/operations/build.py:792
+msgid "Sandbox violations!"
+msgstr "Παραβιάσεις του Sandbox!"
+
+#: pisi/operations/build.py:798
+#, python-format
+msgid "unable to call function from actions: %s"
+msgstr "αδυναμία κλήσης λειτουργίας από ενέργειες: %s"
+
+#: pisi/operations/build.py:812
+#, python-format
+msgid "Source package '%s' defines a relative 'Path' element: %s"
+msgstr "Το πακέτο πηγής '%s' ορίζει ένα σχετικό στοιχείο 'Path': %s"
+
+#: pisi/operations/build.py:818
+#, python-format
+msgid "Source package '%s' defines multiple 'Path' tags for %s"
+msgstr "Το πακέτο πηγής '%s' ορίζει πολλαπλές ετικέτες 'Path' για %s"
+
+#: pisi/operations/build.py:830 pisi/atomicoperations.py:130
+#, python-format
+msgid "%s-%s is not a valid pisi version format"
+msgstr "%s-%s δεν είναι έγκυρη μορφή έκδοσης pisi"
+
+#: pisi/operations/build.py:856
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
+msgstr ""
+"Διακόπτης ασφαλείας: θα εγκατασταθούν τα ακόλουθα πρόσθετα πακέτα στο "
+"system.devel: "
+
+#: pisi/operations/build.py:864
+msgid "Safety switch: the component system.devel cannot be found"
+msgstr "Διακόπτης ασφαλείας: το στοιχείο system.devel δεν μπορεί να βρεθεί"
+
+#: pisi/operations/build.py:877
+msgid "Unsatisfied Build Dependencies:"
+msgstr "Μη ικανοποιημένες εξαρτήσεις κατασκευής:"
+
+#: pisi/operations/build.py:884
+msgid "Cannot build package due to unsatisfied build dependencies"
+msgstr ""
+"Δεν είναι δυνατή η δημιουργία πακέτου λόγω μη ικανοποιημένων εξαρτήσεων "
+"δημιουργίας"
+
+#: pisi/operations/build.py:891
+#, python-format
+msgid "Build dependency %s cannot be satisfied"
+msgstr "Η εξάρτηση κατασκευής %s δεν μπορεί να ικανοποιηθεί"
+
+#: pisi/operations/build.py:894
+msgid "Do you want to install the unsatisfied build dependencies"
+msgstr "Θέλετε να εγκαταστήσετε τις μη ικανοποιημένες εξαρτήσεις κατασκευής"
+
+#: pisi/operations/build.py:896
+msgid "Installing build dependencies."
+msgstr "Εγκατάσταση εξαρτήσεων κατασκευής."
+
+#: pisi/operations/build.py:914
+msgid "Ignoring build dependencies."
+msgstr "Αγνοώντας τις εξαρτήσεις κατασκευής."
+
+#: pisi/operations/build.py:923
+#, python-format
+msgid "Patch file is missing: %s\n"
+msgstr "Το αρχείο patch λείπει: %s \n"
+
+#: pisi/operations/build.py:925
+#, python-format
+msgid "Patch file is empty: %s"
+msgstr "Το αρχείο patch είναι κενό: %s"
+
+#: pisi/operations/build.py:942
+#, python-format
+msgid "Applying patch: %s"
+msgstr "Εφαρμογή επιθέματος: %s"
+
+#: pisi/operations/build.py:1096
+msgid ""
+"pkg-config not found but package provides .pc files - skipping export of "
+"pkgconfig information"
+msgstr ""
+"Το pkg-config δεν βρέθηκε, αλλά το πακέτο παρέχει αρχεία .pc - παράλειψη "
+"εξαγωγής πληροφοριών pkgconfig"
+
+#: pisi/operations/build.py:1132
+#, python-format
+msgid "Unable to obtain pkgconfig module version for %s"
+msgstr "Δεν είναι δυνατή η λήψη της έκδοσης του pkgconfig module για %s "
+
+#: pisi/operations/build.py:1140
+#, python-format
+msgid "Adding %s to provided pkgconfig32 list"
+msgstr "Προσθήκη %s στη λίστα pkgconfig32 που παρέχεται"
+
+#: pisi/operations/build.py:1145
+#, python-format
+msgid "Adding %s to provided pkgconfig list"
+msgstr "Προσθήκη %s στη λίστα pkgconfig που παρέχεται"
+
+#: pisi/operations/build.py:1369
+#, python-format
+msgid "/%s has suid bit set"
+msgstr "/%s έχει ρυθμισμένο το bit suid"
+
+#: pisi/operations/build.py:1560
+#, python-format
+msgid "No user named '%s' found on the system"
+msgstr "Δεν βρέθηκε χρήστης με το όνομα '%s' στο σύστημα"
+
+#: pisi/operations/build.py:1567
+#, python-format
+msgid "No group named '%s' found on the system"
+msgstr "Δεν βρέθηκε ομάδα με το όνομα '%s' στο σύστημα"
+
+#: pisi/operations/build.py:1575
+#, python-format
+msgid "There are abandoned files under the install dir (%s):"
+msgstr "Υπάρχουν εγκαταλελειμμένα αρχεία στον κατάλογο εγκατάστασης (%s):"
+
+#: pisi/operations/build.py:1620
+#, python-format
+msgid "Ignoring empty package %s"
+msgstr "Αγνοώντας το κενό πακέτο %s"
+
+#: pisi/operations/build.py:1623
+#, python-format
+msgid "Building package: %s"
+msgstr "Πακέτο κατασκευής: %s"
+
+#: pisi/operations/build.py:1689
+msgid "Cleaning build directory..."
+msgstr "Καθαρισμός καταλόγου κατασκευής..."
+
+#: pisi/operations/build.py:1692
+msgid "Keeping build directory"
+msgstr "Διατήρηση του καταλόγου κατασκευής"
+
+#: pisi/operations/build.py:1775
+msgid "Action script error caught."
+msgstr "Εντοπίστηκε σφάλμα στο σενάριο δράσης."
+
+#: pisi/operations/build.py:1780
+#, python-format
+msgid "*** %d error(s), %d warning(s)"
+msgstr "*** %d σφάλμα(τα), %d προειδοποίηση(ες)"
+
+#: pisi/operations/build.py:1867
+#, python-format
+msgid "Last state was '%s'"
+msgstr "Η τελευταία κατάσταση ήταν '%s'"
+
+#: pisi/operations/helper.py:33
+msgid "Reordering install order so system.base packages come first."
+msgstr ""
+"Αναδιάταξη της σειράς εγκατάστασης, ώστε τα πακέτα system.base να έρχονται "
+"πρώτα."
+
+#: pisi/operations/helper.py:35
+#, python-format
+msgid "install_order: %s"
+msgstr "παραγγελία_εγκατάστασης: %s"
+
+#: pisi/operations/helper.py:49
+#, python-format
+msgid "order: %s"
+msgstr "παραγγελία: %s"
+
+#: pisi/operations/helper.py:62
+#, python-format
+msgid "Selected packages [%s] are in conflict with each other."
+msgstr "Τα επιλεγμένα πακέτα [%s] βρίσκονται σε σύγκρουση μεταξύ τους."
+
+#: pisi/operations/helper.py:69
+#, python-format
+msgid "[%s conflicts with: %s]\n"
+msgstr "[%s συγκρούεται με: %s] \n"
+
+#: pisi/operations/helper.py:74
+#, python-format
+msgid ""
+"The following packages have conflicts:\n"
+"%s"
+msgstr ""
+"Τα ακόλουθα πακέτα έχουν συγκρούσεις:\n"
+"%s"
+
+#: pisi/operations/helper.py:76
+msgid "Remove the following conflicting packages?"
+msgstr "Να αφαιρεθούν τα ακόλουθα πακέτα που προκαλούν σύγκρουση;"
+
+#: pisi/operations/helper.py:77
+msgid "Conflicting packages should be removed to continue"
+msgstr ""
+"Τα πακέτα που βρίσκονται σε σύγκρουση πρέπει να αφαιρεθούν για να "
+"συνεχίσετε."
+
+#: pisi/operations/history.py:78
+#, python-format
+msgid "Package %s found in repository %s"
+msgstr "Πακέτο %s που βρέθηκε στο αποθετήριο %s"
+
+#: pisi/operations/history.py:146
+msgid "Following packages will be installed:\n"
+msgstr "Θα εγκατασταθούν τα ακόλουθα πακέτα: \n"
+
+#: pisi/operations/history.py:152
+msgid "Following packages will be removed:\n"
+msgstr "Τα ακόλουθα πακέτα θα αφαιρεθούν: \n"
+
+#: pisi/operations/history.py:170
+#, python-format
+msgid "%s could not be found"
+msgstr "%s  δεν βρέθηκε"
+
+#: pisi/operations/history.py:178 pisi/sourcearchive.py:103
+#, python-format
+msgid "%s [cached]"
+msgstr "%s  [αποθηκευμένο]"
+
+#: pisi/operations/history.py:182
+msgid "Downloading historical packages..."
+msgstr ""
+
+#: pisi/operations/history.py:186
+#, python-format
+msgid "Error while fetching historical packages: %s"
+msgstr ""
+
+#: pisi/operations/history.py:199
+msgid ""
+"\n"
+"Following packages could not be found in repositories and are not cached:\n"
+msgstr ""
+"\n"
+"Τα ακόλουθα πακέτα δεν βρέθηκαν στα αποθετήρια και δεν αποθηκεύτηκαν στην προσωρινή μνήμη: \n"
+
+#: pisi/operations/install.py:70 pisi/operations/install.py:209
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
+msgstr ""
+"Τα ακόλουθα πακέτο(α) είναι ήδη εγκατεστημένα και δεν θα εγκατασταθούν ξανά:"
+
+#: pisi/operations/install.py:78 pisi/operations/install.py:323
+msgid "No packages to install."
+msgstr "Δεν υπάρχουν πακέτα για εγκατάσταση."
+
+#: pisi/operations/install.py:99 pisi/operations/upgrade.py:176
+msgid "The following packages will be downloaded:"
+msgstr "Θα πραγματοποιηθεί λήψη των ακόλουθων πακέτων:"
+
+#: pisi/operations/install.py:101
+msgid "The following packages will be installed:"
+msgstr "Θα εγκατασταθούν τα ακόλουθα πακέτα:"
+
+#: pisi/operations/install.py:110 pisi/operations/upgrade.py:187
+#, python-format
+msgid "Total size of package(s): %.2f %s"
+msgstr "Συνολικό μέγεθος πακέτου(ων): %.2f %s"
+
+#: pisi/operations/install.py:120 pisi/operations/upgrade.py:199
+msgid "There are extra packages due to dependencies."
+msgstr "Υπάρχουν επιπλέον πακέτα λόγω εξαρτήσεων."
+
+#: pisi/operations/install.py:139 pisi/operations/upgrade.py:218
+#, python-format
+msgid "Download Error: Package %s does not match the repository package."
+msgstr ""
+
+#: pisi/operations/install.py:144
+msgid "Finished downloading packages."
+msgstr ""
+
+#: pisi/operations/install.py:167 pisi/operations/upgrade.py:252
+#, python-format
+msgid "Installing %d / %d"
+msgstr "Εγκατάσταση %d / %d"
+
+#: pisi/operations/install.py:190
+msgid "Mixing file names and package names not supported yet."
+msgstr ""
+"Η ανάμειξη ονομάτων αρχείων και ονομάτων πακέτων δεν υποστηρίζεται ακόμη."
+
+#: pisi/operations/install.py:262
+#, python-format
+msgid "Package %s is not compatible with your distribution release %s %s."
+msgstr "Το πακέτο %sδεν είναι συμβατό με την έκδοση της διανομής σας %s %s."
+
+#: pisi/operations/install.py:272
+#, python-format
+msgid "Package %s (%s) is not compatible with your %s architecture."
+msgstr "Το πακέτο %s (%s) δεν είναι συμβατό με την δικιά σας %sαρχιτεκτονική."
+
+#: pisi/operations/install.py:298
+#, python-format
+msgid "External dependencies not satisfied: %s"
+msgstr "Εξωτερικές εξαρτήσεις που δεν ικανοποιούνται: %s"
+
+#: pisi/operations/install.py:305
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
+msgstr ""
+"Τα ακόλουθα πακέτα θα εγκατασταθούν προκειμένου να ικανοποιηθούν οι "
+"εξαρτήσεις:"
+
+#: pisi/operations/install.py:311
+msgid "External dependencies not satisfied"
+msgstr "Εξωτερικές εξαρτήσεις που δεν ικανοποιούνται"
+
+#: pisi/operations/install.py:355
+msgid "Installation order: "
+msgstr "Σειρά εγκατάστασης:"
+
+#: pisi/operations/install.py:405 pisi/specfile.py:301
+#, python-format
+msgid "%s dependency of package %s is not satisfied"
+msgstr " %s η εξάρτηση του πακέτου %s δεν ικανοποιείται"
+
+#: pisi/operations/install.py:427
+#, python-format
+msgid "topological_sort() order: %s"
+msgstr "topological_sort() σειρά: %s"
+
+#: pisi/operations/install.py:430
+#, python-format
+msgid "deterministic order: %s"
+msgstr "αποφασιστική σειρά: %s"
+
+#: pisi/operations/install.py:433
+#, python-format
+msgid "final order.reverse(): %s"
+msgstr "τελική εντολή.αντιστροφή(): %s"
+
+#: pisi/operations/upgrade.py:48
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
+msgstr ""
+"Πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι ενημερώσεις "
+"στο/α ακόλουθο/α πακέτο(α):"
+
+#: pisi/operations/upgrade.py:72
+msgid "Warning: package *name* ends with '.pisi'"
+msgstr "Προειδοποίηση: το πακέτο *όνομα* τελειώνει με '.pisi'"
+
+#: pisi/operations/upgrade.py:75
+#, python-format
+msgid "Package %s is not installed."
+msgstr "Το πακέτο %s δεν είναι εγκατεστημένο."
+
+#: pisi/operations/upgrade.py:79
+#, python-format
+msgid "Package %s is not available in repositories."
+msgstr "Το πακέτο %s δεν είναι διαθέσιμο στα αποθετήρια."
+
+#: pisi/operations/upgrade.py:104
+#, python-format
+msgid "Package %s is already at the latest release %s."
+msgstr "Το πακέτο %s είναι ήδη στην τελευταία έκδοση %s."
+
+#: pisi/operations/upgrade.py:178
+msgid "The following packages will be upgraded:"
+msgstr "Τα ακόλουθα πακέτα θα αναβαθμιστούν:"
+
+#: pisi/operations/upgrade.py:225
+msgid "Finished downloading package upgrades."
+msgstr "Ολοκληρώθηκε η λήψη των αναβαθμίσεων πακέτων."
+
+#: pisi/operations/upgrade.py:316
+#, python-format
+msgid "Dependency %s of %s cannot be satisfied"
+msgstr "Η εξάρτηση %s όπου %s δεν μπορεί να ικανοποιηθεί"
+
+#: pisi/operations/upgrade.py:318
+msgid "Upgrade is not possible."
+msgstr "Η αναβάθμιση δεν είναι δυνατή."
+
+#: pisi/operations/upgrade.py:424
+msgid "Safety switch forces the installation of following packages:"
+msgstr ""
+"Ο διακόπτης ασφαλείας επιβάλλει την εγκατάσταση των ακόλουθων πακέτων:"
+
+#: pisi/operations/upgrade.py:453
+msgid "Safety switch forces the upgrade of following packages:"
+msgstr "Ο διακόπτης ασφαλείας επιβάλλει την αναβάθμιση των ακόλουθων πακέτων:"
+
+#: pisi/operations/upgrade.py:463
+#, python-format
+msgid "installs and upgrades (unordered): %s"
+msgstr "εγκαταστάσεις και αναβαθμίσεις (χωρίς σειρά): %s"
+
+#: pisi/operations/upgrade.py:475
+#, python-format
+msgid "installs and upgrades (deterministic order): %s"
+msgstr "εγκαταστάσεις και αναβαθμίσεις (καθορισμένη σειρά): %s"
+
+#: pisi/pxml/xmlext.py:74
+msgid "getNodeText: Expected text node, got something else!"
+msgstr "getNodeText: Αναμενόμενος κόμβος κειμένου, βρέθηκε κάτι άλλο!"
+
+#: pisi/pxml/xmlfile.py:51
+#, python-format
+msgid "String '%s' has invalid XML"
+msgstr "Η συμβολοσειρά '%s' έχει μη έγκυρο XML"
+
+#: pisi/pxml/xmlfile.py:87
+#, python-format
+msgid "Unable to read file (%s): %s"
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου (%s): %s"
+
+#: pisi/pxml/xmlfile.py:89 pisi/specfile.py:494
+#, python-format
+msgid "File '%s' has invalid XML"
+msgstr "Το αρχείο '%s' έχει μη έγκυρο XML"
+
+#: pisi/pxml/autoxml.py:74
+#, python-brace-format
+msgid "At least one '{}' tag should have local text."
+msgstr "Τουλάχιστον μία ετικέτα '{}' πρέπει να περιέχει τοπικό κείμενο."
+
+#: pisi/pxml/autoxml.py:86
+#, python-brace-format
+msgid "'{0}' language of tag '{1}' is empty."
+msgstr "Η γλώσσα “{0}” της ετικέτας “{1}” είναι κενή."
+
+#. FIXME: what exception could we catch here, replace with that.
+#: pisi/pxml/autoxml.py:118
+msgid "LocalText: unable to get either current or default locale."
+msgstr ""
+"LocalText: δεν είναι δυνατή η λήψη της τρέχουσας ή της προεπιλεγμένης "
+"τοπικής ρύθμισης."
+
+#: pisi/pxml/autoxml.py:132 pisi/pxml/autoxml.py:151
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version."
+msgstr ""
+"Η ετικέτα πρέπει να έχει τουλάχιστον την τρέχουσα τοπική ρύθμιση ή, αν αυτό "
+"δεν είναι δυνατό, μια αγγλική ή τουρκική έκδοση."
+
+#: pisi/pxml/autoxml.py:386
+#, python-brace-format
+msgid "autoxml.check: '{}' errors."
+msgstr "autoxml.check: '{}' σφάλματα."
+
+#: pisi/pxml/autoxml.py:454 pisi/pxml/autoxml.py:464
+#, python-brace-format
+msgid "autoxml.parse: String '{}' has errors."
+msgstr "autoxml.parse: Η συμβολοσειρά “{}” περιέχει σφάλματα."
+
+#: pisi/pxml/autoxml.py:493 pisi/pxml/autoxml.py:503
+#, python-brace-format
+msgid "autoxml.read: File '{}' has errors."
+msgstr "autoxml.read: Το αρχείο '{}' περιέχει σφάλματα."
+
+#: pisi/pxml/autoxml.py:518
+msgid "autoxml.write: object validation has failed."
+msgstr "autoxml.write: object validation has failed."
+
+#: pisi/pxml/autoxml.py:527
+#, python-brace-format
+msgid "autoxml.write: File encoding '{}' has errors."
+msgstr "autoxml.write: Το κωδικοποίηση αρχείου '{}' έχει σφάλματα."
+
+#: pisi/pxml/autoxml.py:586
+#, python-brace-format
+msgid "gen_tag: unrecognized tag type {} in spec."
+msgstr "gen_tag: μη αναγνωρισμένος τύπος ετικέτας {} στις προδιαγραφές."
+
+#: pisi/pxml/autoxml.py:642 pisi/pxml/autoxml.py:654
+#, python-brace-format
+msgid "Mandatory variable {} not available."
+msgstr "Η υποχρεωτική μεταβλητή {} δεν είναι διαθέσιμη."
+
+#: pisi/pxml/autoxml.py:731
+msgid "Type mismatch: read text cannot be decoded."
+msgstr ""
+"Αναντιστοιχία τύπου: το κείμενο ανάγνωσης δεν μπορεί να αποκωδικοποιηθεί."
+
+#: pisi/pxml/autoxml.py:739 pisi/pxml/autoxml.py:749
+#, python-brace-format
+msgid "Mandatory token {} not available."
+msgstr "Το υποχρεωτικό token {} δεν είναι διαθέσιμο."
+
+#: pisi/pxml/autoxml.py:757
+#, python-brace-format
+msgid "Type mismatch. Expected {0}, got {1}"
+msgstr "Αναντιστοιχία τύπου. Αναμενόμενο {0}, ληφθέν {1}"
+
+#: pisi/pxml/autoxml.py:791 pisi/pxml/autoxml.py:923
+msgid "Type mismatch: DOM cannot be decoded."
+msgstr "Αναντιστοιχία τύπου: Το DOM δεν μπορεί να αποκωδικοποιηθεί."
+
+#: pisi/pxml/autoxml.py:795 pisi/pxml/autoxml.py:811 pisi/pxml/autoxml.py:825
+#: pisi/pxml/autoxml.py:927 pisi/pxml/autoxml.py:941 pisi/pxml/autoxml.py:955
+msgid "Mandatory argument not available."
+msgstr "Το υποχρεωτικό επιχείρημα δεν είναι διαθέσιμο."
+
+#. note: we can receive an error if obj has no content
+#: pisi/pxml/autoxml.py:808 pisi/pxml/autoxml.py:938
+msgid "Object cannot be encoded."
+msgstr "Το αντικείμενο δεν μπορεί να κωδικοποιηθεί."
+
+#: pisi/pxml/autoxml.py:822 pisi/pxml/autoxml.py:952
+msgid "Object cannot be formatted."
+msgstr "Το αντικείμενο δεν μπορεί να μορφοποιηθεί."
+
+#: pisi/pxml/autoxml.py:838
+msgid "List type must contain only one element."
+msgstr "Ο τύπος λίστας πρέπει να περιέχει μόνο ένα στοιχείο."
+
+#: pisi/pxml/autoxml.py:854 pisi/pxml/autoxml.py:878
+#, python-brace-format
+msgid "Mandatory list \"{0}\" under \"{1}\" node is empty."
+msgstr "Ο υποχρεωτικός κατάλογος \"{0}\" κάτω από τον κόμβο \"{1}\" είναι κενός."
+
+#: pisi/scenarioapi/package.py:71
+#, python-format
+msgid "No pisi package: %s* found."
+msgstr "Δεν βρέθηκε πακέτο pisi: %s*."
+
+#: pisi/scenarioapi/repoops.py:17
+#, python-format
+msgid "Repo already has package named %s."
+msgstr "Το Repo έχει ήδη ένα πακέτο με το όνομα %s."
+
+#: pisi/scenarioapi/repoops.py:44 pisi/scenarioapi/repoops.py:52
+#, python-format
+msgid "Repo does not have package named %s."
+msgstr "Το Repo δεν διαθέτει πακέτο με το όνομα %s."
+
+#: pisi/scripts/pisi.py:34
+msgid "Keyboard Interrupt: Exiting..."
+msgstr "Διακοπή πληκτρολογίου: Έξοδος..."
+
+#: pisi/scripts/pisi.py:37
+msgid "Program terminated."
+msgstr "Το πρόγραμμα τερματίστηκε."
+
+#: pisi/scripts/pisi.py:43
+msgid ""
+"Cyclic dependency detected. The following packages cannot be installed:"
+msgstr ""
+
+#: pisi/scripts/pisi.py:46
+msgid "This is a packaging error."
+msgstr ""
+
+#: pisi/scripts/pisi.py:52
+msgid ""
+"Unhandled internal exception.\n"
+"Please file a bug report to <https://github.com/lupus/package-management/>."
+msgstr ""
+"Μη αντιμετωπισμένη εσωτερική εξαίρεση.\n"
+"Παρακαλώ υποβάλετε αναφορά σφάλματος στο <https://github.com/lupus/package-management/>."
+
+#: pisi/scripts/pisi.py:63
+msgid "System error. Program terminated."
+msgstr "Σφάλμα συστήματος. Το πρόγραμμα τερματίστηκε."
+
+#: pisi/scripts/pisi.py:68
+msgid "Please use 'pisi help' for general help."
+msgstr "Για γενική βοήθεια, χρησιμοποιήστε την εντολή 'pisi help'."
+
+#: pisi/scripts/pisi.py:71
+msgid ""
+"\n"
+"Traceback:"
+msgstr ""
+"\n"
+"Traceback:"
+
+#: pisi/scripts/pisi.py:74
+msgid "Use --debug to see a traceback."
+msgstr "Χρησιμοποιήστε --debug για να δείτε ένα traceback."
+
+#: pisi/comariface.py:22
+msgid "comar-api package is not fully installed"
+msgstr "Το πακέτο comar-api δεν έχει εγκατασταθεί πλήρως."
+
+#: pisi/comariface.py:85
+#, python-format
+msgid ""
+"Cannot connect to COMAR: \n"
+"  %s\n"
+msgstr ""
+"Δεν είναι δυνατή η σύνδεση με το COMAR:  \n"
+"%s \n"
+
+#: pisi/comariface.py:101
+#, python-format
+msgid "Configuring %s package"
+msgstr "Διαμόρφωση %s πακέτου"
+
+#: pisi/comariface.py:108
+msgid "COMAR package updated. From now on, using new COMAR daemon."
+msgstr ""
+"Ενημέρωση του πακέτου COMAR. Από τώρα και στο εξής, χρησιμοποιείται το νέο "
+"daemon COMAR."
+
+#: pisi/comariface.py:115
+#, python-format
+msgid "Registering %s comar script"
+msgstr "Εγγραφή %s σενάριο comar"
+
+#: pisi/comariface.py:124 pisi/comariface.py:129 pisi/comariface.py:141
+#: pisi/comariface.py:157 pisi/comariface.py:175 pisi/comariface.py:187
+#: pisi/comariface.py:207 pisi/comariface.py:219 pisi/comariface.py:226
+#, python-format
+msgid "Script error: %s"
+msgstr "Σφάλμα σεναρίου: %s"
+
+#: pisi/comariface.py:131
+msgid "Calling post install handlers"
+msgstr "Κλήση χειριστών μετά την εγκατάσταση"
+
+#: pisi/comariface.py:149
+msgid "Running package's post install script"
+msgstr "Εκτέλεση του σεναρίου μετά την εγκατάσταση του πακέτου"
+
+#: pisi/comariface.py:163
+#, python-format
+msgid "Running pre removal operations for %s"
+msgstr "Εκτέλεση λειτουργιών πριν από την αφαίρεση για %s"
+
+#: pisi/comariface.py:169
+msgid "Running package's pre remove script"
+msgstr "Εκτέλεση του προ-αφαίρεσης σενάριου του πακέτου"
+
+#: pisi/comariface.py:177
+msgid "Calling pre remove handlers"
+msgstr "Κλήση χειριστών προ-αφαίρεσης"
+
+#: pisi/comariface.py:193
+#, python-format
+msgid "Running post removal operations for %s"
+msgstr "Εκτέλεση λειτουργιών αφαίρεσης δημοσιεύσεων για %s"
+
+#: pisi/comariface.py:201
+msgid "Running package's postremove script"
+msgstr "Εκτέλεση του σεναρίου postremove του πακέτου"
+
+#: pisi/comariface.py:209
+msgid "Calling post remove handlers"
+msgstr "Κλήση χειριστών αφαίρεσης αναρτήσεων"
+
+#: pisi/comariface.py:221
+msgid "Unregistering comar scripts"
+msgstr "Ακύρωση εγγραφής σεναρίων comar"
+
+#: pisi/config.py:86
+#, python-format
+msgid "Destination directory %s does not exist. Creating it."
+msgstr "Ο κατάλογος προορισμού %s δεν υπάρχει. Δημιουργία του."
+
+#: pisi/conflict.py:17 pisi/dependency.py:19 pisi/replace.py:15
+msgid " version >= "
+msgstr " έκδοση >= "
+
+#: pisi/conflict.py:19 pisi/dependency.py:21 pisi/replace.py:17
+msgid " version <= "
+msgstr "έκδοση <= "
+
+#: pisi/conflict.py:21 pisi/dependency.py:23 pisi/replace.py:19
+msgid " version "
+msgstr " έκδοση "
+
+#: pisi/conflict.py:23 pisi/dependency.py:25 pisi/replace.py:21
+msgid " release >= "
+msgstr " κυκλοφορία >= "
+
+#: pisi/conflict.py:25 pisi/dependency.py:27 pisi/replace.py:23
+msgid " release <= "
+msgstr " κυκλοφορία <= "
+
+#: pisi/conflict.py:27 pisi/dependency.py:29 pisi/replace.py:25
+msgid " release "
+msgstr "κυκλοφορία"
+
+#: pisi/constants.py:21
+#, python-format
+msgid "Can't rebind constant: %s"
+msgstr "Δεν είναι δυνατή η επανασύνδεση της σταθεράς: %s"
+
+#: pisi/constants.py:27
+#, python-format
+msgid "Can't unbind constant: %s"
+msgstr "Δεν είναι δυνατή η αποσύνδεση της σταθεράς: %s"
+
+#: pisi/context.py:63
+msgid "usysconf not installed. Please upgrade!"
+msgstr "Το usysconf δεν είναι εγκατεστημένο. Παρακαλώ αναβαθμίστε!"
+
+#: pisi/context.py:76
+msgid "Failed to configure system"
+msgstr "Αποτυχία στη διαμόρφωση του συστήματος"
+
+#: pisi/graph.py:17
+#, python-format
+msgid "Encountered cycle %s"
+msgstr "Συναντημένος κύκλος %s"
+
+#: pisi/metadata.py:64
+#, python-format
+msgid "Distribution: %s, Dist. Release: %s\n"
+msgstr "Διανομή: %s, Διανομή: %s \n"
+
+#: pisi/metadata.py:68
+#, python-format
+msgid "Architecture: %s, Installed Size: %s"
+msgstr "Αρχιτεκτονική: %s, Εγκατεστημένο μέγεθος: %s"
+
+#: pisi/metadata.py:73
+#, python-format
+msgid ", Package Size: %s"
+msgstr ", Μέγεθος συσκευασίας: %s"
+
+#: pisi/mirrors.py:38
+#, python-format
+msgid "Mirrors file %s does not exist. Could not resolve mirrors://"
+msgstr ""
+"Το mirrors αρχείο %s δεν υπάρχει. Δεν ήταν δυνατή η επίλυση του mirrors://"
+
+#: pisi/specfile.py:172
+#, python-format
+msgid "URI: %s, type: %s, sha1sum: %s"
+msgstr "URI: %s, τύπος: %s, sha1sum: %s"
+
+#: pisi/specfile.py:204 pisi/specfile.py:207
+msgid " or "
+msgstr "ή "
+
+#: pisi/specfile.py:403 pisi/specfile.py:512
+#, python-format
+msgid "Summary: %s\n"
+msgstr "Περίληψη: %s \n"
+
+#: pisi/specfile.py:404 pisi/specfile.py:513
+#, python-format
+msgid "Description: %s\n"
+msgstr "Περιγραφή: %s \n"
+
+#: pisi/specfile.py:405 pisi/specfile.py:514
+#, python-format
+msgid "Licenses: %s\n"
+msgstr "Άδειες: %s \n"
+
+#: pisi/specfile.py:406 pisi/specfile.py:515
+#, python-format
+msgid "Component: %s\n"
+msgstr "Κομμάτι: %s \n"
+
+#: pisi/specfile.py:412
+msgid "Provides: "
+msgstr "Παρέχει: "
+
+#: pisi/specfile.py:425
+msgid "Dependencies: "
+msgstr "Εξαρτήσεις: "
+
+#: pisi/specfile.py:486
+msgid "translations.xml file is badly formed."
+msgstr "Το αρχείο translations.xml έχει λανθασμένη μορφή."
+
+#: pisi/specfile.py:516
+msgid "Build Dependencies: "
+msgstr "Δημιουργία εξαρτήσεων: "
+
+#: pisi/history.py:36
+#, python-format
+msgid "%s repository is updated."
+msgstr "%s  το αποθετήριο ενημερώνεται."
+
+#: pisi/history.py:56
+#, python-format
+msgid "%s is upgraded from %s to %s with delta."
+msgstr "%s αναβαθμίζεται από %sσε %s με δέλτα."
+
+#: pisi/history.py:62
+#, python-format
+msgid "%s is upgraded from %s to %s."
+msgstr " %s αναβαθμίζεται από %s σε %s."
+
+#: pisi/history.py:68
+#, python-format
+msgid "%s %s is removed."
+msgstr "%s %s αφαιρείται."
+
+#: pisi/history.py:70
+#, python-format
+msgid "%s %s is installed."
+msgstr "%s %s είναι εγκατεστημένο."
+
+#: pisi/history.py:72
+#, python-format
+msgid "%s %s is reinstalled."
+msgstr "%s %s επανεγκαθίσταται."
+
+#: pisi/history.py:74
+#, python-format
+msgid "%s is downgraded from %s to %s."
+msgstr "%s  υποβαθμίζεται από %s σε %s."
+
+#: pisi/history.py:109 pisi/history.py:137
+msgid "Unknown package operation"
+msgstr "Άγνωστη λειτουργία πακέτου"
+
+#: pisi/version.py:71
+#, python-format
+msgid "Invalid version string: '%s'"
+msgstr "Μη έγκυρη συμβολοσειρά έκδοσης: '%s'"
+
+#: pisi/archive.py:250
+#, python-format
+msgid "Ignoring unknown file in archive: %s"
+msgstr ""
+
+#: pisi/archive.py:255
+#, python-format
+msgid "Skipping merged file %s"
+msgstr ""
+
+#: pisi/archive.py:492
+#, python-format
+msgid "Problem occured while uncompressing %s.Z file"
+msgstr "Προβλήματα κατά την αποσυμπίεση του %s.Z αρχείου"
+
+#: pisi/api.py:59
+msgid "Another instance of pisi is running. Only one instance is allowed."
+msgstr ""
+"Εκτελείται άλλη μια παρουσία του pisi. Επιτρέπεται μόνο μία παρουσία."
+
+#: pisi/api.py:577
+#, python-format
+msgid "Cleaning package cache %s..."
+msgstr "Καθαρισμός προσωρινής μνήμης πακέτων %s..."
+
+#: pisi/api.py:579
+#, python-format
+msgid "Cleaning source archive cache %s..."
+msgstr "Καθαρισμός προσωρινής μνήμης αρχείου πηγής %s..."
+
+#: pisi/api.py:581
+#, python-format
+msgid "Cleaning temporary directory %s..."
+msgstr "Καθαρισμός προσωρινού καταλόγου %s..."
+
+#: pisi/api.py:587
+#, python-format
+msgid "Removing cache file %s..."
+msgstr "Αφαίρεση αρχείου cache %s..."
+
+#: pisi/api.py:620
+msgid "Taking snapshot of the system"
+msgstr "Λήψη στιγμιότυπου του συστήματος"
+
+#: pisi/api.py:791
+#, python-format
+msgid "File %s not found"
+msgstr "Αρχείο %s δεν βρέθηκε"
+
+#: pisi/api.py:835
+#, python-format
+msgid "Building index of pisi files under %s"
+msgstr "Δημιουργία ευρετηρίου αρχείων pisi στο %s"
+
+#: pisi/api.py:840
+msgid "Index file written"
+msgstr "Αρχείο ευρετηρίου γραμμένο"
+
+#: pisi/api.py:846
+msgid "Not a valid repo name."
+msgstr "Δεν είναι έγκυρο όνομα αποθετηρίου."
+
+#: pisi/api.py:854
+#, python-format
+msgid "Repo already present with name %s and same URL. Removing first."
+msgstr ""
+"Το Repo υπάρχει ήδη με το ίδιο όνομα %s και την ίδια διεύθυνση URL. Αφαίρεση"
+" πρώτα."
+
+#: pisi/api.py:867
+#, python-format
+msgid "Repo %s added to system."
+msgstr "Repo %s προστέθηκε στο σύστημα."
+
+#: pisi/api.py:876
+#, python-format
+msgid "Repo %s removed from system."
+msgstr "Repo %s αφαιρέθηκε από το σύστημα."
+
+#: pisi/api.py:878
+#, python-format
+msgid "Repository %s does not exist. Cannot remove."
+msgstr "Το αποθετήριο %s δεν υπάρχει. Δεν είναι δυνατή η κατάργηση."
+
+#: pisi/api.py:906
+#, python-format
+msgid "Updating repository: %s"
+msgstr "Ενημέρωση αποθετηρίου: %s"
+
+#: pisi/api.py:918
+#, python-format
+msgid "%s repository information is up-to-date."
+msgstr "%s  οι πληροφορίες του αποθετηρίου είναι ενημερωμένες."
+
+#: pisi/api.py:920
+msgid "Updating database at any rate as requested"
+msgstr "Ενημέρωση της βάσης δεδομένων με οποιοδήποτε ρυθμό, όπως ζητήθηκε"
+
+#: pisi/api.py:927
+msgid "Package database updated."
+msgstr "Η βάση δεδομένων πακέτων ενημερώθηκε."
+
+#: pisi/api.py:929
+#, python-format
+msgid "No repository named %s found."
+msgstr "Δεν βρέθηκε αποθετήριο με το όνομα %s."
+
+#: pisi/atomicoperations.py:93
+#, python-format
+msgid "Installing %s, version %s, release %s"
+msgstr "Εγκατάσταση %s, έκδοση %s, κυκλοφορία %s"
+
+#: pisi/atomicoperations.py:139
+#, python-format
+msgid "%s package cannot be installed unless the dependencies are satisfied"
+msgstr ""
+"%s  Το πακέτο δεν μπορεί να εγκατασταθεί αν δεν πληρούνται οι προϋποθέσεις."
+
+#: pisi/atomicoperations.py:178
+#, python-format
+msgid "/%s from %s gets replaced by %s package\n"
+msgstr "/%s από %s αντικαθίσταται από %s πακέτο \n"
+
+#: pisi/atomicoperations.py:182 pisi/atomicoperations.py:187
+#, python-format
+msgid "/%s from %s package\n"
+msgstr "/%s από %s το πακέτο \n"
+
+#: pisi/atomicoperations.py:191
+#, python-format
+msgid ""
+"File conflicts:\n"
+"%s"
+msgstr ""
+"Συγκρούσεις αρχείων: \n"
+"%s"
+
+#: pisi/atomicoperations.py:209
+msgid "Re-install same distribution release of package?"
+msgstr "Επανεγκατάσταση της ίδιας έκδοσης διανομής του πακέτου;"
+
+#: pisi/atomicoperations.py:211
+msgid "Package re-install declined"
+msgstr "Η επανεγκατάσταση του πακέτου απορρίφθηκε"
+
+#: pisi/atomicoperations.py:219
+msgid "Upgrading to new distribution release"
+msgstr "Αναβάθμιση σε νέα έκδοση διανομής"
+
+#: pisi/atomicoperations.py:225
+msgid "Downgrade to old distribution release?"
+msgstr "Υποβάθμιση σε παλαιότερη έκδοση διανομής;"
+
+#: pisi/atomicoperations.py:229
+msgid "Package downgrade declined"
+msgstr "Η υποβάθμιση του πακέτου απορρίφθηκε"
+
+#: pisi/atomicoperations.py:335
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
+msgstr ""
+"Δεν είναι δυνατή η μετακίνηση των ακόλουθων αρχείων. Συνιστάται ανεπιφύλακτα"
+" η επανεγκατάσταση αυτού του πακέτου."
+
+#. comar prefix is added to the pkg_dir while extracting comar
+#. script file. so we'll use pkg_dir as destination.
+#: pisi/atomicoperations.py:456 pisi/atomicoperations.py:459
+#: pisi/atomicoperations.py:466
+#, python-format
+msgid "Storing %s"
+msgstr "Αποθηκεύοντας %s"
+
+#: pisi/atomicoperations.py:554
+#, python-format
+msgid "File list could not be read for package %s, continuing removal."
+msgstr ""
+"Δεν ήταν δυνατή η ανάγνωση της λίστας αρχείων για το πακέτο %s, συνεχίζεται "
+"η κατάργηση."
+
+#: pisi/atomicoperations.py:562
+#, python-format
+msgid "Removing package %s"
+msgstr "Αφαιρώντας το πακέτο  %s"
+
+#: pisi/atomicoperations.py:565
+msgid "Trying to remove nonexistent package "
+msgstr "Προσπάθεια κατάργησης πακέτου που δεν υπάρχει "
+
+#: pisi/atomicoperations.py:606
+#, python-format
+msgid "Not removing conflicted file : %s"
+msgstr "Δεν αφαιρείται το αρχείο με διένεξη: %s"
+
+#: pisi/atomicoperations.py:631
+#, python-format
+msgid ""
+"Installed config file %s does not exist on system [Probably you manually "
+"deleted]"
+msgstr ""
+"Το εγκατεστημένο αρχείο %s ρυθμίσεων δεν υπάρχει στο σύστημα [Πιθανόν το "
+"διαγράψατε χειροκίνητα]"
+
+#: pisi/atomicoperations.py:643
+#, python-format
+msgid ""
+"Installed file %s does not exist on system [Probably you manually deleted]"
+msgstr ""
+"Το εγκατεστημένο αρχείο %s δεν υπάρχει στο σύστημα [Πιθανόν το διαγράψατε "
+"χειροκίνητα]"
+
+#: pisi/configfile.py:136
+#, python-format
+msgid "No section by name '%s'"
+msgstr "Δεν υπάρχει ενότητα με το όνομα '%s'"
+
+#: pisi/fetcher.py:258
+msgid "URL does not end in a file name"
+msgstr ""
+
+#: pisi/fetcher.py:327
+msgid "One or more errors occurred during fetching"
+msgstr ""
+
+#: pisi/file.py:27
+#, python-format
+msgid "URL %s already downloaded as %s"
+msgstr "URL %s έχει ήδη κατεβαστεί ως %s"
+
+#: pisi/file.py:35
+#, python-format
+msgid "No signature found for %s"
+msgstr "Δεν βρέθηκε υπογραφή για %s"
+
+#: pisi/file.py:45
+#, python-format
+msgid " invalid for %s"
+msgstr " άκυρο για %s"
+
+#: pisi/file.py:69
+msgid "uri must have type either URI or string"
+msgstr "Το uri πρέπει να έχει τύπο URI ή string."
+
+#: pisi/file.py:150
+#, python-format
+msgid "Copying %s to transfer dir"
+msgstr "Αντιγραφή %s για μεταφορά καταλόγου"
+
+#: pisi/file.py:156
+#, python-format
+msgid "File '%s' not found."
+msgstr "Το αρχείο '%s' δεν βρέθηκε."
+
+#: pisi/file.py:179
+#, python-format
+msgid "File integrity of %s compromised."
+msgstr "Η ακεραιότητα των αρχείων %s έχει παραβιαστεί."
+
+#. : File.read and File.write are function names, and should not be
+#. translated.
+#: pisi/file.py:204
+msgid "File mode must be either File.read or File.write"
+msgstr "Η λειτουργία αρχείου πρέπει να είναι είτε File.read είτε File.write"
+
+#: pisi/file.py:209
+msgid "Remote write not implemented"
+msgstr "Η απομακρυσμένη εγγραφή δεν έχει εφαρμοστεί"
+
+#: pisi/file.py:257 pisi/file.py:261
+#, python-format
+msgid "ERROR: gpg --detach-sig %s failed"
+msgstr "ΣΦΑΛΜΑ: gpg --detach-sig %s απέτυχε"
+
+#: pisi/index.py:149
+msgid "Adding packages to index:"
+msgstr "Προσθήκη πακέτων στον δείκτη:"
+
+#: pisi/index.py:171
+#, python-format
+msgid "Adding package to index: %s"
+msgstr "Προσθήκη πακέτου στον δείκτη: %s"
+
+#: pisi/index.py:189
+#, python-format
+msgid "Package %s: metadata corrupt, skipping..."
+msgstr "Πακέτο %s: μεταδεδομένα κατεστραμμένα, παράλειψη..."
+
+#: pisi/index.py:243
+msgid "Adding groups.xml to index"
+msgstr "Προσθήκη του αρχείου groups.xml στον δείκτη"
+
+#: pisi/index.py:250
+msgid "Adding components.xml to index"
+msgstr "Προσθήκη του components.xml στον δείκτη"
+
+#: pisi/index.py:286
+#, python-format
+msgid "Adding %s to source index"
+msgstr "Προσθήκη %s στον δείκτη πηγής"
+
+#: pisi/package.py:73
+#, python-format
+msgid "Cannot open package file: %s"
+msgstr "Δεν είναι δυνατή η άνοιγμα του αρχείου πακέτου: %s"
+
+#: pisi/package.py:94
+#, python-format
+msgid "Unsupported package format: %s"
+msgstr "Μη υποστηριζόμενη μορφή πακέτου: %s"
+
+#: pisi/sourcearchive.py:55
+#, python-format
+msgid "Fetching source from: %s"
+msgstr "Λήψη πηγής από: %s"
+
+#: pisi/sourcearchive.py:66
+#, python-format
+msgid "Source archive is stored: %s/%s"
+msgstr "Το αρχείο πηγής είναι αποθηκευμένο στο: %s/%s"
+
+#: pisi/sourcearchive.py:83
+#, python-format
+msgid "%s mirrors are not defined."
+msgstr "%s τα  mirrors δεν έχουν οριστεί."
+
+#: pisi/sourcearchive.py:88
+#, python-format
+msgid "Fetching source from mirror: %s"
+msgstr "Λήψη πηγής από mirror: %s"
+
+#: pisi/sourcearchive.py:111
+msgid "unpack: check_file_hash failed"
+msgstr "Αποσυσκευασμός: check_file_hash απέτυχε"
+
+#: pisi/sourcearchive.py:117
+#, python-format
+msgid "Unknown archive type '%s' is given for '%s'."
+msgstr "Άγνωστος τύπος αρχείου '%s' δίνεται για '%s'."
+
+#: pisi/sourcearchive.py:122
+#, python-format
+msgid "Pisi needs %s to unpack this archive but it is not installed."
+msgstr ""
+"Pisi πρέπει %s να αποσυμπιέσει αυτό το αρχείο, αλλά δεν είναι εγκατεστημένο."
+
+#: pisi/util.py:199 pisi/util.py:213
+msgid "Running "
+msgstr "Τρέξιμο "
+
+#: pisi/util.py:204 pisi/util.py:231
+#, python-format
+msgid "return value for \"%s\" is %s"
+msgstr "η τιμή επιστροφής για '%s' είναι %s"
+
+#: pisi/util.py:439
+#, python-format
+msgid "Including external link '%s'"
+msgstr "Συμπεριλαμβανομένου του εξωτερικού συνδέσμου '%s'"
+
+#: pisi/util.py:441
+#, python-format
+msgid "Including directory '%s'"
+msgstr "Συμπεριλαμβανομένου του καταλόγου '%s'"
+
+#: pisi/util.py:528
+msgid "You don't have necessary read permissions"
+msgstr "Δεν έχετε τα απαραίτητα δικαιώματα ανάγνωσης"
+
+#. File not found, skip
+#: pisi/util.py:532
+#, python-format
+msgid "File %s was not found"
+msgstr "Το αρχείο %s δεν βρέθηκε"
+
+#: pisi/util.py:534
+#, python-format
+msgid "Cannot calculate SHA1 hash of %s"
+msgstr "Δεν είναι δυνατός ο υπολογισμός του SHA1 hash του %s"
+
+#: pisi/util.py:548
+#, python-format
+msgid "Compression type is not valid: '%s'"
+msgstr "Ο τύπος συμπίεσης δεν είναι έγκυρος: '%s'"
+
+#: pisi/util.py:554
+#, python-format
+msgid "Error while decompressing %s: %s"
+msgstr "Σφάλμα κατά την αποσυμπίεση %s : %s"
+
+#. Which means stderr and stdout directed so they are None
+#: pisi/util.py:603
+#, python-format
+msgid "ERROR: patch (%s) failed"
+msgstr "ΣΦΑΛΜΑ: η εντολή patch (%s) απέτυχε"
+
+#: pisi/util.py:605
+#, python-format
+msgid "ERROR: patch (%s) failed: %s"
+msgstr "ΣΦΑΛΜΑ: αποτυχία της εντολής patch (%s): %s"
+
+#: pisi/util.py:617
+#, python-format
+msgid "strip command failed for file '%s'!"
+msgstr "Η εντολή strip απέτυχε για το αρχείο '%s'!"
+
+#: pisi/util.py:624
+#, python-format
+msgid "chrpath command failed for file '%s'!"
+msgstr "Η εντολή chrpath απέτυχε για το αρχείο '%s'!"
+
+#: pisi/util.py:633
+#, python-format
+msgid "objcopy (keep-debug) command failed for file '%s'!"
+msgstr "Η εντολή objcopy (keep-debug) απέτυχε για το αρχείο '%s'!"
+
+#: pisi/util.py:642
+#, python-format
+msgid "objcopy (add-debuglink) command failed for file '%s'!"
+msgstr "Η εντολή objcopy (add-debuglink) απέτυχε για το αρχείο '%s'!"
+
+#: pisi/util.py:745
+#, python-format
+msgid "Invalid package name: %s"
+msgstr "Μη έγκυρο όνομα πακέτου: %s"
+
+#: pisi/util.py:787
+#, python-format
+msgid "Invalid delta package name: %s"
+msgstr "Μη έγκυρο όνομα πακέτου delta: %s"
+
+#: pisi/util.py:996
+#, python-format
+msgid "Failed to acquire inhibit lock: %s"
+msgstr ""
+
+#: pisi/util.py:1005
+#, python-format
+msgid "D-Bus call failed: %s"
+msgstr "Η κλήση D-Bus απέτυχε: %s"

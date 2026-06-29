@@ -1,0 +1,38 @@
+[project]
+name = "pisi"
+license = "GPL-2.0-or-later"
+description = "pisi is the package management system of LupuS Operating System, originally written for Pardus Linux by the Pardus Developers."
+readme = "README.md"
+authors = [{ name = "Solzic0", email = "solzic0ta@gmail.com" }]
+keywords = ["package", "manager", "management", "lupus"]
+classifiers = ["Programming Language :: Python :: 3 :: Only"]
+requires-python = ">=3.8.0"
+dependencies = ["iksemel>=1.6.1", "lzma-mt>=0.1.4", "ordered_set>=4.1.0,<=4.2.0", "python-magic>=0.4.27", "requests>=2.32.0", "rich>=13.0.0", "xattr>= 1.1.0"]
+dynamic = ["version"]
+
+[project.urls]
+"Source Code" = "https://github.com/TeknoAnka/pisi"
+"homepage" = "https://github.com/TeknoAnka"
+
+[project.scripts]
+pisi = "pisi.scripts.pisi:main"
+lspisi = "pisi.scripts.lspisi:main"
+unpisi = "pisi.scripts.unpisi:main"
+
+# Builder-specific keys below. We use setuptools.
+
+[build-system]
+requires = ["setuptools>=58.0", "iksemel>=1.6.1", "lzma-mt>=0.1.4", "python-magic>=0.4.27", "ordered_set>=4.1.0,<=4.2.0", "requests>=2.32.0", "rich>=13.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "pisi.__version__" }
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools.package-data]
+"pisi.data" = ["*", "locale/**"]
+
+[tool.setuptools.cmdclass]
+build = "pisi_build.Build"

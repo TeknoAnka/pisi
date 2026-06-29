@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: 2005-2011 TUBITAK/UEKAE, 2013-2017 Ikey Doherty, 2026-2027 Solzic0, LupuSzic0, LupuS
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+import optparse
+import os
+
+import pisi.api
+import pisi.cli.command as command
+import pisi.context as ctx
+from pisi import translate as _
+
+
+class Fetch(command.Command, metaclass=command.autocommand):
+    __doc__ = _(
+        """Fetch a package
+
+Usage: fetch [<package1> <package2> ... <packagen>]
+
+<packagei>: package name
+
+Downloads the given pisi packages to working directory
+"""
+    )
+
+    def __init__(self, args):
+        super(Fetch, self).__init__(args)
+
+    name = ("fetch", "fc")
+
+    def setup_options(self):
+        group = optparse.OptionGroup(self.parser, _("fetch options"))
+        self.add_options(group)
+        self.parser.add_option_group(group)
+
+    def add_options(self, group):
+        group.add_option(
+            "-o",
+            "--output-dir",
+            action="store",
+            default=os.path.curdir,
+            help=_("Output directory for the fetched packages"),
+        )
+        group.add_option(
+            "-r",
+            "--repo",
+            action="store",
+            default=None,
+            help=_("Fetch packages from a specified repository"),
+        )
+
+    def run(self):
+        self.init(database=False, write=False)
+
+        if not self.args:
+            self.help()
+            return
+
+        if not pisi.api.has_active_repositories():
+            ctx.ui.error(_("No active repositories found"))
+            return
+
+        pisi.api.fetch(
+            self.args, ctx.config.options.output_dir, ctx.config.options.repo
+        )

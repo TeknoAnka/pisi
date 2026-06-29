@@ -1,0 +1,3617 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Evan Maddock, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 19:37-0400\n"
+"PO-Revision-Date: 2026-05-10 00:31+0000\n"
+"Last-Translator: Evan Maddock, 2026\n"
+"Language-Team: Italian (https://app.transifex.com/lupus/teams/188714/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: pisi/actionsapi/rubymodules.py:112 pisi/actionsapi/rubymodules.py:123
+#: pisi/actionsapi/autotools.py:182 pisi/actionsapi/autotools.py:200
+#: pisi/actionsapi/cmaketools.py:114 pisi/actionsapi/cmaketools.py:127
+#: pisi/actionsapi/kde.py:87 pisi/actionsapi/pythonmodules.py:66
+#: pisi/actionsapi/scons.py:37 pisi/actionsapi/waftools.py:83
+msgid "Install failed."
+msgstr "Install fallito."
+
+#: pisi/actionsapi/rubymodules.py:133
+#, python-format
+msgid "Running 'ruby %s' failed."
+msgstr "Esecuzione 'ruby %s' fallita."
+
+#: pisi/actionsapi/autotools.py:33 pisi/actionsapi/cmaketools.py:28
+#, python-format
+msgid ""
+"Please attach the config.log to your bug report:\n"
+"%s/config.log"
+msgstr ""
+"Per favore includi anche il file config.log nella segnalazione di bug:\n"
+"%s/config.log"
+
+#: pisi/actionsapi/autotools.py:102 pisi/actionsapi/autotools.py:118
+#: pisi/actionsapi/cmaketools.py:76 pisi/actionsapi/kde.py:67
+#: pisi/actionsapi/perlmodules.py:49 pisi/actionsapi/perlmodules.py:55
+#: pisi/actionsapi/waftools.py:65
+msgid "Configure failed."
+msgstr "Configure fallito."
+
+#: pisi/actionsapi/autotools.py:104 pisi/actionsapi/autotools.py:120
+#: pisi/actionsapi/kde.py:69 pisi/actionsapi/waftools.py:67
+msgid "No configure script found."
+msgstr "Nessun script configure trovato."
+
+#: pisi/actionsapi/autotools.py:135 pisi/actionsapi/cmaketools.py:89
+#: pisi/actionsapi/kde.py:75 pisi/actionsapi/perlmodules.py:62
+#: pisi/actionsapi/perlmodules.py:72 pisi/actionsapi/pythonmodules.py:57
+#: pisi/actionsapi/scons.py:32 pisi/actionsapi/waftools.py:74
+msgid "Make failed."
+msgstr "Make fallito."
+
+#: pisi/actionsapi/autotools.py:213
+msgid "Running aclocal failed."
+msgstr "Esecuzione di aclocal fallita."
+
+#: pisi/actionsapi/autotools.py:219
+msgid "Running autoconf failed."
+msgstr "Esecuzione di autoconf fallita."
+
+#: pisi/actionsapi/autotools.py:225
+msgid "Running autoreconf failed."
+msgstr "Esecuzione di autoreconf fallita."
+
+#: pisi/actionsapi/autotools.py:231
+msgid "Running automake failed."
+msgstr "Esecuzione di automake fallita."
+
+#: pisi/actionsapi/autotools.py:237
+msgid "Running autoheader failed."
+msgstr "Esecuzione di autoheader fallita."
+
+#: pisi/actionsapi/cmaketools.py:78
+msgid "No configure script found for cmake."
+msgstr "Nessun script configure trovato per cmake."
+
+#: pisi/actionsapi/cmaketools.py:131 pisi/actionsapi/kde.py:89
+msgid "No Makefile found."
+msgstr "File makefile non trovato."
+
+#: pisi/actionsapi/get.py:238
+#, python-format
+msgid "Util %s cannot be found"
+msgstr "Utilità %s non trovata"
+
+#: pisi/actionsapi/get.py:241
+#, python-format
+msgid "Warning: %s does not exist, using plain name %s"
+msgstr "Attenzione: %s non esiste, utilizzo il nome semplice %s"
+
+#: pisi/actionsapi/kde.py:27
+#, python-format
+msgid ""
+"\n"
+"!!! Please attach the config.log to your bug report:\n"
+"%s/config.log"
+msgstr ""
+"\n"
+"!!! Allega per favore il file config.log quando segnali il bug:\n"
+"%s/config.log"
+
+#: pisi/actionsapi/kerneltools.py:118
+#, python-format
+msgid "Can't find kernel version information file %s."
+msgstr ""
+"Impossibile trovare il file %s di informazioni della versione del kernel."
+
+#: pisi/actionsapi/libtools.py:30
+msgid "Running ldconfig failed."
+msgstr "Esecuzione di ldconfig fallita."
+
+#: pisi/actionsapi/libtools.py:42
+msgid "GNU Config Update Finished."
+msgstr "Aggiornamento GNU Config concluso."
+
+#: pisi/actionsapi/libtools.py:47
+msgid "Running libtoolize failed."
+msgstr "Esecuzione di libtoolize fallita."
+
+#: pisi/actionsapi/perlmodules.py:65
+msgid "perl build failed."
+msgstr "build Perl fallito."
+
+#: pisi/actionsapi/perlmodules.py:75
+msgid "perl install failed."
+msgstr "install Perl fallito."
+
+#: pisi/actionsapi/pisitools.py:70 pisi/actionsapi/pisitools.py:146
+#, python-format
+msgid "No file matched pattern \"%s\""
+msgstr "Nessun file con il pattern \"%s\" trovato"
+
+#: pisi/actionsapi/pisitools.py:158
+#, python-format
+msgid "ActionsAPI [doman]: Wrong man page file: %s"
+msgstr "ActionsAPI [doman]: file di pagina man sbagliato: %s"
+
+#: pisi/actionsapi/pisitools.py:192
+#, python-format
+msgid "No file matched pattern \"%s\". 'domove' operation failed."
+msgstr "Nessun file con il pattern \"%s\" trovato. Operazione 'domove' fallita."
+
+#: pisi/actionsapi/pisitools.py:224
+#, python-format
+msgid "ActionsAPI [rename]: %s: %s"
+msgstr "ActionsAPI [rename]: %s: %s"
+
+#: pisi/actionsapi/pisitools.py:241
+#, python-format
+msgid "No such file matching pattern: \"%s\". 'dosed' operation failed."
+msgstr "Nessun file con il pattern \"%s\" trovato. Operazione 'dosed' fallita."
+
+#: pisi/actionsapi/pisitools.py:257
+#, python-format
+msgid "dosed method has not changed file '%s'."
+msgstr "Il metodo dosed non ha modificato il file '%s'."
+
+#: pisi/actionsapi/pisitools.py:262
+#, python-format
+msgid "File does not exist or permission denied: %s"
+msgstr "Il file non esiste o non si hanno i permessi necessari: %s"
+
+#: pisi/actionsapi/pisitools.py:282
+#, python-format
+msgid "ActionsAPI [dosym]: File already exists: %s"
+msgstr "ActionsAPI [dosym]: Il file %s esiste già."
+
+#: pisi/actionsapi/pisitools.py:292 pisi/actionsapi/pisitoolsfunctions.py:67
+#, python-format
+msgid "No file matched pattern \"%s\"."
+msgstr "Nessun file con il pattern \"%s\"."
+
+#: pisi/actionsapi/pisitools.py:341 pisi/actionsapi/shelltools.py:102
+#, python-format
+msgid "No file matched pattern \"%s\". Remove operation failed."
+msgstr "Nessun file con il pattern \"%s. Rimozione fallita."
+
+#: pisi/actionsapi/pisitools.py:353
+#, python-format
+msgid "No directory matched pattern \"%s\". Remove directory operation failed."
+msgstr "Nessun file con il pattern \"%s\" trovato. Rimozione directory fallita."
+
+#: pisi/actionsapi/pisitoolsfunctions.py:38
+#: pisi/actionsapi/pisitoolsfunctions.py:59
+#: pisi/actionsapi/pisitoolsfunctions.py:77
+msgid "Insufficient arguments."
+msgstr "Argomenti insufficienti."
+
+#: pisi/actionsapi/pisitoolsfunctions.py:46
+#, python-format
+msgid "No executable file matched pattern \"%s\"."
+msgstr "Nessun file eseguibile con il pattern \"%s\" trovato."
+
+#: pisi/actionsapi/pythonmodules.py:51
+msgid "Configuration failed."
+msgstr "Configurazione fallita."
+
+#: pisi/actionsapi/pythonmodules.py:92
+#, python-format
+msgid "Running %s failed."
+msgstr "Esecuzione di %s fallita."
+
+#: pisi/actionsapi/qt4.py:44
+#, python-format
+msgid "Project file '%s' not found."
+msgstr "File di progetto '%s' non trovato."
+
+#: pisi/actionsapi/qt4.py:50
+#, python-format
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
+msgstr ""
+"Sembra che ci siano più di un file .pro, è necessario specificare uno. "
+"(Eventuali file .pro: %s)"
+
+#: pisi/actionsapi/shelltools.py:42
+#, python-format
+msgid "Cannot create directory %s"
+msgstr "Impossibile creare la cartella %s"
+
+#: pisi/actionsapi/shelltools.py:51
+#, python-format
+msgid "ActionsAPI [echo]: Can't append to file %s."
+msgstr "ActionsAPI [echo]: Impossibile appendere al file %s."
+
+#: pisi/actionsapi/shelltools.py:58
+#, python-format
+msgid "ActionsAPI [chmod]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [chmod]: nessun file con il pattern \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:66
+#, python-format
+msgid "ActionsAPI [chmod]: Operation not permitted: %s (mode: 0%o)"
+msgstr "ActionsAPI [chmod]: Operazione non permessa: %s (modalità: 0%o)"
+
+#: pisi/actionsapi/shelltools.py:70
+#, python-format
+msgid "ActionsAPI [chmod]: File %s doesn't exists."
+msgstr "ActionsAPI [chmod]: Il file %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:80
+#, python-format
+msgid "ActionsAPI [chown]: Operation not permitted: %s (uid: %s, gid: %s)"
+msgstr "ActionsAPI [chown]: Operazione non permessa: %s (UID: %s, GID: %s)"
+
+#: pisi/actionsapi/shelltools.py:84
+#, python-format
+msgid "ActionsAPI [chown]: File %s doesn't exists."
+msgstr "ActionsAPI [chown]: Il file %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:93
+#, python-format
+msgid "ActionsAPI [sym]: Permission denied: %s to %s"
+msgstr "ActionsAPI [sym]: Permesso negato: %s per %s"
+
+#: pisi/actionsapi/shelltools.py:112
+#, python-format
+msgid "ActionsAPI [unlink]: Permission denied: %s."
+msgstr "ActionsAPI [unlink]: Permesso negato: %s."
+
+#: pisi/actionsapi/shelltools.py:117
+#, python-format
+msgid "ActionsAPI [unlink]: File %s doesn't exists."
+msgstr "ActionsAPI [unlink]: Il file %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:127
+#, python-format
+msgid "ActionsAPI [unlinkDir]: Operation not permitted: %s"
+msgstr "ActionsAPI [unlinkDir]: Operazione non permessa: %s"
+
+#: pisi/actionsapi/shelltools.py:134
+#, python-format
+msgid "ActionsAPI [unlinkDir]: Directory %s doesn't exists."
+msgstr "ActionsAPI [unlinkDir]: La cartella %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:143
+#, python-format
+msgid "ActionsAPI [move]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [move]: Nessun file con il pattern \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:151
+#, python-format
+msgid "ActionsAPI [move]: Permission denied: %s to %s"
+msgstr "ActionsAPI [move]: Permesso negato: da %s a %s"
+
+#: pisi/actionsapi/shelltools.py:155
+#, python-format
+msgid "ActionsAPI [move]: File %s doesn't exists."
+msgstr "ActionsAPI [move]: Il file %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:163
+#, python-format
+msgid "ActionsAPI [copy]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [copy]: Nessun file con il pattern \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:171
+#, python-format
+msgid "ActionsAPI [copy]: Permission denied: %s to %s"
+msgstr "ActionsAPI [copy]: Permesso negato: %s in %s"
+
+#: pisi/actionsapi/shelltools.py:192
+#, python-format
+msgid "ActionsAPI [copy]: File %s does not exist."
+msgstr "ActionsAPI [copy]: Il file %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:210
+#, python-format
+msgid "ActionsAPI [copytree] %s to %s: %s"
+msgstr "ActionsAPI [copytree] %s in %s: %s"
+
+#: pisi/actionsapi/shelltools.py:212
+#, python-format
+msgid "ActionsAPI [copytree]: Directory %s doesn't exists."
+msgstr "ActionsAPI [copytree]: La cartella %s non esiste."
+
+#: pisi/actionsapi/shelltools.py:221
+#, python-format
+msgid "ActionsAPI [touch]: No file matched pattern \"%s\"."
+msgstr "ActionsAPI [touch]: Nessun file con il pattern \"%s\"."
+
+#: pisi/actionsapi/shelltools.py:230
+#, python-format
+msgid "ActionsAPI [touch]: Permission denied: %s"
+msgstr "ActionsAPI [touch]: Permesso negato: %s"
+
+#: pisi/actionsapi/shelltools.py:296
+#, python-format
+msgid "Command \"%s\" failed, return value was %d."
+msgstr "Comando \"%s\" fallito, il valore ritornato è stato %d."
+
+#: pisi/actionsapi/texlivemodules.py:50
+msgid "Moving source files failed"
+msgstr "Rimozione dei sorgenti fallito"
+
+#: pisi/actionsapi/texlivemodules.py:53
+msgid "Generate config files failed"
+msgstr "Generazione file di configurazione fallita."
+
+#: pisi/actionsapi/texlivemodules.py:56
+msgid "Building format files failed"
+msgstr "Build file formato fallito."
+
+#: pisi/actionsapi/texlivemodules.py:64
+msgid "Creating symlinks from format to engines failed"
+msgstr "La creazione di link simbolici dal formato ai motori fallito"
+
+#: pisi/actionsapi/texlivemodules.py:68
+msgid "Installing docs failed"
+msgstr "Installazione documentazione fallita."
+
+#: pisi/actionsapi/texlivemodules.py:72
+msgid "Installing texmf files failed"
+msgstr "Installazione file twxmf fallita."
+
+#: pisi/actionsapi/texlivemodules.py:76
+msgid "Installing config files failed"
+msgstr "Installazione file di configurazione fallita."
+
+#: pisi/actionsapi/texlivemodules.py:80
+msgid "Handle config files failed"
+msgstr "Modifica file di configurazione fallita."
+
+#: pisi/actionsapi/texlivemodules.py:95
+#, python-format
+msgid "Symlink %s skipped (special case)"
+msgstr "Link Simbolico %s saltato (caso speciale)."
+
+#: pisi/actionsapi/texlivemodules.py:98
+#, python-format
+msgid "Symlink %s -> %s skipped (texlive-core takes care of it."
+msgstr "Link simbolico %s -> %s saltato (se ne occupa texlive-core."
+
+#: pisi/actionsapi/texlivemodules.py:104
+#, python-format
+msgid "Symlink %s -> %s skipped."
+msgstr "Link Simbolico %s -> %s saltato."
+
+#: pisi/actionsapi/texlivemodules.py:109
+#, python-format
+msgid "Symlink %s skipped (file exists.)"
+msgstr "Link Simbolico %s saltato(file già esistente)."
+
+#: pisi/actionsapi/texlivemodules.py:112
+#, python-format
+msgid "Making symlink from %s to %s"
+msgstr "Creazione Link Simbolico da %s a %s"
+
+#: pisi/actionsapi/texlivemodules.py:178
+#, python-format
+msgid "Creating /etc/texmf/%s.d"
+msgstr "Creazione /etc/texmf/%s.d"
+
+#: pisi/actionsapi/texlivemodules.py:182
+#, python-format
+msgid "Moving (and symlinking) /usr/share/texmf/%s to /etc/texmf/%s.d"
+msgstr ""
+"Spostando (and collegando simbolicamente) da /usr/share/texmf/%s a "
+"/etc/texmf/%s.d"
+
+#: pisi/actionsapi/texlivemodules.py:263
+#, python-format
+msgid "Building format file %s"
+msgstr "costruzione del formato file %s"
+
+#: pisi/actionsapi/texlivemodules.py:354
+#, python-format
+msgid "Map %s is added to %s/%s.cfg"
+msgstr "La mappa %s è stato aggiunto a %s/%s.cfg"
+
+#: pisi/actionsapi/texlivemodules.py:363
+#, python-format
+msgid "MixedMap %s is added to %s/%s.cfg"
+msgstr "MixedMap %s aggiunto a %s/%s.cfg"
+
+#: pisi/actionsapi/texlivemodules.py:372
+#, python-format
+msgid "p +%s is added to %s/%s-config.ps"
+msgstr ""
+"\t\r\n"
+"\r\n"
+"p +%s si aggiunge alla %s/%s-config.ps"
+
+#: pisi/actionsapi/texlivemodules.py:381
+#, python-format
+msgid "f %s is added to %s/%s-config"
+msgstr "f %s è aggiunto %s/%s-config"
+
+#: pisi/actionsapi/texlivemodules.py:390
+#, python-format
+msgid "Language file  %s  already generated."
+msgstr "File della lingua %s già generato."
+
+#: pisi/actionsapi/texlivemodules.py:393
+#, python-format
+msgid "No rule to proccess %s. Please file a bug."
+msgstr "Nessuna regola di processo %s. Si prega di segnalare il bug."
+
+#: pisi/cli/clean.py:11
+msgid ""
+"Clean stale locks\n"
+"\n"
+"Usage: clean\n"
+"\n"
+"pisi uses filesystem locks for managing database access.\n"
+"This command deletes unused locks from the database directory."
+msgstr ""
+"Pulisce i lock inutilizzati\n"
+"\n"
+"Utilizzo: clean\n"
+"\n"
+"pisi utilizza dei lock sul filesystem per gestire gli accessi al database.\n"
+"Questo comando elimina i lock inutilizzati dalla cartella del database."
+
+#: pisi/cli/deletecache.py:13
+msgid ""
+"Delete cache files\n"
+"\n"
+"Usage: delete-cache\n"
+"\n"
+"Sources, packages and temporary files are stored\n"
+"under /var directory. Since these accumulate they can\n"
+"consume a lot of disk space."
+msgstr ""
+"Elimina file nella cache\n"
+"\n"
+"Utilizzo: delete-cache\n"
+"\n"
+"I sorgenti, i pacchetti e i file temporanei sono memorizzati\n"
+"nella cartella /var. Dato che questi file si accumulano col tempo\n"
+"possono a lungo andare consumare molto spazio su disco."
+
+#: pisi/cli/help.py:37
+msgid ""
+"Prints help for given commands\n"
+"\n"
+"Usage: help [ <command1> <command2> ... <commandn> ]\n"
+"\n"
+"If run without parameters, it prints the general help."
+msgstr ""
+"Stampa l'aiuto per i comandi forniti\n"
+"\n"
+"Utilizzo: help [<comando1> <comando2> ... <comandoN>]\n"
+"\n"
+"In assenza di parametri, stampa l'aiuto generale."
+
+#: pisi/cli/help.py:64
+msgid ""
+"%prog [options] <command> [arguments]\n"
+"\n"
+"where <command> is one of:\n"
+"\n"
+msgstr ""
+"%prog [opzioni] <comando> [argomenti]\n"
+"\n"
+"dove <comando> è uno di:\n"
+"\n"
+
+#: pisi/cli/help.py:72
+msgid ""
+"\n"
+"Use \"%prog help <command>\" for help on a specific command.\n"
+msgstr ""
+"\n"
+"Utilizzo \"%prog help <comando>\" per aiuto su un comando specifico.\n"
+
+#: pisi/cli/listpending.py:13
+msgid ""
+"List pending packages\n"
+"\n"
+"Lists packages waiting to be configured.\n"
+msgstr ""
+"Elenca i pacchetti in attesa\n"
+"\n"
+"Elenca i pacchetti in attesa di essere configurati.\n"
+
+#: pisi/cli/listpending.py:32
+msgid "There are no packages waiting to be configured"
+msgstr "Nessun pacchetto è in attesa di essere configurato"
+
+#: pisi/cli/listrepo.py:14
+msgid ""
+"List repositories\n"
+"\n"
+"Usage: list-repo\n"
+"\n"
+"Lists currently tracked repositories.\n"
+msgstr ""
+"Elenca i repository\n"
+"\n"
+"Utilizzo: list-repo\n"
+"\n"
+"Elenca i repository tenuti al momento sotto controllo.\n"
+
+#: pisi/cli/listrepo.py:31 pisi/cli/listrepo.py:32
+msgid "active"
+msgstr "attivo"
+
+#: pisi/cli/listrepo.py:31
+msgid "inactive"
+msgstr "inattivo"
+
+#: pisi/cli/listrepo.py:33 pisi/cli/listrepo.py:35
+#, python-format
+msgid "%s [%s]"
+msgstr "%s [%s]"
+
+#: pisi/cli/pisicli.py:77
+msgid "Options must precede non-option arguments"
+msgstr "Le opzioni devono precedere gli argomenti non opzioni"
+
+#: pisi/cli/pisicli.py:118
+msgid "No command given"
+msgstr "Nessun comando fornito"
+
+#: pisi/cli/pisicli.py:121
+msgid "Command line parsing error"
+msgstr "Errore nell'analisi della linea di comando"
+
+#: pisi/cli/pisicli.py:125 pisi/cli/command.py:61
+#, python-format
+msgid "Unrecognized command: %s"
+msgstr "Comando non riconosciuto %s"
+
+#: pisi/cli/removerepo.py:12
+msgid ""
+"Remove repositories\n"
+"\n"
+"Usage: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Remove all repository information from the system.\n"
+msgstr ""
+"Rimuove i repository\n"
+"\n"
+"Utilizzo: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Rimuove tutte le informazioni dei repository dal sistema.\n"
+
+#: pisi/cli/repopriority.py:19
+msgid ""
+"Set a repository's priority\n"
+"\n"
+"Usage: repo-priority <repo> <priority>\n"
+"\n"
+"<repo>: Name of repository to adjust priority\n"
+"<priority>: Set the repository's priority at given position (0 is first)\n"
+msgstr ""
+"Imposta la priorità di un repository\n"
+"\n"
+"Uso: repo-priority <repo> <priority>\n"
+"\n"
+"<repo>: Nome del repo a cui impostare la priorità\n"
+"<priority>: Imposta la priorità del repository nella posizione specificata (0 è il primo)\n"
+
+#: pisi/cli/repopriority.py:44
+msgid "Priority needs to be a number"
+msgstr "La priorità deve essere un numero"
+
+#: pisi/cli/repopriority.py:48
+#, python-format
+msgid "Unable to locate repository file, expected: %s"
+msgstr "Impossibile individuare il file del repository, previsto: %s"
+
+#: pisi/cli/repopriority.py:62
+#, python-format
+msgid "Repository %s does not exist. Cannot reorder."
+msgstr "Repository %s non esiste. Impossibile riordinare."
+
+#: pisi/cli/repopriority.py:71
+msgid "Failed to write to repository file"
+msgstr "Impossibile scrivere sul file del repository"
+
+#: pisi/cli/repopriority.py:73
+#, python-format
+msgid "Repo %s reordered to position %s."
+msgstr "Repo %s riordinato in posizione %s."
+
+#: pisi/cli/__init__.py:107
+msgid "Warning: "
+msgstr "Avviso: "
+
+#: pisi/cli/__init__.py:121
+msgid "Error: "
+msgstr "Errore: "
+
+#: pisi/cli/__init__.py:150
+msgid " (yes/no)"
+msgstr " (si/no)"
+
+#: pisi/cli/__init__.py:178
+msgid " [complete]\n"
+msgstr " [completato]\n"
+
+#: pisi/cli/__init__.py:188
+#, python-format
+msgid "Installed %s"
+msgstr "Installato %s"
+
+#: pisi/cli/__init__.py:190
+#, python-format
+msgid "Removed %s"
+msgstr "Rimosso %s"
+
+#: pisi/cli/__init__.py:192
+#, python-format
+msgid "Upgraded %s"
+msgstr "Aggiornato %s"
+
+#: pisi/cli/__init__.py:194
+#, python-format
+msgid "Configured %s"
+msgstr "Configurato %s"
+
+#: pisi/cli/addrepo.py:15
+msgid ""
+"Add a repository\n"
+"\n"
+"Usage: add-repo <repo> <indexuri>\n"
+"\n"
+"<repo>: name of repository to add\n"
+"<indexuri>: URI of index file\n"
+"\n"
+"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
+msgstr ""
+"Aggiunge un repository\n"
+"\n"
+"Utilizzo: add-repo <repo> <indexuri>\n"
+"\n"
+"<repo>: nome del repository da aggiungere\n"
+"<indexuri>: URI del file di indice\n"
+"\n"
+"Se non viene fornito alcun repository, viene aggiunto automaticamente il repository pardus-devel\n"
+"\n"
+"NB: Sono supportati solo file locali (es., /a/b/c) e URI http:// per il momento.\n"
+
+#: pisi/cli/addrepo.py:33
+msgid "add-repo options"
+msgstr "opzioni add-repo"
+
+#: pisi/cli/addrepo.py:38
+msgid "Ignore repository distribution check"
+msgstr "Ignora il controllo del repositorio della distribuzione"
+
+#: pisi/cli/addrepo.py:45
+msgid "Does not fetch repository index and does not check distribution match"
+msgstr ""
+"Non recuperare indice della repository e non verificare che la distribuzione"
+" corrisponde"
+
+#: pisi/cli/addrepo.py:53
+msgid "Add repository at given position (0 is first)"
+msgstr "Aggiunge il repository a una posizione specificata (0 è la prima)"
+
+#: pisi/cli/addrepo.py:65
+#, python-format
+msgid ""
+"Add %s repository without updating the database?\n"
+"By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
+"Do you want to continue?"
+msgstr ""
+"Aggiungere repository %s senza aggiornare il database?\n"
+"Confermando ciò aggiungerai il repository anche al tuo sistema senza controllare la distribuzione del repository.\n"
+"Vuoi continuare?"
+
+#: pisi/cli/autoremove.py:16
+msgid ""
+"Remove pisi packages\n"
+"\n"
+"Usage: autoremove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+"\n"
+"Any additional packages that were automatically installed as a result of\n"
+"installing the packages being removed, will also be removed if it is\n"
+"safe to do so.\n"
+msgstr ""
+"Rimuove pacchetti pisi\n"
+"\n"
+"Uso: autoremove <package1> <package2> ... <packagen>\n"
+"Rimuove pacchetti dal tuo sistema. Bisogna solo fornire i nomi dei pacchetti da rimuovere.\n"
+"\n"
+"Puoi specificare i componenti invece dei nomi dei pacchetti; verranno poi espansi per visualizzare i nomi dei pacchetti\n"
+"\n"
+"Ogni pacchetto aggiuntivo che era installato automaticamente in precedenza verrà anche eliminato se ritenuto sicuro farlo.\n"
+
+#: pisi/cli/autoremove.py:38
+msgid "autoremove options"
+msgstr "Opzioni di autorimozione"
+
+#: pisi/cli/autoremove.py:44 pisi/cli/remove.py:40
+#: pisi/cli/removeorphans.py:40
+msgid "Removes everything including changed config files of the package"
+msgstr ""
+"Rimuove tutto, incluso i file di configurazione modificati dei pacchetti"
+
+#: pisi/cli/blame.py:15
+msgid ""
+"Information about the package owner and release\n"
+"\n"
+"Usage: blame <package> ... <package>\n"
+"\n"
+msgstr ""
+"Informazioni riguardo il proprietario e il rilascio del pacchetto\n"
+"\n"
+"Uso: blame <package> ... <package>\n"
+"\n"
+
+#: pisi/cli/blame.py:29
+msgid "blame options"
+msgstr "Blame delle opzioni"
+
+#: pisi/cli/blame.py:35
+msgid "Blame for the given release"
+msgstr "Blame per il rilascio dato"
+
+#: pisi/cli/blame.py:42
+msgid "Blame for all of the releases"
+msgstr "Blame per tutte le versioni"
+
+#: pisi/cli/blame.py:69 pisi/specfile.py:398 pisi/specfile.py:507
+#, python-format
+msgid "Name: %s, version: %s, release: %s\n"
+msgstr "Nome: %s, versione: %s, release: %s\n"
+
+#: pisi/cli/blame.py:74
+#, python-format
+msgid "Package Maintainer: %s <%s>\n"
+msgstr "Mantainer pacchetto: %s <%s>\n"
+
+#: pisi/cli/blame.py:78
+#, python-format
+msgid "Release Updater: %s <%s>\n"
+msgstr "Aggiornamento del Rilascio: %s <%s>\n"
+
+#: pisi/cli/blame.py:82
+#, python-format
+msgid "Update Date: %s\n"
+msgstr "Data dell'aggiornamento: %s\n"
+
+#: pisi/cli/build.py:15
+msgid ""
+"Build pisi packages\n"
+"\n"
+"Usage: build [<pspec.xml> | <sourcename>] ...\n"
+"\n"
+"You can give a URI of the pspec.xml file. pisi will\n"
+"fetch all necessary files and build the package for you.\n"
+"\n"
+"Alternatively, you can give the name of a source package\n"
+"to be downloaded from a repository containing sources.\n"
+msgstr ""
+"Costruisci pacchetti pisi\n"
+"\n"
+"Utilizzo: build [<pspec.xml> | <nomesorgente>] ...\n"
+"\n"
+"Puoi fornire una URI del file pspec.xml. pisi recupererà\n"
+"tutti i file necessari e costruirà per te il pacchetto.\n"
+"\n"
+"In alternativa, puoi fornire il nome di un pacchetto sorgente\n"
+"da scaricare da un repository contenente i sorgenti.\n"
+
+#: pisi/cli/build.py:38
+msgid "build options"
+msgstr "opzioni di costruzione"
+
+#: pisi/cli/build.py:49
+msgid "Run pisi build operation without printing extra debug information"
+msgstr ""
+"Esegui l'operazione pisi build senza la stampa di informazioni aggiuntivi "
+"di debug"
+
+#: pisi/cli/build.py:57 pisi/cli/command.py:238
+msgid "Do not take dependency information into account"
+msgstr "Non prendere in considerazione le informazioni sulle dipendenze"
+
+#: pisi/cli/build.py:65
+msgid "Output directory for produced packages"
+msgstr "Cartella di output per i pacchetti prodotti"
+
+#: pisi/cli/build.py:72
+msgid "Bypass errors from ActionsAPI"
+msgstr "Ignora errori dalle ActionsAPI"
+
+#: pisi/cli/build.py:79 pisi/cli/command.py:250
+msgid "Bypass safety switch"
+msgstr "Ignora switch di sicurezza"
+
+#: pisi/cli/build.py:86
+msgid "Bypass testing step"
+msgstr "Salta la fase di verifica"
+
+#: pisi/cli/build.py:93
+msgid "Create a static package with ar files"
+msgstr "Crea un pacchetto statico con file ar"
+
+#: pisi/cli/build.py:101 pisi/cli/delta.py:64
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
+msgstr ""
+"Creare il pacchetto binario utilizzando il formato specificato. Usa 'F-help'"
+" per vedere un elenco dei formati supportati."
+
+#: pisi/cli/build.py:111
+msgid "Use quilt patch management system instead of GNU patch"
+msgstr "Utilizza il sistema di gestione delle patch quilt anziché GNU patch"
+
+#: pisi/cli/build.py:118
+msgid "Do not constrain build process inside the build folder"
+msgstr ""
+"Non vincolare il processo di compilazione all'interno della cartella della "
+"build"
+
+#: pisi/cli/build.py:122
+msgid "build steps"
+msgstr "passi di costruzione"
+
+#: pisi/cli/build.py:129
+msgid "Break build after fetching the source archive"
+msgstr ""
+"Interrompi la costruzione dopo aver recuperato l'archivio dei sorgenti"
+
+#: pisi/cli/build.py:138
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches"
+msgstr ""
+"Interrompi la costruzione dopo aver scompattato l'archivio dei sorgenti, "
+"aver controllato sha1sum e applicato le patch"
+
+#: pisi/cli/build.py:149
+msgid "Break build after running configure step"
+msgstr "Interrompi la costruzione dopo l'esecuzione del passo di configure"
+
+#: pisi/cli/build.py:157
+msgid "Break build after running compile step"
+msgstr "Interrompi la costruzione dopo l'esecuzione del passo di compilazione"
+
+#: pisi/cli/build.py:165
+msgid "Break build after running check step"
+msgstr "Interrompi la costruzione dopo l'esecuzione del passo di verifica"
+
+#: pisi/cli/build.py:173
+msgid "Break build after running install step"
+msgstr "Interrompi la costruzione dopo l'esecuzione del passo di install"
+
+#: pisi/cli/build.py:181
+msgid "Create pisi package"
+msgstr "Crea pacchetto pisi"
+
+#: pisi/cli/build.py:188
+msgid ""
+"Building packages is not supported when pisi is compiled with nuitka. "
+"Please use pisi.py instead."
+msgstr ""
+
+#: pisi/cli/build.py:195 pisi/cli/delta.py:74
+msgid "Supported package formats:"
+msgstr "Supportati formati di pacchetto:"
+
+#: pisi/cli/build.py:198 pisi/cli/delta.py:77
+#, python-format
+msgid "  %s (default)"
+msgstr "%s (predefinito)"
+
+#: pisi/cli/check.py:16
+msgid ""
+"Verify installation\n"
+"\n"
+"Usage: check [<package1> <package2> ... <packagen>]\n"
+"       check -c <component>\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"A cryptographic checksum is stored for each installed\n"
+"file. Check command uses the checksums to verify a package.\n"
+"Just give the names of packages.\n"
+"\n"
+"If no packages are given, checks all installed packages.\n"
+msgstr ""
+"Verifica installazione\n"
+"\n"
+"Uso: check [<package1> <package2> ... <packagen>]\n"
+"       check -c <component>\n"
+"\n"
+"<packagei>: nome pacchetto\n"
+"\n"
+"Per ogni file installato viene memorizzato un checksum crittografico.\n"
+"Il comando Check utilizza i checksum per verificare un pacchetto.\n"
+"È sufficiente specificare i nomi dei pacchetti.\n"
+"\n"
+"Se non viene specificato alcun pacchetto, controlla tutti i pacchetti installati.\n"
+
+#: pisi/cli/check.py:43
+msgid "check options"
+msgstr "opzioni di verifica"
+
+#: pisi/cli/check.py:50
+msgid "Check installed packages under given component"
+msgstr "Verifica i pacchetti installati sotto il componente fornito"
+
+#: pisi/cli/check.py:57
+msgid "Checks only changed config files of the packages"
+msgstr "Verifica solo i file di configurazione dei pacchetti modificati"
+
+#: pisi/cli/check.py:73
+msgid "Checking all installed packages"
+msgstr "Controllo di tutti i pacchetti installati"
+
+#. Line prefix
+#: pisi/cli/check.py:82
+#, python-format
+msgid "Checking integrity of %s"
+msgstr "Controllo dell'integrità di %s"
+
+#: pisi/cli/check.py:102
+msgid "Broken"
+msgstr "Incompleto"
+
+#: pisi/cli/check.py:108
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: pisi/cli/check.py:110
+msgid "OK"
+msgstr "Ok"
+
+#: pisi/cli/check.py:116
+#, python-format
+msgid "Missing file: /%s"
+msgstr "File mancante: /%s"
+
+#: pisi/cli/check.py:121
+#, python-format
+msgid "Access denied: /%s"
+msgstr "Accesso negato: /%s"
+
+#: pisi/cli/check.py:126
+#, python-format
+msgid "Corrupted file: /%s"
+msgstr "File corrotto: /%s"
+
+#: pisi/cli/check.py:132
+#, python-format
+msgid "Modified configuration file: /%s"
+msgstr "File di configurazione modificato: /%s"
+
+#. Package is not installed
+#: pisi/cli/check.py:139
+#, python-format
+msgid "Package %s not installed"
+msgstr "Il pacchetto %s non è installato"
+
+#: pisi/cli/check.py:147
+msgid ""
+"These packages are broken but are not found in a repository, they must be "
+"reinstalled manually:"
+msgstr ""
+
+#: pisi/cli/check.py:152
+msgid "The following packages are broken:"
+msgstr ""
+
+#: pisi/cli/check.py:154
+msgid "Reinstall the broken packages?"
+msgstr ""
+
+#: pisi/cli/check.py:160
+msgid "Broken packages were not reinstalled."
+msgstr ""
+
+#: pisi/cli/check.py:166
+msgid ""
+"Could not check the integrity of packages which contain files your user did not have permission to read.\n"
+"Running the check under a privileged user may help to fix this problem."
+msgstr ""
+"Impossibile verificare l'integrità dei pacchetti contenenti file che l'utente non era autorizzato a leggere.\n"
+"L'esecuzione del controllo con un utente privilegiato potrebbe aiutare a risolvere il problema."
+
+#: pisi/cli/configurepending.py:14
+msgid ""
+"Configure pending packages\n"
+"\n"
+"If COMAR configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Configura i pacchetti in sospeso\n"
+"\n"
+"Se la configurazione COMAR di qualche pacchetto non è\n"
+"stata effettuata durante l'installazione, essi verranno aggiunti a\n"
+"una lista di pacchetti in attesa di essere configurati. Questo\n"
+"comando configura tali pacchetti.\n"
+
+#: pisi/cli/configurepending.py:29
+msgid "configure-pending options"
+msgstr "opzioni configure-pending"
+
+#: pisi/cli/delta.py:14
+msgid ""
+"Creates delta packages\n"
+"\n"
+"Usages: delta oldpackage1 oldpackage2 ...  newpackage\n"
+"        delta -t newpackage oldpackage1 oldpackage2 ...\n"
+"\n"
+"Delta command finds the changed files between the given\n"
+"packages by comparing the sha1sum of files and creates\n"
+"a delta package with the changed files.\n"
+msgstr ""
+"Crea pacchetti pisi delta pisi\n"
+"\n"
+"Utilizzo: delta vecchiopacchetto1 vecchiopacchetto2 ... nuovopacchetto\n"
+" delta -t nuovopacchetto vecchiopacchetto1 vecchiopacchetto2 trova i file cambiati tra due pacchetti attraverso il confronto del sha1sum dei file\n"
+"e crea un pacchetto pisi delta con i file cambiati tra le due versioni.\n"
+
+#: pisi/cli/delta.py:35
+msgid "delta options"
+msgstr "opzioni delta"
+
+#: pisi/cli/delta.py:46
+msgid "Use arg as the new package and treat other arguments as old packages."
+msgstr ""
+"Utilizzare arg come il nuovo pacchetto e curare gli altri argomenti come i "
+"vecchi pacchetti."
+
+#: pisi/cli/delta.py:56
+msgid "Output directory for produced packages."
+msgstr "Cartella di output per i pacchetti prodotti."
+
+#: pisi/cli/fetch.py:15
+msgid ""
+"Fetch a package\n"
+"\n"
+"Usage: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Downloads the given pisi packages to working directory\n"
+msgstr ""
+"Scarica un pacchetto\n"
+"\n"
+"Uso: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: nome pacchetto\n"
+"\n"
+"Scarica i pacchetti pisi specificati nella directory di lavoro\n"
+
+#: pisi/cli/fetch.py:31
+msgid "fetch options"
+msgstr "recuperare le opzioni"
+
+#: pisi/cli/fetch.py:41
+msgid "Output directory for the fetched packages"
+msgstr "Cartella di output per i pacchetti prodotti"
+
+#: pisi/cli/fetch.py:48
+msgid "Fetch packages from a specified repository"
+msgstr ""
+
+#: pisi/cli/fetch.py:59 pisi/cli/install.py:121 pisi/cli/listavailable.py:63
+#: pisi/cli/listcomponents.py:53 pisi/cli/listnewest.py:59
+#: pisi/cli/listupgrades.py:61 pisi/cli/search.py:86 pisi/cli/searchfile.py:63
+#: pisi/cli/upgrade.py:120 pisi/cli/info.py:93
+msgid "No active repositories found"
+msgstr "Nessun repository attivo trovato"
+
+#: pisi/cli/history.py:20
+msgid "upgrade"
+msgstr "aggiorna"
+
+#: pisi/cli/history.py:21
+msgid "remove"
+msgstr "rimuovi"
+
+#: pisi/cli/history.py:22
+msgid "emerge"
+msgstr "emergere"
+
+#: pisi/cli/history.py:23
+msgid "install"
+msgstr "installa"
+
+#: pisi/cli/history.py:24
+msgid "snapshot"
+msgstr "snapshot"
+
+#: pisi/cli/history.py:25
+msgid "takeback"
+msgstr "ripristino"
+
+#: pisi/cli/history.py:26
+msgid "repository update"
+msgstr "aggiornamento del repositorio"
+
+#: pisi/cli/history.py:32
+msgid ""
+"History of pisi operations\n"
+"\n"
+"Usage: history\n"
+"\n"
+"Lists previous operations."
+msgstr ""
+"Storico delle operazioni pisi\n"
+"\n"
+"Uso: history\n"
+"\n"
+"Liste delle precedenti operazioni."
+
+#: pisi/cli/history.py:47
+msgid "history options"
+msgstr "opzioni storico"
+
+#: pisi/cli/history.py:58
+msgid "Output only the last n operations"
+msgstr "Mostra solo le ultime n operazioni"
+
+#: pisi/cli/history.py:65
+msgid "Take snapshot of the current system"
+msgstr "Prendi un'immagine del sistema attuale"
+
+#: pisi/cli/history.py:73
+msgid "Takeback to the state after the given operation finished"
+msgstr ""
+"Ripristino dello stato dopo il completamento dell'operazione specificata"
+
+#: pisi/cli/history.py:84
+#, python-format
+msgid "Operation #%d: %s"
+msgstr "Operazione #%d: %s"
+
+#: pisi/cli/history.py:85
+#, python-format
+msgid "Date: %s %s"
+msgstr "Data: %s %s"
+
+#: pisi/cli/history.py:90
+#, python-format
+msgid "    * There are %d packages in this snapshot."
+msgstr "    * Ci sono %d pacchetti in questo snapshot."
+
+#: pisi/cli/index.py:13
+msgid ""
+"Index pisi files in a given directory\n"
+"\n"
+"Usage: index <directory> ...\n"
+"\n"
+"This command searches for all pisi files in a directory, collects pisi\n"
+"tags from them and accumulates the information in an output XML file,\n"
+"named by default 'pisi-index.xml'. In particular, it indexes both\n"
+"source and binary packages.\n"
+"\n"
+"If you give multiple directories, the command still works, but puts\n"
+"everything in a single index file.\n"
+msgstr ""
+"Indicizza i file pisi in una cartella specificata\n"
+"\n"
+"Utilizzo: index <cartella> ...\n"
+"\n"
+"Questo comando cerca tutti i file pisi nella cartella, raccoglie i loro tag\n"
+"pisi e accumula le informazione in un file di output in formato XML,\n"
+"il cui nome predefinito è 'pisi-index.xml'. In particolare, indicizza sia i pacchetti\n"
+"sorgente che quelli binari.\n"
+"\n"
+"Se fornisci più cartelle, il comando funziona comunque, ma\n"
+"il risultato verrà scritto su un unico file di indice.\n"
+
+#: pisi/cli/index.py:37
+msgid "index options"
+msgstr "opzioni index"
+
+#: pisi/cli/index.py:44
+msgid "Store absolute links for indexed files."
+msgstr "Memorizza i collegamenti assoluti per i file indicizzati."
+
+#: pisi/cli/index.py:52
+msgid "Index output file"
+msgstr "Indicizza file di output"
+
+#: pisi/cli/index.py:59
+msgid ""
+"Comma-separated compression types for index file. Valid options are \"xz\" "
+"and \"bz2\". Defaults to \"xz\"."
+msgstr ""
+"Tipi di compressione separati da virgole per il file indice. Le opzioni "
+"valide sono \"xz\" e \"bz2\". Il valore predefinito è \"xz\"."
+
+#: pisi/cli/index.py:66
+msgid "Do not sign index."
+msgstr "Non firmare l'indice."
+
+#: pisi/cli/install.py:16
+msgid ""
+"Install pisi packages\n"
+"\n"
+"Usage: install <package1> <package2> ... <packagen>\n"
+"\n"
+"You may use filenames, URI's or package names for packages. If you have\n"
+"specified a package name, it should exist in a specified repository.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Installa pacchetti pisi\n"
+"\n"
+"Utilizzo: install <pacchetto1> <pacchetto2> ... <paccchetton>\n"
+"\n"
+"Puoi utilizzare nomi dei file, URI o nomi dei pacchetti. Se hai specificato\n"
+"il nome di un pacchetto, esso deve esistere in un repository specificato.\n"
+"\n"
+"Puoi anche specificare i componenti invece dei nomi dei pacchetti; essi verranno\n"
+"poi espansi per ottenere i nomi dei pacchetti.\n"
+
+#: pisi/cli/install.py:35
+msgid "install options"
+msgstr "opzioni di installazione"
+
+#: pisi/cli/install.py:43
+msgid "Reinstall already installed packages"
+msgstr "Reinstalla i pacchetti già installati"
+
+#: pisi/cli/install.py:49
+msgid "Skip distribution release and architecture check"
+msgstr ""
+"Salta il controllo del rilascio della distribuzione e dell'architettura"
+
+#: pisi/cli/install.py:55 pisi/cli/upgrade.py:61
+msgid "Ignore file conflicts"
+msgstr "Ignora i conflitti tra i file"
+
+#: pisi/cli/install.py:61 pisi/cli/upgrade.py:67
+msgid "Ignore package conflicts"
+msgstr "Ignora i conflitti tra i pacchetti"
+
+#: pisi/cli/install.py:68
+msgid ""
+"Don't check for updates in reverse dependencies of runtime dependencies when"
+" updates are available"
+msgstr ""
+"Non controllare gli aggiornamenti nelle dipendenze inverse delle dipendenze "
+"di runtime quando sono disponibili aggiornamenti"
+
+#: pisi/cli/install.py:76
+msgid "Install component's and recursive components' packages"
+msgstr "Installa i pacchetti del componente e dei componenti ricorsivi"
+
+#: pisi/cli/install.py:84
+msgid "Name of the component's repository"
+msgstr "Nome del repositorio del componente"
+
+#: pisi/cli/install.py:91 pisi/cli/upgrade.py:89
+msgid "Fetch upgrades but do not install."
+msgstr "Recupera aggiornamenti ma non installarli."
+
+#: pisi/cli/install.py:99
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
+msgstr ""
+"All'aggiornamento del sistema, ignora i pacchetti e i componenti i cui nomi "
+"base corrispondono al modello."
+
+#: pisi/cli/install.py:107
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
+msgstr ""
+"All'aggiornamento del sistema, ignora i pacchetti e i componenti i cui nomi "
+"base corrispondono a uno dei modelli contenuti nel file."
+
+#: pisi/cli/install.py:145
+#, python-format
+msgid "There is no component named %s"
+msgstr "Non vi è alcun componente denominato %s"
+
+#: pisi/cli/install.py:164
+msgid ""
+"Updates available, checking reverse dependencies of runtime dependencies for"
+" safety."
+msgstr ""
+"Aggiornamenti disponibili, verifica delle dipendenze inverse delle "
+"dipendenze di runtime per motivi di sicurezza."
+
+#: pisi/cli/listavailable.py:17
+msgid ""
+"List available packages in the repositories\n"
+"\n"
+"Usage: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a brief list of pisi packages published in the specified\n"
+"repositories. If no repository is specified, we list packages in\n"
+"all repositories.\n"
+msgstr ""
+"Elenca i pacchetti disponibili nei repository\n"
+"\n"
+"Utilizzo: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Fornisce una breve lista dei pacchetti pisi pubblicati nei \n"
+"repository specificati. Se non ne viene specificato nessuno,\n"
+"verrà fornito una lista dei pacchetti di tutti i repository.\n"
+
+#: pisi/cli/listavailable.py:35
+msgid "list-available options"
+msgstr "opzioni list-available"
+
+#: pisi/cli/listavailable.py:41 pisi/cli/listcomponents.py:37
+#: pisi/cli/listinstalled.py:58 pisi/cli/listupgrades.py:39
+#: pisi/cli/searchfile.py:35
+msgid "Show in long format"
+msgstr "Mostra nel formato lungo"
+
+#: pisi/cli/listavailable.py:48
+msgid "List available packages under given component"
+msgstr "Elenca i pacchetti disponibili sotto il componente fornito"
+
+#: pisi/cli/listavailable.py:55
+msgid "Show uninstalled packages only"
+msgstr "Mostra solo i pacchetti disinstallati"
+
+#: pisi/cli/listavailable.py:68
+msgid "Installed packages are shown in this color"
+msgstr "I pacchetti installati sono mostrati in questo colore"
+
+#: pisi/cli/listavailable.py:77
+#, python-format
+msgid "Repository : %s\n"
+msgstr "Repository : %s\n"
+
+#: pisi/cli/listcomponents.py:15
+msgid ""
+"List available components\n"
+"\n"
+"Usage: list-components\n"
+"\n"
+"Gives a brief list of pisi components published in the\n"
+"repositories.\n"
+msgstr ""
+"Elenca i componenti disponibili\n"
+"\n"
+"Utilizzo: list-components\n"
+"\n"
+"Fornisce una breve lista dei componenti pisi pubblicati nei repository.\n"
+
+#: pisi/cli/listcomponents.py:31
+msgid "list-components options"
+msgstr "opzioni list-components"
+
+#: pisi/cli/listcomponents.py:45 pisi/cli/search.py:49
+msgid "Name of the source or package repository"
+msgstr "Nome della repository dei sorgenti o del pacchetto"
+
+#: pisi/cli/listinstalled.py:17
+msgid ""
+"Print the list of all installed packages\n"
+"\n"
+"Usage: list-installed\n"
+msgstr ""
+"Stampa la lista di tutti i pacchetti installati\n"
+"\n"
+"Utilizzo: list-installed\n"
+
+#: pisi/cli/listinstalled.py:31
+msgid "list-installed options"
+msgstr "opzioni list-installed"
+
+#: pisi/cli/listinstalled.py:37
+msgid "Show automatically installed packages and the parent dependency"
+msgstr "Mostra i pacchetti installati automaticamente e la dipendenza padre"
+
+#: pisi/cli/listinstalled.py:44
+msgid "Show installed packages that were installed by a user"
+msgstr "Mostra i pacchetti installati da un utente"
+
+#: pisi/cli/listinstalled.py:51
+msgid "Only list the installed packages built by the given host"
+msgstr "Elenca solo i pacchetti compilati dal dato host"
+
+#: pisi/cli/listinstalled.py:65
+msgid "List installed packages under given component"
+msgstr "Elenca i pacchetti installati sotto il componente fornito"
+
+#: pisi/cli/listinstalled.py:72 pisi/cli/listupgrades.py:53
+msgid "Show detailed install info"
+msgstr "Mostra informazione dettagliate sull'installazione"
+
+#. TRANSLATORS: --explicit and --automatic are command line options and should
+#. not be translated.
+#: pisi/cli/listinstalled.py:82
+msgid "You cannot specify both --explicit and --automatic"
+msgstr "Non è possibile specificare sia --explicit che --automatic"
+
+#: pisi/cli/listinstalled.py:109 pisi/cli/listupgrades.py:88
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgstr ""
+"Nome Pacchetto          |St|        Version|  Rel.|  Distro|             "
+"Data"
+
+#: pisi/cli/listinstalled.py:157
+msgid "Orphaned package"
+msgstr "Pacchetti resi orfani"
+
+#: pisi/cli/listnewest.py:16
+msgid ""
+"List newest packages in the repositories\n"
+"\n"
+"Usage: list-newest [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a list of pisi newly published packages in the specified\n"
+"repositories. If no repository is specified, we list the new\n"
+"packages from all repositories.\n"
+msgstr ""
+"Elenca i pacchetti più nuovi nei repository\n"
+"\n"
+"Utilizzo: list-newest [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Fornisce una breve lista dei pacchetti pisi pubblicati nei \n"
+"repository specificati. Se non ne viene specificato nessuno,\n"
+"verrà fornito una lista dei pacchetti di tutti i repository.\n"
+
+#: pisi/cli/listnewest.py:34
+msgid "list-newest options"
+msgstr "opzioni list-newest"
+
+#: pisi/cli/listnewest.py:41
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd"
+msgstr ""
+"Elenca i pacchetti aggiunte alla repository dopo questa data formattato come"
+" aaaa-mm-gg"
+
+#: pisi/cli/listnewest.py:50
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update"
+msgstr ""
+"Elenca i pacchetti aggiunte alla repository dopo l'ultimo aggiornamento "
+"ennesima repository precedente"
+
+#: pisi/cli/listnewest.py:85
+#, python-format
+msgid "Packages added to %s since %s:\n"
+msgstr "Pacchetti aggiunti a %s da %s:\n"
+
+#: pisi/cli/listnewest.py:87
+#, python-format
+msgid "Packages added to %s:"
+msgstr "Pacchetti aggiunti a %s:"
+
+#: pisi/cli/listupgrades.py:17
+msgid ""
+"List packages to be upgraded\n"
+"\n"
+"Usage: list-upgrades\n"
+"\n"
+"Lists the packages that will be upgraded.\n"
+msgstr ""
+"Elenca i pacchetti da aggiornare\n"
+"\n"
+"Utilizzo: list-upgrades\n"
+"\n"
+"Elenca i pacchetti che verranno aggiornati.\n"
+
+#: pisi/cli/listupgrades.py:33
+msgid "list-upgrades options"
+msgstr "opzioni list-upgrades"
+
+#: pisi/cli/listupgrades.py:46
+msgid "List upgradable packages under given component"
+msgstr "Elenca i pacchetti aggiornabili sotto il componente fornito"
+
+#: pisi/cli/listupgrades.py:77 pisi/operations/upgrade.py:157
+msgid "No packages to upgrade."
+msgstr "Nessun pacchetto da aggiornare."
+
+#: pisi/cli/rebuilddb.py:15
+msgid ""
+"Rebuild Databases\n"
+"\n"
+"Usage: rebuilddb [ <package1> <package2> ... <packagen> ]\n"
+"\n"
+"Rebuilds the pisi databases\n"
+"\n"
+"If package specs are given, they should be the names of package\n"
+"dirs under /var/lib/pisi\n"
+msgstr ""
+"Ricostruisce i database\n"
+"\n"
+"Utilizzo: rebuilddb [ <pacchetto1> <pacchetto2> ... <pacchetton> ]\n"
+"\n"
+"Ricostruisce i database pisi\n"
+"\n"
+"Se vengono forniti dei pacchetti, dovrebbero essere i nome delle cartelle dei\n"
+"pacchetti in /var/lib/pisi\n"
+
+#: pisi/cli/rebuilddb.py:32
+msgid "rebuild-db options"
+msgstr "opzioni rebuild-db"
+
+#: pisi/cli/rebuilddb.py:39
+msgid "Rebuild files database"
+msgstr "Ricostruisci il database dei file"
+
+#: pisi/cli/rebuilddb.py:46
+msgid "Rebuild pisi databases?"
+msgstr "Ricostruire il database pisi?"
+
+#: pisi/cli/remove.py:16
+msgid ""
+"Remove pisi packages\n"
+"\n"
+"Usage: remove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Rimuove i pacchetti pisi\n"
+"\n"
+"Utilizzo: remove <pacchetto1> <pacchetto2> ... <pacchetton>\n"
+"\n"
+"Rimuove uno o più pacchetti dal tuo sistema. Devi solo fornire i nomi dei pacchetti da rimuovere.\n"
+"\n"
+"Puoi anche specificare i componenti invece dei nomi dei pacchetti; essi verranno\n"
+"poi espansi per ottenere i nomi dei pacchetti.\n"
+
+#: pisi/cli/remove.py:34
+msgid "remove options"
+msgstr "opzioni di rimozione"
+
+#: pisi/cli/remove.py:47
+msgid "Remove component's and recursive components' packages"
+msgstr "Rimuovi i pacchetti del componente e dei componenti ricorsivi"
+
+#: pisi/cli/removeorphans.py:16
+msgid ""
+"Remove orphaned packages\n"
+"\n"
+"Usage: remove-orphans\n"
+"\n"
+"Remove any unused orphan packages from the system that were automatically\n"
+"installed as a dependency of another package.\n"
+"\n"
+"Only packages that have no reverse dependencies outside of the automatically\n"
+"installed list will be removed.\n"
+msgstr ""
+"Rimuove pacchetti orfani\n"
+"\n"
+"Uso: remove-orphans\n"
+"\n"
+"Rimuove ogni pacchetto orfano inutilizzato dal sistema che era\n"
+"automaticamente\n"
+"installato come dipendenza di un altro pacchetto.\n"
+"\n"
+"Saranno rimossi solo i pacchetti che non hanno dipendenze inverse non presenti nella lista di pacchetti automaticamente installati.\n"
+
+#: pisi/cli/removeorphans.py:34
+msgid "remove-orphans options"
+msgstr "Opzioni di remove-orphans"
+
+#: pisi/cli/search.py:16
+msgid ""
+"Search packages\n"
+"\n"
+"Usage: search <term1> <term2> ... <termn>\n"
+"\n"
+"Finds a package containing specified search terms\n"
+"in summary, description, and package name fields.\n"
+"Default search is done in package database. Use\n"
+"options to search in install database or source\n"
+"database.\n"
+msgstr ""
+"Cerca i pacchetti\n"
+"\n"
+"Utilizzo: search <term1> <term2> ... <termn>\n"
+"\n"
+"Trova un pacchetto che contiene i termini di ricerca specificati\n"
+"nei campi sommario, descrizione e nome del pacchetto.\n"
+"La ricerca viene effettuata di default  nel database pacchetti.\n"
+"Usa le opzioni per cercare nei database pacchetti o sorgente.\n"
+
+#: pisi/cli/search.py:34
+msgid "search options"
+msgstr "opzioni di ricerca"
+
+#: pisi/cli/search.py:41
+msgid "Summary and description language"
+msgstr "Linguaggio del sommario e descrizione"
+
+#: pisi/cli/search.py:56
+msgid "Search in installdb"
+msgstr "Cerca in installdb"
+
+#: pisi/cli/search.py:62
+msgid "Search in the package name"
+msgstr "Cerca nel nome del pacchetto"
+
+#: pisi/cli/search.py:68
+msgid "Search in the package summary"
+msgstr "Cerca nel sommario dei pachetti"
+
+#: pisi/cli/search.py:74
+msgid "Search in the package description"
+msgstr "Cerca nel descrizione dei pachetti"
+
+#: pisi/cli/searchfile.py:15
+msgid ""
+"Search for a file\n"
+"\n"
+"Usage: search-file <path1> <path2> ... <pathn>\n"
+"\n"
+"Finds the installed package which contains the specified file.\n"
+msgstr ""
+"Cerca un file\n"
+"\n"
+"Utilizzo: search-file <percorso1> <percorso2> ... <percorson>\n"
+"\n"
+"Trova il pacchetto installato che contiene il file specificato.\n"
+
+#: pisi/cli/searchfile.py:29
+msgid "search-file options"
+msgstr "opzioni search-file"
+
+#: pisi/cli/searchfile.py:42
+msgid "Show only package name"
+msgstr "Mostra solo nomi dei pacchetti"
+
+#: pisi/cli/searchfile.py:50
+#, python-format
+msgid "Package %s has file /%s"
+msgstr "Il pacchetto %s contiene il file %s"
+
+#: pisi/cli/searchfile.py:53
+#, python-format
+msgid "Path '%s' does not belong to an installed package"
+msgstr "Il percorso '%s' non appartiene a un pacchetto installato"
+
+#: pisi/cli/searchfile.py:69
+#, python-format
+msgid "Searching for %s"
+msgstr "Ricerca di %s in corso"
+
+#: pisi/cli/updaterepo.py:15
+msgid ""
+"Update repository databases\n"
+"\n"
+"Usage: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Synchronizes the pisi databases with the current repository.\n"
+"If no repository is given, all repositories are updated.\n"
+msgstr ""
+"Aggiorna i database dal repository\n"
+"\n"
+"Utilizzo: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: nome repository\n"
+"\n"
+"Sincronizza i database pisi con il repository corrente.\n"
+"Se nessun repository viene fornito, verranno aggiornati tutti i repository.\n"
+
+#: pisi/cli/updaterepo.py:32
+msgid "update-repo options"
+msgstr "opzioni update-repo"
+
+#: pisi/cli/updaterepo.py:39
+msgid "Update database in any case"
+msgstr "Aggiorna il database in ogni caso"
+
+#: pisi/cli/upgrade.py:16
+msgid ""
+"Upgrade pisi packages\n"
+"\n"
+"Usage: Upgrade [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Upgrades the entire system if no package names are given\n"
+"\n"
+"You may use only package names to specify packages because\n"
+"the package upgrade operation is defined only with respect\n"
+"to repositories. If you have specified a package name, it\n"
+"should exist in the package repositories. If you just want to\n"
+"reinstall a package from a pisi file, use the install command.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Aggiorna pacchetti pisi\n"
+"\n"
+"Utilizzo: Upgrade [<pacchetto1> <pacchetto2> ... <pacchetton>]\n"
+"\n"
+"<pacchettoi>: nome del pacchetto\n"
+"\n"
+"Aggiorna l'intero sistema se non viene specificato alcun pacchetto\n"
+"\n"
+"Puoi utilizzare solo i nomi dei pacchetti per specificarli poiché\n"
+"l'operazione di aggiornamento dei pacchetti è definita solo in releazione ai\n"
+"ai repository. Se hai specificato un nome di pacchetto, esso\n"
+"deve esistere nei repository. Se desideri solo reinstallare\n"
+"un pacchetto da un file pisi, utilizza il comando install.\n"
+"\n"
+"Puoi anche specificare i componenti invece dei nomi dei pacchetti; essi verranno\n"
+"poi espansi per ottenere i nomi dei pacchetti.\n"
+
+#: pisi/cli/upgrade.py:41
+msgid "upgrade options"
+msgstr "opzioni di aggiornamento"
+
+#: pisi/cli/upgrade.py:48
+msgid "Security related package upgrades only"
+msgstr "Solo aggiornamenti dei pacchetti relativi alla sicurezza"
+
+#: pisi/cli/upgrade.py:55
+msgid "Do not update repositories"
+msgstr "Non aggiornare i repository"
+
+#: pisi/cli/upgrade.py:74
+msgid "Upgrade component's and recursive components' packages"
+msgstr "Aggiorna i pacchetti del componente e dei componenti ricorsivi"
+
+#: pisi/cli/upgrade.py:82
+msgid "Name of the to be upgraded packages' repository"
+msgstr "Nome del repository dei pacchetti da aggiornare"
+
+#: pisi/cli/upgrade.py:97
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"All'aggiornamento del sistema, ignora i pacchetti e i componenti i cui nomi "
+"base corrispondono al modello."
+
+#: pisi/cli/upgrade.py:105
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
+msgstr ""
+"All'aggiornamento del sistema, ignora i pacchetti e i componenti i cui nomi "
+"base corrispondono a uno dei modelli contenuti nel file."
+
+#: pisi/cli/upgrade.py:124
+msgid "Updating repositories"
+msgstr "Aggiornamento repository in corso"
+
+#: pisi/cli/upgrade.py:128
+msgid "Will not update repositories"
+msgstr "Non aggiornerà i repository"
+
+#: pisi/cli/disablerepo.py:13
+msgid ""
+"Disable repository\n"
+"\n"
+"Usage: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Disabilita repository\n"
+"\n"
+"Utilizzo: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: nome repository\n"
+"\n"
+"I repository disabilitati non vengono considerati nelle operazioni\n"
+
+#: pisi/cli/enablerepo.py:13
+msgid ""
+"Enable repository\n"
+"\n"
+"Usage: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Abilita repository\n"
+"\n"
+"Utilizzo: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: nome repository\n"
+"\n"
+"I repository disabilitati non vengono considerati nelle operazioni\n"
+
+#: pisi/cli/command.py:19
+msgid "Command lacks name"
+msgstr "Manca il nome del comando"
+
+#: pisi/cli/command.py:24
+#, python-format
+msgid "Duplicate command %s"
+msgstr "Comando duplicato %s"
+
+#: pisi/cli/command.py:88
+msgid "general options"
+msgstr "opzioni generali"
+
+#: pisi/cli/command.py:95
+msgid "Change the system root for pisi commands"
+msgstr "Cambia la root di sistema per i comandi pisi"
+
+#: pisi/cli/command.py:102
+msgid "Assume yes in all yes/no queries"
+msgstr "Assumi una risposta positiva in tutte le domande sì/no"
+
+#: pisi/cli/command.py:117
+msgid "Keep bandwidth usage under specified KB's"
+msgstr "Mantenere l'utilizzo di banda in determinate KB"
+
+#: pisi/cli/command.py:125
+msgid "Set the max number of retry attempts in case of connection timeouts"
+msgstr ""
+"Imposta il numero massimo di tentativi di ripetizione in caso di timeout di "
+"connessione"
+
+#: pisi/cli/command.py:133
+msgid "Set the max number of concurrent download workers"
+msgstr ""
+
+#: pisi/cli/command.py:141
+msgid "Detailed output"
+msgstr "Output dettagliato"
+
+#: pisi/cli/command.py:148
+msgid "Show debugging information"
+msgstr "Mostra informazioni di debug"
+
+#: pisi/cli/command.py:155
+msgid "Suppresses all coloring of pisi's output"
+msgstr "Annulla tutta la colorazione dell'output di pisi"
+
+#: pisi/cli/command.py:169
+msgid ""
+"HTTP Basic-Auth is no longer supported. Please reconfigure your repository."
+msgstr "HTTP Basic-Auth non è più supportato. Riconfigura il tuo repository."
+
+#: pisi/cli/command.py:176
+#, python-format
+msgid "Destination directory %s does not exist. Creating directory.\n"
+msgstr "La cartella di destinazione %s non esiste. Creazione in corso...\n"
+
+#: pisi/cli/command.py:194 pisi/api.py:49
+msgid "You have to be root for this operation."
+msgstr ""
+"Impossibile ottenere accesso in lettura al database pisi. Devi essere root "
+"per eseguire questa operazione."
+
+#. FIXME: not called from anywhere?
+#: pisi/cli/command.py:223
+msgid "Command terminated abnormally."
+msgstr "Comando terminato in maniera anormale."
+
+#: pisi/cli/command.py:244
+msgid "Bypass comar configuration agent"
+msgstr "Ignora l'agente di configurazione di COMAR"
+
+#: pisi/cli/command.py:257
+msgid "Do not perform any action, just show what would be done"
+msgstr "Non eseguire alcuna azione, mostra solo cosa verrebbe fatto"
+
+#: pisi/cli/command.py:276
+#, python-format
+msgid "usage: %s\n"
+msgstr "uso: %s\n"
+
+#: pisi/cli/info.py:20
+msgid ""
+"Display package information\n"
+"\n"
+"Usage: info <package1> <package2> ... <packagen>\n"
+"\n"
+"<packagei> is either a package name or a .pisi file,\n"
+msgstr ""
+"Mostra informazioni pacchetto\n"
+"\n"
+"Uso: info <package1> <package2> ... <packagen>\n"
+"\n"
+"<packagei> è o un nome di un pacchetto o un file .pisi,\n"
+
+#: pisi/cli/info.py:38
+msgid "info options"
+msgstr "opzioni di informazione"
+
+#: pisi/cli/info.py:48
+msgid "Show a list of package files."
+msgstr "Mostra una lista dei files dei pacchetti."
+
+#: pisi/cli/info.py:55
+msgid "Sort files by name (path), size or type."
+msgstr ""
+
+#: pisi/cli/info.py:62
+msgid "Info about the given component"
+msgstr "Informazioni sul componente specificato"
+
+#: pisi/cli/info.py:69
+msgid "Show only paths."
+msgstr "Mostra solo i percorsi."
+
+#: pisi/cli/info.py:76
+msgid "Resolve package against specified repository"
+msgstr ""
+
+#: pisi/cli/info.py:83
+msgid "Do not show details"
+msgstr "Non mostrare i dettagli"
+
+#: pisi/cli/info.py:86
+msgid "Output in xml format"
+msgstr "Output in formato xml"
+
+#: pisi/cli/info.py:139
+#, python-format
+msgid "Unable to resolve repository: %s"
+msgstr ""
+
+#: pisi/cli/info.py:176
+msgid "Reverse Dependencies:"
+msgstr "Richiesto da:"
+
+#: pisi/cli/info.py:189
+#, python-format
+msgid "Package file: %s"
+msgstr "File pacchetto: %s"
+
+#: pisi/cli/info.py:204
+msgid "[inst] "
+msgstr "[inst] "
+
+#: pisi/cli/info.py:206
+msgid "Installed package:"
+msgstr "Pacchetto installato:"
+
+#: pisi/cli/info.py:210
+#, python-format
+msgid "%s package is not installed"
+msgstr "Il pacchetto %s non è installato"
+
+#: pisi/cli/info.py:216
+msgid "[binary] "
+msgstr "[binario] "
+
+#: pisi/cli/info.py:218
+#, python-format
+msgid "Package found in %s repository:"
+msgstr "Pacchetto trovato nel repository %s:"
+
+#: pisi/cli/info.py:221
+#, python-format
+msgid "%s package is not found in binary repositories"
+msgstr "Pacchetto %s non è stato trovato nel repositorio binario"
+
+#: pisi/db/groupdb.py:52 pisi/db/groupdb.py:61
+#, python-format
+msgid "Group %s not found"
+msgstr "Gruppo %s non trovato"
+
+#: pisi/db/componentdb.py:88
+#, python-format
+msgid "Component %s not found"
+msgstr "Componente %s non trovato"
+
+#: pisi/db/installdb.py:28
+msgid "installed"
+msgstr "installato"
+
+#: pisi/db/installdb.py:28
+msgid "installed-pending"
+msgstr "installato-in sospeso"
+
+#: pisi/db/installdb.py:51
+#, python-format
+msgid ""
+"State: %s\n"
+"Version: %s, Release: %s\n"
+msgstr ""
+"Stato: %s\n"
+"Versione: %s, Rilascio: %s\n"
+
+#: pisi/db/installdb.py:59
+#, python-format
+msgid "Distribution: %s, Install Time: %s\n"
+msgstr "Distribuzione: %s, Data installazione: %s\n"
+
+#: pisi/db/installdb.py:96
+#, python-format
+msgid ""
+"Installation info for package '%s' is broken. Reinstall it to fix this "
+"problem."
+msgstr ""
+"Info installazione per il pacchetto '%s' è rotto. Reinstalla per sistemare "
+"questo problema."
+
+#: pisi/db/installdb.py:378
+#, python-format
+msgid "Package %s is not installed"
+msgstr "Il pacchetto %s non è installato."
+
+#: pisi/db/repodb.py:188
+#, python-format
+msgid "%s repository needs to be updated"
+msgstr "Repositorio di nome %s dev'essere aggiornato."
+
+#: pisi/db/repodb.py:196
+msgid ""
+"Error parsing repository index information. Index file does not exist or is "
+"malformed."
+msgstr ""
+"Errore durante l'analisi delle informazioni dell'indice del repository. Il "
+"file di indice non esiste o è malformato."
+
+#: pisi/db/repodb.py:309
+#, python-format
+msgid ""
+"Repository '%s' is not compatible with your distribution. Repository is "
+"disabled."
+msgstr ""
+"Il pacchetto %s non è disponibile nei repositorio. Repositorio è "
+"disattivato."
+
+#: pisi/db/itembyrepo.py:31
+#, python-format
+msgid "%s not found in any repository."
+msgstr "%s non è stato trovato in alcun repository."
+
+#: pisi/db/itembyrepo.py:41
+#, python-format
+msgid "Repo item %s not found"
+msgstr "Repo item %s non trovato"
+
+#: pisi/db/itembyrepo.py:51 pisi/db/itembyrepo.py:62 pisi/db/itembyrepo.py:72
+#, python-format
+msgid "Repository %s does not exist."
+msgstr "Il repository %s non esiste."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:148
+msgid "FilesDB version mismatch or missing version."
+msgstr ""
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:171
+msgid "FilesDB is invalid and cannot be rebuilt (no write access)."
+msgstr ""
+
+#: pisi/db/filesdb.py:173
+msgid "Falling back to slow and inaccurate XML search..."
+msgstr "Tornando alla lenta e imprecisa ricerca XML..."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:180
+msgid "Rebuilding the FilesDB..."
+msgstr "Ricostruzione di FilesDB..."
+
+#. . FilesDB is a proper name and should not be translated
+#: pisi/db/filesdb.py:193
+#, python-format
+msgid "FilesDB rebuild failed: %s"
+msgstr ""
+
+#: pisi/db/filesdb.py:209
+#, python-format
+msgid "Adding '%s' ..."
+msgstr "Aggiungendo '%s' ..."
+
+#: pisi/db/filesdb.py:212
+msgid "Okay."
+msgstr "Okay."
+
+#: pisi/db/filesdb.py:218
+#, python-format
+msgid "Added so far: %s"
+msgstr "Aggiunti finora: %s"
+
+#: pisi/db/filesdb.py:224
+#, python-format
+msgid ""
+"\n"
+"%(num)d package added in total."
+msgid_plural ""
+"\n"
+"%(num)d packages added in total."
+msgstr[0] ""
+"\n"
+"%(num)d pacchetto aggiunto in totale."
+msgstr[1] ""
+"\n"
+"%(num)d pacchetti aggiunti in totale."
+msgstr[2] ""
+"\n"
+"%(num)d pacchetti aggiunti in totale."
+
+#: pisi/db/packagedb.py:132
+#, python-format
+msgid "Repo %s not found."
+msgstr "Repo %s non trovato."
+
+#: pisi/db/packagedb.py:221 pisi/db/packagedb.py:227
+#, python-format
+msgid "Package %s not found."
+msgstr "Pacchetto %s non trovato."
+
+#: pisi/operations/delta.py:43
+#, python-format
+msgid ""
+"The file '%s' belongs to a different package other than '%s'. Skipping it..."
+msgstr ""
+"Il file '%s' appartiene a un pacchetto differente da '%s'. Saltandolo..."
+
+#: pisi/operations/delta.py:53
+#, python-format
+msgid ""
+"Package '%s' has the same release number with the new package. Skipping "
+"it..."
+msgstr ""
+"Il pacchetto '%s' ha lo stesso numero di rilascio dello stesso pacchetto "
+"nuovo. Saltandolo..."
+
+#: pisi/operations/delta.py:73 pisi/operations/build.py:1642
+#, python-format
+msgid "Creating %s..."
+msgstr "Creazione %s..."
+
+#: pisi/operations/delta.py:85
+#, python-format
+msgid ""
+"All files in the package '%s' are different from the files in the new "
+"package. Skipping it..."
+msgstr ""
+"Tutti i file nel pacchetto '%s' sono diversi dai file nel nuovo pacchetto. "
+"Saltandolo..."
+
+#: pisi/operations/delta.py:134
+#, python-format
+msgid "New package '%s' exists in the list of old packages. Skipping it..."
+msgstr ""
+"Il nuovo pacchetto '%s' esiste nella lista dei vecchi pacchetti. "
+"Saltandolo..."
+
+#: pisi/operations/remove.py:51 pisi/operations/remove.py:85
+msgid "Safety switch prevents the removal of following packages:\n"
+msgstr "Switch di sicurezza: impossibile rimuovere i seguenti pacchetti:\n"
+
+#: pisi/operations/remove.py:56 pisi/operations/remove.py:92
+#: pisi/operations/upgrade.py:482
+msgid "Safety switch: The component system.base cannot be found."
+msgstr ""
+"Interruttore di sicurezza: il componente system.base non può essere trovato."
+
+#: pisi/operations/remove.py:64
+#, python-format
+msgid "Package %s does not exist. Cannot remove."
+msgstr "Il pacchetto %s non esiste. Impossibile rimuovere."
+
+#: pisi/operations/remove.py:68
+msgid "No packages to remove."
+msgstr "Nessun pacchetto da rimuovere."
+
+#: pisi/operations/remove.py:103
+msgid ""
+"The following list of packages will be removed\n"
+"in the respective order to satisfy dependencies:\n"
+msgstr ""
+"Il seguente elenco di pacchetti verrà rimosso\n"
+"nell'ordine in cui verranno soddisfatte le dipendenze:\n"
+
+#: pisi/operations/remove.py:119 pisi/operations/history.py:155
+#: pisi/operations/history.py:203 pisi/operations/install.py:123
+#: pisi/operations/install.py:310 pisi/operations/upgrade.py:202
+msgid "Do you want to continue?"
+msgstr "Vuoi proseguire?"
+
+#: pisi/operations/remove.py:120
+msgid "Package removal declined"
+msgstr "Rimozione dei pacchetti rifiutata"
+
+#. Remove the packages.
+#. Install all the packages
+#: pisi/operations/remove.py:126 pisi/operations/install.py:158
+#: pisi/operations/upgrade.py:243 pisi/api.py:908 pisi/api.py:948
+msgid "Disabling keyboard interrupts for file operations."
+msgstr ""
+"Disabilitazione delle interruzioni della tastiera per le operazioni sui "
+"file."
+
+#: pisi/operations/remove.py:134
+#, python-format
+msgid "Package %s is not installed. Cannot remove."
+msgstr "Il pacchetto %s non è installato. Impossibile rimuovere."
+
+#: pisi/operations/remove.py:302
+msgid "Conflicts remain"
+msgstr "Il conflitto rimane"
+
+#: pisi/operations/remove.py:311
+msgid "Obsoleted packages remaining"
+msgstr "I pacchetti obsoleti rimangono"
+
+#: pisi/operations/remove.py:316
+msgid "Replaced package remains"
+msgstr "Il pacchetto sostituito rimane"
+
+#: pisi/operations/build.py:113
+#, python-format
+msgid "Path %s belongs in multiple packages"
+msgstr "Il percorso '%s' si trova in più pacchetti"
+
+#: pisi/operations/build.py:360
+#, python-format
+msgid "pspec.xml avoids this package from building for '%s'"
+msgstr "pspec.xml impedisce la compilazione di questo pacchetto per '%s'"
+
+#: pisi/operations/build.py:363
+#, python-format
+msgid "Building source package: %s"
+msgstr "Costruzione del pacchetto sorgente: %s"
+
+#: pisi/operations/build.py:380
+msgid "ccache detected..."
+msgstr "Rilevato ccache..."
+
+#: pisi/operations/build.py:383
+msgid "IceCream detected. Make sure your daemon is up and running..."
+msgstr ""
+"Rilevato IceCream. Assicurati che il tuo demone sia in esecuzione e "
+"attivo..."
+
+#: pisi/operations/build.py:416
+#, python-format
+msgid "Rebuilding for %s"
+msgstr "Ricostruendo per %s"
+
+#: pisi/operations/build.py:538
+msgid ""
+"Cannot find component.xml in remote directory, Source is now part of unknown"
+" component"
+msgstr "Impossibile trovare il file component.xml nella cartella remota"
+
+#: pisi/operations/build.py:550
+msgid ""
+"Cannot find component.xml in upper directory, Source is now part of unknown "
+"component"
+msgstr "Impossibile trovare il file component.xml nella cartella superiore"
+
+#: pisi/operations/build.py:566
+msgid "Unpacking archive(s)..."
+msgstr "Scompattazione archivio..."
+
+#: pisi/operations/build.py:574
+#, python-format
+msgid " unpacked (%s)"
+msgstr "scompattato (%s)"
+
+#. Run configure, build and install phase
+#: pisi/operations/build.py:579
+msgid "Setting up source..."
+msgstr "Configurazione sorgente..."
+
+#: pisi/operations/build.py:584
+msgid "Building source..."
+msgstr "Compilazione sorgente..."
+
+#: pisi/operations/build.py:589
+msgid "Testing package..."
+msgstr "Verifica del pacchetto..."
+
+#: pisi/operations/build.py:593
+msgid "Installing..."
+msgstr "Installazione in corso..."
+
+#: pisi/operations/build.py:661
+#, python-format
+msgid "Unable to read Actions Script (%s): %s"
+msgstr "Impossibile leggere Actions Script (%s): %s"
+
+#: pisi/operations/build.py:663
+#, python-format
+msgid "SyntaxError in Actions Script (%s): %s"
+msgstr "Errore di sintassi in Actions Script (%s): %s"
+
+#: pisi/operations/build.py:692
+#, python-format
+msgid "Unable to read COMAR script (%s): %s"
+msgstr "Impossibile leggere script COMAR (%s): %s"
+
+#: pisi/operations/build.py:694
+#, python-format
+msgid "SyntaxError in COMAR file (%s): %s"
+msgstr "Errore di sintassi nel file COMAR (%s): %s"
+
+#: pisi/operations/build.py:735
+#, python-format
+msgid "Sandbox violation: %s (%s -> %s)"
+msgstr "Violazione ambiente protetto: %s (%s -> %s)"
+
+#: pisi/operations/build.py:750 pisi/util.py:571
+#, python-format
+msgid "ERROR: WorkDir (%s) does not exist\n"
+msgstr "Errore: La directory di lavoro (%s) non esiste\n"
+
+#: pisi/operations/build.py:762
+msgid "Sandbox enabled build..."
+msgstr "Build abilitato per sandbox..."
+
+#: pisi/operations/build.py:787
+msgid "Sandbox violation result:"
+msgstr "Violazione dell'ambiente protetto (sandbox)!"
+
+#: pisi/operations/build.py:792
+msgid "Sandbox violations!"
+msgstr "Violazioni dell'ambiente protetto (sandbox)!"
+
+#: pisi/operations/build.py:798
+#, python-format
+msgid "unable to call function from actions: %s"
+msgstr "impossibile chiamare la funzione dalle azioni: %s"
+
+#: pisi/operations/build.py:812
+#, python-format
+msgid "Source package '%s' defines a relative 'Path' element: %s"
+msgstr "Pacchetto sorgente '%s' un elemento 'Path' relativo: %s"
+
+#: pisi/operations/build.py:818
+#, python-format
+msgid "Source package '%s' defines multiple 'Path' tags for %s"
+msgstr "Pacchetto sorgente '%s' definisce multipli tag 'Path' per %s"
+
+#: pisi/operations/build.py:830 pisi/atomicoperations.py:130
+#, python-format
+msgid "%s-%s is not a valid pisi version format"
+msgstr "%s-%s Non è un valido formato di versione Pisi"
+
+#: pisi/operations/build.py:856
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
+msgstr ""
+"Switch di sicurezza: i seguenti pacchetti aggiuntivi in system.devel "
+"verranno installati: "
+
+#: pisi/operations/build.py:864
+msgid "Safety switch: the component system.devel cannot be found"
+msgstr "Switch di sicurezza: il componente system.devel non è stato trovato"
+
+#: pisi/operations/build.py:877
+msgid "Unsatisfied Build Dependencies:"
+msgstr "Dipendenze di compilazione non soddisfatte:"
+
+#: pisi/operations/build.py:884
+msgid "Cannot build package due to unsatisfied build dependencies"
+msgstr ""
+"Impossibile compilare il pacchetto a casa di dipendenze non soddisfatte"
+
+#: pisi/operations/build.py:891
+#, python-format
+msgid "Build dependency %s cannot be satisfied"
+msgstr "La dipendenza di compilazione %s non può essere soddisfatta"
+
+#: pisi/operations/build.py:894
+msgid "Do you want to install the unsatisfied build dependencies"
+msgstr "Desideri installare le dipendenze di compilazione non soddisfatte"
+
+#: pisi/operations/build.py:896
+msgid "Installing build dependencies."
+msgstr "Installazione dipendenze di compilazione."
+
+#: pisi/operations/build.py:914
+msgid "Ignoring build dependencies."
+msgstr "Ignoro le dipendenze di compilazione."
+
+#: pisi/operations/build.py:923
+#, python-format
+msgid "Patch file is missing: %s\n"
+msgstr "Il file di patch è mancante: %s\n"
+
+#: pisi/operations/build.py:925
+#, python-format
+msgid "Patch file is empty: %s"
+msgstr "Il file di patch è vuoto: %s"
+
+#: pisi/operations/build.py:942
+#, python-format
+msgid "Applying patch: %s"
+msgstr "Applicazione della patch: %s"
+
+#: pisi/operations/build.py:1096
+msgid ""
+"pkg-config not found but package provides .pc files - skipping export of "
+"pkgconfig information"
+msgstr ""
+"pkg-config non trovato ma il pacchetto fornisce file .pc - esportazione "
+"delle informazioni di pkgconfig saltata"
+
+#: pisi/operations/build.py:1132
+#, python-format
+msgid "Unable to obtain pkgconfig module version for %s"
+msgstr "Impossibile ottenere la versione del modulo pkgconfig per %s"
+
+#: pisi/operations/build.py:1140
+#, python-format
+msgid "Adding %s to provided pkgconfig32 list"
+msgstr "Aggiungendo %s alla lista pkgconfig32"
+
+#: pisi/operations/build.py:1145
+#, python-format
+msgid "Adding %s to provided pkgconfig list"
+msgstr "Aggiungendo %s alla lista pkgconfig"
+
+#: pisi/operations/build.py:1369
+#, python-format
+msgid "/%s has suid bit set"
+msgstr "/%sha impostato un bit suid "
+
+#: pisi/operations/build.py:1560
+#, python-format
+msgid "No user named '%s' found on the system"
+msgstr "Utente '%s' non trovato nel sistema"
+
+#: pisi/operations/build.py:1567
+#, python-format
+msgid "No group named '%s' found on the system"
+msgstr "Gruppo '%s' non trovato nel sistema"
+
+#: pisi/operations/build.py:1575
+#, python-format
+msgid "There are abandoned files under the install dir (%s):"
+msgstr "File abbandonati nella cartella di installazione (%s):"
+
+#: pisi/operations/build.py:1620
+#, python-format
+msgid "Ignoring empty package %s"
+msgstr "Ignorando pacchetto vuoto %s"
+
+#: pisi/operations/build.py:1623
+#, python-format
+msgid "Building package: %s"
+msgstr "Costruzione del pacchetto: %s"
+
+#: pisi/operations/build.py:1689
+msgid "Cleaning build directory..."
+msgstr "Pulizia della cartella di compilazione..."
+
+#: pisi/operations/build.py:1692
+msgid "Keeping build directory"
+msgstr "La cartella di compilazione verrà conservata"
+
+#: pisi/operations/build.py:1775
+msgid "Action script error caught."
+msgstr "Errore di Actionscript catturati."
+
+#: pisi/operations/build.py:1780
+#, python-format
+msgid "*** %d error(s), %d warning(s)"
+msgstr "*** %d errori, %d avvertimenti"
+
+#: pisi/operations/build.py:1867
+#, python-format
+msgid "Last state was '%s'"
+msgstr "L'ultimo era stato '%s'"
+
+#: pisi/operations/helper.py:33
+msgid "Reordering install order so system.base packages come first."
+msgstr ""
+"Riordino dell'ordine di installazione in modo che i pacchetti system.base "
+"vengano prima."
+
+#: pisi/operations/helper.py:35
+#, python-format
+msgid "install_order: %s"
+msgstr "install_order: %s"
+
+#: pisi/operations/helper.py:49
+#, python-format
+msgid "order: %s"
+msgstr "order: %s"
+
+#: pisi/operations/helper.py:62
+#, python-format
+msgid "Selected packages [%s] are in conflict with each other."
+msgstr "I pacchetti selezionati [%s] sono in conflitto tra loro."
+
+#: pisi/operations/helper.py:69
+#, python-format
+msgid "[%s conflicts with: %s]\n"
+msgstr "[%s va in conflitto con: %s]\n"
+
+#: pisi/operations/helper.py:74
+#, python-format
+msgid ""
+"The following packages have conflicts:\n"
+"%s"
+msgstr ""
+"I pacchetti seguenti hanno dei conflitti:\n"
+"%s"
+
+#: pisi/operations/helper.py:76
+msgid "Remove the following conflicting packages?"
+msgstr "Rimuovere i seguenti pacchetti conflittanti?"
+
+#: pisi/operations/helper.py:77
+msgid "Conflicting packages should be removed to continue"
+msgstr "Pacchetti in conflitto dovrebbero essere rimosse per continuare"
+
+#: pisi/operations/history.py:78
+#, python-format
+msgid "Package %s found in repository %s"
+msgstr "Pacchetto %s trovato nel repository %s"
+
+#: pisi/operations/history.py:146
+msgid "Following packages will be installed:\n"
+msgstr "I seguenti pacchetti verranno installati:\n"
+
+#: pisi/operations/history.py:152
+msgid "Following packages will be removed:\n"
+msgstr "I seguenti pacchetti verranno rimossi:\n"
+
+#: pisi/operations/history.py:170
+#, python-format
+msgid "%s could not be found"
+msgstr "Utilità %s non trovata"
+
+#: pisi/operations/history.py:178 pisi/sourcearchive.py:103
+#, python-format
+msgid "%s [cached]"
+msgstr "%s [nella cache]"
+
+#: pisi/operations/history.py:182
+msgid "Downloading historical packages..."
+msgstr ""
+
+#: pisi/operations/history.py:186
+#, python-format
+msgid "Error while fetching historical packages: %s"
+msgstr ""
+
+#: pisi/operations/history.py:199
+msgid ""
+"\n"
+"Following packages could not be found in repositories and are not cached:\n"
+msgstr ""
+"\n"
+"I seguenti pacchetti non sono stati trovati nei repository e non sono memorizzati nella cache:\n"
+
+#: pisi/operations/install.py:70 pisi/operations/install.py:209
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
+msgstr ""
+"I seguenti pacchetti sono già installati e non verranno installati "
+"nuovamente:"
+
+#: pisi/operations/install.py:78 pisi/operations/install.py:323
+msgid "No packages to install."
+msgstr "Nessun pacchetto da installare."
+
+#: pisi/operations/install.py:99 pisi/operations/upgrade.py:176
+msgid "The following packages will be downloaded:"
+msgstr "Verranno scaricati i seguenti pacchetti:"
+
+#: pisi/operations/install.py:101
+msgid "The following packages will be installed:"
+msgstr "Verranno installati i seguenti pacchetti:"
+
+#: pisi/operations/install.py:110 pisi/operations/upgrade.py:187
+#, python-format
+msgid "Total size of package(s): %.2f %s"
+msgstr "Dimensione totale dei pacchetti: %.2f %s"
+
+#: pisi/operations/install.py:120 pisi/operations/upgrade.py:199
+msgid "There are extra packages due to dependencies."
+msgstr ""
+"Sono inclusi dei pacchetti extra per via delle dipendenze. Desideri "
+"proseguire?"
+
+#: pisi/operations/install.py:139 pisi/operations/upgrade.py:218
+#, python-format
+msgid "Download Error: Package %s does not match the repository package."
+msgstr ""
+
+#: pisi/operations/install.py:144
+msgid "Finished downloading packages."
+msgstr ""
+
+#: pisi/operations/install.py:167 pisi/operations/upgrade.py:252
+#, python-format
+msgid "Installing %d / %d"
+msgstr "Installazione di %d/%d"
+
+#: pisi/operations/install.py:190
+msgid "Mixing file names and package names not supported yet."
+msgstr "Non è ancora possibile mescolare nomi dei file e nomi dei pacchetti."
+
+#: pisi/operations/install.py:262
+#, python-format
+msgid "Package %s is not compatible with your distribution release %s %s."
+msgstr "Il pacchetto %s non è compatibile con la tua release %s %s."
+
+#: pisi/operations/install.py:272
+#, python-format
+msgid "Package %s (%s) is not compatible with your %s architecture."
+msgstr "Il pacchetto %s (%s) non è compatibile con la tua architettura %s."
+
+#: pisi/operations/install.py:298
+#, python-format
+msgid "External dependencies not satisfied: %s"
+msgstr "Dipendenze esterne non soddisfatte: %s"
+
+#: pisi/operations/install.py:305
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
+msgstr ""
+"I seguenti pacchetti verranno installati in modo di soddisfare le "
+"dipendenze:"
+
+#: pisi/operations/install.py:311
+msgid "External dependencies not satisfied"
+msgstr "Dipendenze esterne non soddisfatte"
+
+#: pisi/operations/install.py:355
+msgid "Installation order: "
+msgstr "Ordine di installazione: "
+
+#: pisi/operations/install.py:405 pisi/specfile.py:301
+#, python-format
+msgid "%s dependency of package %s is not satisfied"
+msgstr "La dipendenza %s del pacchetto %s non è soddisfatta"
+
+#: pisi/operations/install.py:427
+#, python-format
+msgid "topological_sort() order: %s"
+msgstr "Ordine topological_sort() : %s"
+
+#: pisi/operations/install.py:430
+#, python-format
+msgid "deterministic order: %s"
+msgstr "ordine deterministico: %s"
+
+#: pisi/operations/install.py:433
+#, python-format
+msgid "final order.reverse(): %s"
+msgstr "order.reverse() finale: %s"
+
+#: pisi/operations/upgrade.py:48
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
+msgstr ""
+"È necessario riavviare il sistema affinché gli aggiornamenti nei seguenti "
+"pacchetti abbiano effetto:"
+
+#: pisi/operations/upgrade.py:72
+msgid "Warning: package *name* ends with '.pisi'"
+msgstr "Attenzione: il pacchetto *nome* termina con '.pisi'"
+
+#: pisi/operations/upgrade.py:75
+#, python-format
+msgid "Package %s is not installed."
+msgstr "Il pacchetto %s non è installato."
+
+#: pisi/operations/upgrade.py:79
+#, python-format
+msgid "Package %s is not available in repositories."
+msgstr "Il pacchetto %s non è disponibile nei repository."
+
+#: pisi/operations/upgrade.py:104
+#, python-format
+msgid "Package %s is already at the latest release %s."
+msgstr "Il pacchetto %s è già alla versione più recente %s."
+
+#: pisi/operations/upgrade.py:178
+msgid "The following packages will be upgraded:"
+msgstr "I seguenti pacchetti verranno aggiornati: "
+
+#: pisi/operations/upgrade.py:225
+msgid "Finished downloading package upgrades."
+msgstr "Completato il download degli aggiornamenti del pacchetto."
+
+#: pisi/operations/upgrade.py:316
+#, python-format
+msgid "Dependency %s of %s cannot be satisfied"
+msgstr "Impossibile soddisfare la dipendenza %s di %s"
+
+#: pisi/operations/upgrade.py:318
+msgid "Upgrade is not possible."
+msgstr "L'aggiornamento non è possibile."
+
+#: pisi/operations/upgrade.py:424
+msgid "Safety switch forces the installation of following packages:"
+msgstr ""
+"L'interruttore di sicurezza forza l'installazione dei seguenti pacchetti:"
+
+#: pisi/operations/upgrade.py:453
+msgid "Safety switch forces the upgrade of following packages:"
+msgstr ""
+"L'interruttore di sicurezza forza l'aggiornamento dei seguenti pacchetti:"
+
+#: pisi/operations/upgrade.py:463
+#, python-format
+msgid "installs and upgrades (unordered): %s"
+msgstr "installazioni e aggiornamenti (non ordinati): %s"
+
+#: pisi/operations/upgrade.py:475
+#, python-format
+msgid "installs and upgrades (deterministic order): %s"
+msgstr "installazioni e aggiornamenti (ordine deterministico):%s"
+
+#: pisi/pxml/xmlext.py:74
+msgid "getNodeText: Expected text node, got something else!"
+msgstr "getNodeText: Previsto un text node, ne ho trovato un altro!"
+
+#: pisi/pxml/xmlfile.py:51
+#, python-format
+msgid "String '%s' has invalid XML"
+msgstr "La stringa '%s' contiene XML non valido"
+
+#: pisi/pxml/xmlfile.py:87
+#, python-format
+msgid "Unable to read file (%s): %s"
+msgstr "Impossibile leggere il file (%s): %s"
+
+#: pisi/pxml/xmlfile.py:89 pisi/specfile.py:494
+#, python-format
+msgid "File '%s' has invalid XML"
+msgstr "Il file '%s' contiene XML non valido"
+
+#: pisi/pxml/autoxml.py:74
+#, python-brace-format
+msgid "At least one '{}' tag should have local text."
+msgstr "Almeno un tag '{}' dovrebbe contenere testo locale."
+
+#: pisi/pxml/autoxml.py:86
+#, python-brace-format
+msgid "'{0}' language of tag '{1}' is empty."
+msgstr "La lingua '{0}' del tag '{1}' è vuota."
+
+#. FIXME: what exception could we catch here, replace with that.
+#: pisi/pxml/autoxml.py:118
+msgid "LocalText: unable to get either current or default locale."
+msgstr ""
+"LocalText: impossibile ottenere sia il locale corrente che quello "
+"predefinito"
+
+#: pisi/pxml/autoxml.py:132 pisi/pxml/autoxml.py:151
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version."
+msgstr ""
+"Il tag dovrebbe avere almeno il locale corrente, o in mancanza di esso una "
+"versione inglese o turca"
+
+#: pisi/pxml/autoxml.py:386
+#, python-brace-format
+msgid "autoxml.check: '{}' errors."
+msgstr "autoxml.check: errori '{}'."
+
+#: pisi/pxml/autoxml.py:454 pisi/pxml/autoxml.py:464
+#, python-brace-format
+msgid "autoxml.parse: String '{}' has errors."
+msgstr "autoxml.parse: la stringa '{}' contiene errori."
+
+#: pisi/pxml/autoxml.py:493 pisi/pxml/autoxml.py:503
+#, python-brace-format
+msgid "autoxml.read: File '{}' has errors."
+msgstr "autoxml.read: il file '{}' contiene errori."
+
+#: pisi/pxml/autoxml.py:518
+msgid "autoxml.write: object validation has failed."
+msgstr "autoxml.write: validazione dell'oggetto fallita"
+
+#: pisi/pxml/autoxml.py:527
+#, python-brace-format
+msgid "autoxml.write: File encoding '{}' has errors."
+msgstr "autoxml.write: la codifica del file '{}' presenta errori."
+
+#: pisi/pxml/autoxml.py:586
+#, python-brace-format
+msgid "gen_tag: unrecognized tag type {} in spec."
+msgstr "gen_tag: tipo di tag {} non riconosciuto nella specifica."
+
+#: pisi/pxml/autoxml.py:642 pisi/pxml/autoxml.py:654
+#, python-brace-format
+msgid "Mandatory variable {} not available."
+msgstr "Variabile obbligatoria {} non disponibile."
+
+#: pisi/pxml/autoxml.py:731
+msgid "Type mismatch: read text cannot be decoded."
+msgstr ""
+"Mancata corrispondenza del tipo: il testo letto non può essere decodificato."
+
+#: pisi/pxml/autoxml.py:739 pisi/pxml/autoxml.py:749
+#, python-brace-format
+msgid "Mandatory token {} not available."
+msgstr "Token obbligatorio {} non disponibile."
+
+#: pisi/pxml/autoxml.py:757
+#, python-brace-format
+msgid "Type mismatch. Expected {0}, got {1}"
+msgstr "Tipo non corrispondente. Previsto {0}, ottenuto {1}"
+
+#: pisi/pxml/autoxml.py:791 pisi/pxml/autoxml.py:923
+msgid "Type mismatch: DOM cannot be decoded."
+msgstr "Mancata corrispondenza del tipo: il DOM non può essere decodificato."
+
+#: pisi/pxml/autoxml.py:795 pisi/pxml/autoxml.py:811 pisi/pxml/autoxml.py:825
+#: pisi/pxml/autoxml.py:927 pisi/pxml/autoxml.py:941 pisi/pxml/autoxml.py:955
+msgid "Mandatory argument not available."
+msgstr "Argomento obbligatorio non disponibile."
+
+#. note: we can receive an error if obj has no content
+#: pisi/pxml/autoxml.py:808 pisi/pxml/autoxml.py:938
+msgid "Object cannot be encoded."
+msgstr "L'oggetto non può essere codificato."
+
+#: pisi/pxml/autoxml.py:822 pisi/pxml/autoxml.py:952
+msgid "Object cannot be formatted."
+msgstr "L'oggetto non può essere formattato."
+
+#: pisi/pxml/autoxml.py:838
+msgid "List type must contain only one element."
+msgstr "Il tipo di elenco deve contenere un solo elemento."
+
+#: pisi/pxml/autoxml.py:854 pisi/pxml/autoxml.py:878
+#, python-brace-format
+msgid "Mandatory list \"{0}\" under \"{1}\" node is empty."
+msgstr "L'elenco obbligatorio \"{0}\" nel nodo \"{1}\" è vuoto."
+
+#: pisi/scenarioapi/package.py:71
+#, python-format
+msgid "No pisi package: %s* found."
+msgstr "Nessun pacchetto pisi: %s* trovato."
+
+#: pisi/scenarioapi/repoops.py:17
+#, python-format
+msgid "Repo already has package named %s."
+msgstr "Il repository ha già un pacchetto di nome %s."
+
+#: pisi/scenarioapi/repoops.py:44 pisi/scenarioapi/repoops.py:52
+#, python-format
+msgid "Repo does not have package named %s."
+msgstr "Il repository non ha un pacchetto di nome %s."
+
+#: pisi/scripts/pisi.py:34
+msgid "Keyboard Interrupt: Exiting..."
+msgstr "Interruzione da tastiera: uscita..."
+
+#: pisi/scripts/pisi.py:37
+msgid "Program terminated."
+msgstr "Programma terminato."
+
+#: pisi/scripts/pisi.py:43
+msgid ""
+"Cyclic dependency detected. The following packages cannot be installed:"
+msgstr ""
+
+#: pisi/scripts/pisi.py:46
+msgid "This is a packaging error."
+msgstr ""
+
+#: pisi/scripts/pisi.py:52
+msgid ""
+"Unhandled internal exception.\n"
+"Please file a bug report to <https://github.com/lupus/package-management/>."
+msgstr ""
+"Eccezione interna non gestita.\n"
+"Invia per piacere una segnalazione di un bug  su <https://github.com/lupus/package-management/>"
+
+#: pisi/scripts/pisi.py:63
+msgid "System error. Program terminated."
+msgstr "Errore di sistema. Programma terminato."
+
+#: pisi/scripts/pisi.py:68
+msgid "Please use 'pisi help' for general help."
+msgstr "Utilizza per favore 'pisi help' per un aiuto generico."
+
+#: pisi/scripts/pisi.py:71
+msgid ""
+"\n"
+"Traceback:"
+msgstr ""
+"\n"
+"Traceback:"
+
+#: pisi/scripts/pisi.py:74
+msgid "Use --debug to see a traceback."
+msgstr "Utilizza --debug per vedere il traceback."
+
+#: pisi/comariface.py:22
+msgid "comar-api package is not fully installed"
+msgstr "il pacchetto comar-api non è completamente installato"
+
+#: pisi/comariface.py:85
+#, python-format
+msgid ""
+"Cannot connect to COMAR: \n"
+"  %s\n"
+msgstr ""
+"impossibile collegarsi a comar: \n"
+" %s\n"
+
+#: pisi/comariface.py:101
+#, python-format
+msgid "Configuring %s package"
+msgstr "Configurazione %s pacchetto in corso"
+
+#: pisi/comariface.py:108
+msgid "COMAR package updated. From now on, using new COMAR daemon."
+msgstr ""
+"Pacchetto COMAR aggiornato. D'ora in poi verrà utilizzato il nuovo demone "
+"COMAR."
+
+#: pisi/comariface.py:115
+#, python-format
+msgid "Registering %s comar script"
+msgstr "Registrazione script COMAR %s"
+
+#: pisi/comariface.py:124 pisi/comariface.py:129 pisi/comariface.py:141
+#: pisi/comariface.py:157 pisi/comariface.py:175 pisi/comariface.py:187
+#: pisi/comariface.py:207 pisi/comariface.py:219 pisi/comariface.py:226
+#, python-format
+msgid "Script error: %s"
+msgstr "Errore nello script: %s"
+
+#: pisi/comariface.py:131
+msgid "Calling post install handlers"
+msgstr "Chiamata dei gestori di post installazione"
+
+#: pisi/comariface.py:149
+msgid "Running package's post install script"
+msgstr "Esecuzione dello script post installazione del pacchetto"
+
+#: pisi/comariface.py:163
+#, python-format
+msgid "Running pre removal operations for %s"
+msgstr "Esecuzione di operazioni di pre-rimozione per %s"
+
+#: pisi/comariface.py:169
+msgid "Running package's pre remove script"
+msgstr "Esecuzione dello script pre rimozione del pacchetto"
+
+#: pisi/comariface.py:177
+msgid "Calling pre remove handlers"
+msgstr "Chiamata dei gestori di pre rimozione"
+
+#: pisi/comariface.py:193
+#, python-format
+msgid "Running post removal operations for %s"
+msgstr "Esecuzione di operazioni di rimozione dei pali per %s"
+
+#: pisi/comariface.py:201
+msgid "Running package's postremove script"
+msgstr "Esecuzione dello script post rimozione del pacchetto"
+
+#: pisi/comariface.py:209
+msgid "Calling post remove handlers"
+msgstr "Chiamata dei gestori di post rimozione"
+
+#: pisi/comariface.py:221
+msgid "Unregistering comar scripts"
+msgstr "Deregistrazionescript COMAR"
+
+#: pisi/config.py:86
+#, python-format
+msgid "Destination directory %s does not exist. Creating it."
+msgstr "La cartella di destinazione %s non esiste. La sto creando."
+
+#: pisi/conflict.py:17 pisi/dependency.py:19 pisi/replace.py:15
+msgid " version >= "
+msgstr " versione >= "
+
+#: pisi/conflict.py:19 pisi/dependency.py:21 pisi/replace.py:17
+msgid " version <= "
+msgstr " versione <= "
+
+#: pisi/conflict.py:21 pisi/dependency.py:23 pisi/replace.py:19
+msgid " version "
+msgstr " versione"
+
+#: pisi/conflict.py:23 pisi/dependency.py:25 pisi/replace.py:21
+msgid " release >= "
+msgstr " release >= "
+
+#: pisi/conflict.py:25 pisi/dependency.py:27 pisi/replace.py:23
+msgid " release <= "
+msgstr " release <= "
+
+#: pisi/conflict.py:27 pisi/dependency.py:29 pisi/replace.py:25
+msgid " release "
+msgstr " release "
+
+#: pisi/constants.py:21
+#, python-format
+msgid "Can't rebind constant: %s"
+msgstr "Impossibile ricollegare la costante: %s"
+
+#: pisi/constants.py:27
+#, python-format
+msgid "Can't unbind constant: %s"
+msgstr "Impossibile scollegare la costante: %s"
+
+#: pisi/context.py:63
+msgid "usysconf not installed. Please upgrade!"
+msgstr "usysconf non installato. Aggiornalo per favore!"
+
+#: pisi/context.py:76
+msgid "Failed to configure system"
+msgstr "Impossibile configurare il sistema"
+
+#: pisi/graph.py:17
+#, python-format
+msgid "Encountered cycle %s"
+msgstr "Riscontrato ciclo %s"
+
+#: pisi/metadata.py:64
+#, python-format
+msgid "Distribution: %s, Dist. Release: %s\n"
+msgstr "Distribuzione: %s, Versione: %s\n"
+
+#: pisi/metadata.py:68
+#, python-format
+msgid "Architecture: %s, Installed Size: %s"
+msgstr "Architettura: %s, Dimensione file installati: %s"
+
+#: pisi/metadata.py:73
+#, python-format
+msgid ", Package Size: %s"
+msgstr ", Dimensione pacchetto: %s"
+
+#: pisi/mirrors.py:38
+#, python-format
+msgid "Mirrors file %s does not exist. Could not resolve mirrors://"
+msgstr "Il file dei mirror %s non esiste. Impossibile trovare mirrors://"
+
+#: pisi/specfile.py:172
+#, python-format
+msgid "URI: %s, type: %s, sha1sum: %s"
+msgstr "URI: %s, tipo: %s, sha1sum: %s"
+
+#: pisi/specfile.py:204 pisi/specfile.py:207
+msgid " or "
+msgstr "Oppure"
+
+#: pisi/specfile.py:403 pisi/specfile.py:512
+#, python-format
+msgid "Summary: %s\n"
+msgstr "Sommario: %s\n"
+
+#: pisi/specfile.py:404 pisi/specfile.py:513
+#, python-format
+msgid "Description: %s\n"
+msgstr "Descrizione: %s\n"
+
+#: pisi/specfile.py:405 pisi/specfile.py:514
+#, python-format
+msgid "Licenses: %s\n"
+msgstr "Licenze: %s\n"
+
+#: pisi/specfile.py:406 pisi/specfile.py:515
+#, python-format
+msgid "Component: %s\n"
+msgstr "Componente: %s\n"
+
+#: pisi/specfile.py:412
+msgid "Provides: "
+msgstr "Fornisce: "
+
+#: pisi/specfile.py:425
+msgid "Dependencies: "
+msgstr "Dipendenze: "
+
+#: pisi/specfile.py:486
+msgid "translations.xml file is badly formed."
+msgstr "File di translations.xml è di mal formato"
+
+#: pisi/specfile.py:516
+msgid "Build Dependencies: "
+msgstr "Dipendenze per la Costruzione: "
+
+#: pisi/history.py:36
+#, python-format
+msgid "%s repository is updated."
+msgstr "repositorio di nome %s è aggiornato."
+
+#: pisi/history.py:56
+#, python-format
+msgid "%s is upgraded from %s to %s with delta."
+msgstr "%s è aggiornato da %s a %s con delta."
+
+#: pisi/history.py:62
+#, python-format
+msgid "%s is upgraded from %s to %s."
+msgstr "%s è aggiornato da %s a %s."
+
+#: pisi/history.py:68
+#, python-format
+msgid "%s %s is removed."
+msgstr "%s %s è stato rimosso."
+
+#: pisi/history.py:70
+#, python-format
+msgid "%s %s is installed."
+msgstr "%s %s è installato."
+
+#: pisi/history.py:72
+#, python-format
+msgid "%s %s is reinstalled."
+msgstr "%s %s è reinstallato."
+
+#: pisi/history.py:74
+#, python-format
+msgid "%s is downgraded from %s to %s."
+msgstr "%s è declassato da %s a %s."
+
+#: pisi/history.py:109 pisi/history.py:137
+msgid "Unknown package operation"
+msgstr "Operazione pacchetto sconosciuta"
+
+#: pisi/version.py:71
+#, python-format
+msgid "Invalid version string: '%s'"
+msgstr "Versione della stringa non valido: '%s'"
+
+#: pisi/archive.py:250
+#, python-format
+msgid "Ignoring unknown file in archive: %s"
+msgstr ""
+
+#: pisi/archive.py:255
+#, python-format
+msgid "Skipping merged file %s"
+msgstr ""
+
+#: pisi/archive.py:492
+#, python-format
+msgid "Problem occured while uncompressing %s.Z file"
+msgstr "Si è verificato una Problema durante la decompressione del file %s.Z"
+
+#: pisi/api.py:59
+msgid "Another instance of pisi is running. Only one instance is allowed."
+msgstr ""
+"Un'altra istanza di pisi è in esecuzione. La modifica del database di pisi"
+" è consentita a un'unica istanza alla volta."
+
+#: pisi/api.py:577
+#, python-format
+msgid "Cleaning package cache %s..."
+msgstr "Pulizia della cache del pacchetto %s..."
+
+#: pisi/api.py:579
+#, python-format
+msgid "Cleaning source archive cache %s..."
+msgstr "Pulizia della cache di archivio sorgente %s..."
+
+#: pisi/api.py:581
+#, python-format
+msgid "Cleaning temporary directory %s..."
+msgstr "Pulizia della cartella temporanea %s..."
+
+#: pisi/api.py:587
+#, python-format
+msgid "Removing cache file %s..."
+msgstr "Rimozione di file cache %s..."
+
+#: pisi/api.py:620
+msgid "Taking snapshot of the system"
+msgstr "Prendendo snapshot del sistema"
+
+#: pisi/api.py:791
+#, python-format
+msgid "File %s not found"
+msgstr "File %s non trovato"
+
+#: pisi/api.py:835
+#, python-format
+msgid "Building index of pisi files under %s"
+msgstr "Costruzione dell'indice dei file pisi in %s"
+
+#: pisi/api.py:840
+msgid "Index file written"
+msgstr "File di indice scritto"
+
+#: pisi/api.py:846
+msgid "Not a valid repo name."
+msgstr "Nome non valide del repositorio"
+
+#: pisi/api.py:854
+#, python-format
+msgid "Repo already present with name %s and same URL. Removing first."
+msgstr "Repo già presente col nome %s e stesso URL. Rimuovendo prima."
+
+#: pisi/api.py:867
+#, python-format
+msgid "Repo %s added to system."
+msgstr "Il repository %s è stato aggiunto al sistema."
+
+#: pisi/api.py:876
+#, python-format
+msgid "Repo %s removed from system."
+msgstr "Il repository %s è stato rimosso dal sistema."
+
+#: pisi/api.py:878
+#, python-format
+msgid "Repository %s does not exist. Cannot remove."
+msgstr "Il repository %s non esiste. Impossibile rimuovere."
+
+#: pisi/api.py:906
+#, python-format
+msgid "Updating repository: %s"
+msgstr "Aggiornamento in corso del repositorio: %s"
+
+#: pisi/api.py:918
+#, python-format
+msgid "%s repository information is up-to-date."
+msgstr "informazione del repositorio %s è aggiornato"
+
+#: pisi/api.py:920
+msgid "Updating database at any rate as requested"
+msgstr "Aggiornamento del database alla frequenza richiesta"
+
+#: pisi/api.py:927
+msgid "Package database updated."
+msgstr "Database dei pacchetti aggiornato."
+
+#: pisi/api.py:929
+#, python-format
+msgid "No repository named %s found."
+msgstr "Nessun repository di nome %s trovato."
+
+#: pisi/atomicoperations.py:93
+#, python-format
+msgid "Installing %s, version %s, release %s"
+msgstr "Installazione di %s, versione %s, release %s"
+
+#: pisi/atomicoperations.py:139
+#, python-format
+msgid "%s package cannot be installed unless the dependencies are satisfied"
+msgstr ""
+"il pacchetto %s non può essere installato, a meno che le sue dipendenze "
+"vengano soddisfatte"
+
+#: pisi/atomicoperations.py:178
+#, python-format
+msgid "/%s from %s gets replaced by %s package\n"
+msgstr "/%s da %s è rimpiazzato dal pacchetto %s \n"
+
+#: pisi/atomicoperations.py:182 pisi/atomicoperations.py:187
+#, python-format
+msgid "/%s from %s package\n"
+msgstr "/%s dal pacchetto %s\n"
+
+#: pisi/atomicoperations.py:191
+#, python-format
+msgid ""
+"File conflicts:\n"
+"%s"
+msgstr ""
+"Il file va in conflitto:\n"
+"%s"
+
+#: pisi/atomicoperations.py:209
+msgid "Re-install same distribution release of package?"
+msgstr "Reinstallare la stessa distribuzione del pacchetto?"
+
+#: pisi/atomicoperations.py:211
+msgid "Package re-install declined"
+msgstr "Reinstallazione del pacchetto rifiutata"
+
+#: pisi/atomicoperations.py:219
+msgid "Upgrading to new distribution release"
+msgstr "Aggiornamento alla nuova versione rilasciata della distribuzione"
+
+#: pisi/atomicoperations.py:225
+msgid "Downgrade to old distribution release?"
+msgstr "Ritornare alla vecchia versione rilasciata della distribuzione?"
+
+#: pisi/atomicoperations.py:229
+msgid "Package downgrade declined"
+msgstr "Ripristino pacchetto precedente rifiutato"
+
+#: pisi/atomicoperations.py:335
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
+msgstr ""
+"Impossibile spostare i seguenti file. Reinstallazione di questo pacchetto è "
+"fortemente raccomandato."
+
+#. comar prefix is added to the pkg_dir while extracting comar
+#. script file. so we'll use pkg_dir as destination.
+#: pisi/atomicoperations.py:456 pisi/atomicoperations.py:459
+#: pisi/atomicoperations.py:466
+#, python-format
+msgid "Storing %s"
+msgstr "Salvataggio di %s"
+
+#: pisi/atomicoperations.py:554
+#, python-format
+msgid "File list could not be read for package %s, continuing removal."
+msgstr ""
+"Impossibile leggere la lista dei file per il pacchetto %s, proseguo con la "
+"rimozione."
+
+#: pisi/atomicoperations.py:562
+#, python-format
+msgid "Removing package %s"
+msgstr "Rimozione del pacchetto %s in corso"
+
+#: pisi/atomicoperations.py:565
+msgid "Trying to remove nonexistent package "
+msgstr "Tentativo di rimozione di un pacchetto non esistente "
+
+#: pisi/atomicoperations.py:606
+#, python-format
+msgid "Not removing conflicted file : %s"
+msgstr "File in conflitto non rimossi: %s"
+
+#: pisi/atomicoperations.py:631
+#, python-format
+msgid ""
+"Installed config file %s does not exist on system [Probably you manually "
+"deleted]"
+msgstr ""
+"Il file di configurazione installato %snon esiste sul sistema [Probabilmente"
+" lo hai eliminato manualmente] "
+
+#: pisi/atomicoperations.py:643
+#, python-format
+msgid ""
+"Installed file %s does not exist on system [Probably you manually deleted]"
+msgstr ""
+"Il file installato %s non è presente nel sistema [Probabilmente è stato "
+"eliminato manualmente]"
+
+#: pisi/configfile.py:136
+#, python-format
+msgid "No section by name '%s'"
+msgstr "Nessuna sezione di nome '%s'"
+
+#: pisi/fetcher.py:258
+msgid "URL does not end in a file name"
+msgstr ""
+
+#: pisi/fetcher.py:327
+msgid "One or more errors occurred during fetching"
+msgstr ""
+
+#: pisi/file.py:27
+#, python-format
+msgid "URL %s already downloaded as %s"
+msgstr "URL %s già scaricato come %s"
+
+#: pisi/file.py:35
+#, python-format
+msgid "No signature found for %s"
+msgstr "Nessuna firma trovata per %s"
+
+#: pisi/file.py:45
+#, python-format
+msgid " invalid for %s"
+msgstr "Invalido per %s"
+
+#: pisi/file.py:69
+msgid "uri must have type either URI or string"
+msgstr "la uri deve avere come tipo o URI o stringa"
+
+#: pisi/file.py:150
+#, python-format
+msgid "Copying %s to transfer dir"
+msgstr "Copia di %s alla cartella di trasferimento"
+
+#: pisi/file.py:156
+#, python-format
+msgid "File '%s' not found."
+msgstr "File '%s' non trovato."
+
+#: pisi/file.py:179
+#, python-format
+msgid "File integrity of %s compromised."
+msgstr "Integrità del file %s compromessa."
+
+#. : File.read and File.write are function names, and should not be
+#. translated.
+#: pisi/file.py:204
+msgid "File mode must be either File.read or File.write"
+msgstr "Il modo del file deve essere o File.read o FIle.write"
+
+#: pisi/file.py:209
+msgid "Remote write not implemented"
+msgstr "La scrittura remota non è ancora implementata"
+
+#: pisi/file.py:257 pisi/file.py:261
+#, python-format
+msgid "ERROR: gpg --detach-sig %s failed"
+msgstr "ERRORE: gpg --detach-sig %s fallito"
+
+#: pisi/index.py:149
+msgid "Adding packages to index:"
+msgstr "Aggiunta di pacchetti all'indice:"
+
+#: pisi/index.py:171
+#, python-format
+msgid "Adding package to index: %s"
+msgstr "Aggiunta di pacchetti all'indice: %s"
+
+#: pisi/index.py:189
+#, python-format
+msgid "Package %s: metadata corrupt, skipping..."
+msgstr "Pacchetto %s: metadata corrotti, lo salto..."
+
+#: pisi/index.py:243
+msgid "Adding groups.xml to index"
+msgstr "Aggiunta di groups.xml all'indice"
+
+#: pisi/index.py:250
+msgid "Adding components.xml to index"
+msgstr "Aggiunta di components.xml all'indice"
+
+#: pisi/index.py:286
+#, python-format
+msgid "Adding %s to source index"
+msgstr "Aggiunta di %s all'indice dei sorgenti"
+
+#: pisi/package.py:73
+#, python-format
+msgid "Cannot open package file: %s"
+msgstr "Impossibile aprire il file del pacchetto: %s"
+
+#: pisi/package.py:94
+#, python-format
+msgid "Unsupported package format: %s"
+msgstr "Formato del pacchetto non supportato: %s"
+
+#: pisi/sourcearchive.py:55
+#, python-format
+msgid "Fetching source from: %s"
+msgstr "Recupero sorgente da: %s"
+
+#: pisi/sourcearchive.py:66
+#, python-format
+msgid "Source archive is stored: %s/%s"
+msgstr "Archivio sorgente memorizzato: %s/%s"
+
+#: pisi/sourcearchive.py:83
+#, python-format
+msgid "%s mirrors are not defined."
+msgstr "Mirror di %s non definiti."
+
+#: pisi/sourcearchive.py:88
+#, python-format
+msgid "Fetching source from mirror: %s"
+msgstr "Prelevamento dei sorgenti dal mirror: %s"
+
+#: pisi/sourcearchive.py:111
+msgid "unpack: check_file_hash failed"
+msgstr "unpack: check_file_hash fallito"
+
+#: pisi/sourcearchive.py:117
+#, python-format
+msgid "Unknown archive type '%s' is given for '%s'."
+msgstr "Tipo di archivio sconosciuto '%s' viene data per '%s'."
+
+#: pisi/sourcearchive.py:122
+#, python-format
+msgid "Pisi needs %s to unpack this archive but it is not installed."
+msgstr "Pisi ha bisogno di scompattare l'archivio %s ma non è installato."
+
+#: pisi/util.py:199 pisi/util.py:213
+msgid "Running "
+msgstr "In esecuzione"
+
+#: pisi/util.py:204 pisi/util.py:231
+#, python-format
+msgid "return value for \"%s\" is %s"
+msgstr "il valore di ritorno per \"%s\" è %s"
+
+#: pisi/util.py:439
+#, python-format
+msgid "Including external link '%s'"
+msgstr "Includendo il collegamento esterno '%s'"
+
+#: pisi/util.py:441
+#, python-format
+msgid "Including directory '%s'"
+msgstr "Includendo la cartella '%s'"
+
+#: pisi/util.py:528
+msgid "You don't have necessary read permissions"
+msgstr "Non avete i permessi necessari per la lettura"
+
+#. File not found, skip
+#: pisi/util.py:532
+#, python-format
+msgid "File %s was not found"
+msgstr "File %s non trovato"
+
+#: pisi/util.py:534
+#, python-format
+msgid "Cannot calculate SHA1 hash of %s"
+msgstr "Impossibile calcolare l'hash SHA1 di %s"
+
+#: pisi/util.py:548
+#, python-format
+msgid "Compression type is not valid: '%s'"
+msgstr "Tipo di compressione non è valido: '%s'"
+
+#: pisi/util.py:554
+#, python-format
+msgid "Error while decompressing %s: %s"
+msgstr "Errore durante la decompressione %s: %s"
+
+#. Which means stderr and stdout directed so they are None
+#: pisi/util.py:603
+#, python-format
+msgid "ERROR: patch (%s) failed"
+msgstr "ERRORE: patch (%s) fallita"
+
+#: pisi/util.py:605
+#, python-format
+msgid "ERROR: patch (%s) failed: %s"
+msgstr "ERRORE: patch (%s) fallita: %s"
+
+#: pisi/util.py:617
+#, python-format
+msgid "strip command failed for file '%s'!"
+msgstr "Il commando strip è fallito per il file '%s'!"
+
+#: pisi/util.py:624
+#, python-format
+msgid "chrpath command failed for file '%s'!"
+msgstr "Il Comando chrpath è fallito per il file '%s'!"
+
+#: pisi/util.py:633
+#, python-format
+msgid "objcopy (keep-debug) command failed for file '%s'!"
+msgstr "comando objcopy (keep-debug) fallito per il file '%s'!"
+
+#: pisi/util.py:642
+#, python-format
+msgid "objcopy (add-debuglink) command failed for file '%s'!"
+msgstr "comando objcopy (add-debuglink) fallito per il file '%s'!"
+
+#: pisi/util.py:745
+#, python-format
+msgid "Invalid package name: %s"
+msgstr "Nome del pacchetto non valido: %s"
+
+#: pisi/util.py:787
+#, python-format
+msgid "Invalid delta package name: %s"
+msgstr "Nome del pacchetto delta non valido: %s."
+
+#: pisi/util.py:996
+#, python-format
+msgid "Failed to acquire inhibit lock: %s"
+msgstr ""
+
+#: pisi/util.py:1005
+#, python-format
+msgid "D-Bus call failed: %s"
+msgstr "Chiamata D-Bus non riuscita: %s"

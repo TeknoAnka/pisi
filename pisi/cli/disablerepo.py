@@ -1,0 +1,43 @@
+# SPDX-FileCopyrightText: 2005-2011 TUBITAK/UEKAE, 2013-2017 Ikey Doherty, 2026-2027 Solzic0, LupuSzic0, LupuS
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+from pisi import translate as _
+
+import pisi.cli.command as command
+import pisi.api
+import pisi.context as ctx
+
+
+class DisableRepo(command.Command, metaclass=command.autocommand):
+    __doc__ = _(
+        """Disable repository
+
+Usage: disable-repo [<repo1> <repo2> ... <repon>]
+
+<repoi>: repository name
+
+Disabled repositories are not taken into account in operations
+"""
+    )
+
+    def __init__(self, args):
+        super(DisableRepo, self).__init__(args)
+        self.repodb = pisi.db.repodb.RepoDB()
+
+    name = ("disable-repo", "dr")
+
+    def run(self):
+        self.init(database=True)
+
+        if not self.args:
+            self.help()
+            return
+
+        for repo in self.args:
+            if not self.repodb.has_repo(repo):
+                ctx.ui.warning(
+                    _(f"Repository '{repo}' does not exist. Cannot disable.")
+                )
+                return
+
+            pisi.api.set_repo_activity(repo, False)

@@ -1,0 +1,179 @@
+# SPDX-FileCopyrightText: 2005-2011 TUBITAK/UEKAE, 2013-2017 Ikey Doherty, 2026-2027 Solzic0, LupuSzic0, LupuS
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+import os
+
+from ordered_set import OrderedSet as set
+
+import pisi
+import pisi.conflict
+import pisi.context as ctx
+import pisi.db
+import pisi.ui as ui
+import pisi.util as util
+from pisi import Error
+from pisi import translate as _
+
+
+def reorder_base_packages_old(order):
+    componentdb = pisi.db.componentdb.ComponentDB()
+
+    """system.base packages must be first in order"""
+    systembase = componentdb.get_union_component("system.base").packages
+
+    systembase_order = []
+    nonbase_order = []
+    for pkg in order:
+        if pkg in systembase:
+            systembase_order.append(pkg)
+        else:
+            nonbase_order.append(pkg)
+
+    install_order = systembase_order + nonbase_order
+    ctx.ui.warning(_("Reordering install order so system.base packages come first."))
+    if len(install_order) > 1 and ctx.config.get_option("debug"):
+        ctx.ui.info(_("install_order: %s" % install_order))
+    return install_order
+
+
+def reorder_base_packages(order):
+    """Dummy function that doesn't actually re-order system.base in front.
+
+    We now use OrderedSets, which keep the original topological sort,
+    so this shouldn't actually be necessary now.
+
+    This also implies that the only function of system.base is for the
+    packages in it to be un-removable.
+    """
+    if len(order) > 1 and ctx.config.get_option("debug"):
+        ctx.ui.info(_("order: %s" % order))
+    return order
+
+
+def check_conflicts(order, packagedb):
+    """check if upgrading to the latest versions will cause havoc
+    done in a simple minded way without regard for dependencies of
+    conflicts, etc."""
+
+    (C, D, pkg_conflicts) = pisi.conflict.calculate_conflicts(order, packagedb)
+
+    if D:
+        raise Error(
+            _("Selected packages [%s] are in conflict with each other.")
+            % util.strlist(list(D))
+        )
+
+    if pkg_conflicts:
+        conflicts = ""
+        for pkg in list(pkg_conflicts.keys()):
+            conflicts += _("[%s conflicts with: %s]\n") % (
+                pkg,
+                util.strlist(pkg_conflicts[pkg]),
+            )
+
+        ctx.ui.info(_("The following packages have conflicts:\n%s") % conflicts)
+
+        if not ctx.ui.confirm(_("Remove the following conflicting packages?")):
+            raise Error(_("Conflicting packages should be removed to continue"))
+
+    return list(C)
+
+
+def expand_src_components(A):
+    componentdb = pisi.db.componentdb.ComponentDB()
+    Ap = set()
+    for x in A:
+        if componentdb.has_component(x):
+            Ap = Ap.union(componentdb.get_union_component(x).sources)
+        else:
+            Ap.add(x)
+    return Ap
+
+
+def extract_automatic(A, total):
+    """
+    Determine all automatic dependencies in the graph.
+
+    This is only applicable to packages coming from the repo
+    """
+
+    ret = set()
+    installdb = pisi.db.installdb.InstallDB()
+    packagedb = pisi.db.packagedb.PackageDB()
+
+    for i in total:
+        if i in A:
+            continue
+        repoVariant = packagedb.get_package(i)
+        # system.base candidate is never "automatic" ...
+        if repoVariant.partOf == "system.base":
+            continue
+        if installdb.has_package(i):
+            continue
+        ret.add(i)
+
+    return ret
+
+
+def calculate_download_sizes(order):
+    packagedb = pisi.db.packagedb.PackageDB()
+    resources = [packagedb.get_resource(name) for name in order]
+
+    total_size = sum(r.size for r in resources)
+    cached_size = 0
+    for r in resources:
+        if os.path.exists(r.pkg_path):
+            if util.sha1_file(r.pkg_path) == r.expected_hash:
+                cached_size += r.size
+            else:
+                # partial download?
+                part_path = r.pkg_path + ".part"
+                if os.path.exists(part_path):
+                    cached_size += os.stat(part_path).st_size
+
+    ctx.ui.notify(ui.cached, total=total_size, cached=cached_size)
+    return total_size, cached_size
+
+
+def get_download_info(order):
+    """
+    Returns a list of PackageResource objects for each package in order.
+    """
+    packagedb = pisi.db.packagedb.PackageDB()
+    return [packagedb.get_resource(name) for name in order]
+
+
+def fetch_packages(order):
+    """
+    Fetches all packages in order concurrently if they are not already cached.
+    """
+    resources = get_download_info(order)
+    items_to_fetch = []
+    precached = []
+
+    for r in resources:
+        # Check if it's already cached and valid
+        if os.path.exists(r.pkg_path) and util.sha1_file(r.pkg_path) == r.expected_hash:
+            precached.append(r)
+            continue
+
+        if r.uri.is_remote_file():
+            items_to_fetch.append(r)
+
+    ctx.ui.info(
+        util.colorize(
+            _(
+                f"Downloading {len(items_to_fetch)} package resources ({len(precached)} cached)"
+            ),
+            "yellow",
+        )
+    )
+
+    for r in precached:
+        ctx.ui.info(_(f"{r.uri.filename()} [cached]"))
+
+    if items_to_fetch:
+        from pisi.fetcher import Fetcher
+
+        fetcher = Fetcher()
+        fetcher.fetch_multi(items_to_fetch)

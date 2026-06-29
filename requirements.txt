@@ -1,0 +1,9 @@
+PyYaml
+iksemel
+jeepney
+lzma_mt
+ordered_set
+python-magic
+requests
+rich
+xattr
